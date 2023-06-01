@@ -1,0 +1,50 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title ng-bind-disabled="'app.title' | translate">The Good, The Bad and The Accountant - Journalism++</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" href="//jplusplus2.s3.amazonaws.com/img/favicon.png" />
+    <meta name="theme-color" content="#908570">
+
+    <meta property="fb:app_id" content="1259841667403291">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- htmlbuild:meta content -->
+    <meta name="description" content="app.description">
+
+    <meta property="og:title" content="app.title">
+    <meta property="og:description" content="app.description">
+    <meta property="og:url" content="app.url">
+    <meta property="og:image" content="app.image">
+
+    <meta name="twitter:site" content="app.title" />
+    <meta name="twitter:title" content="app.title" />
+    <meta name="twitter:description" content="app.description" />
+    <meta name="twitter:url" content="app.url" />
+    <meta name="twitter:image" content="app.image" />
+    <meta name="twitter:creator" content="app.share.tweet.via">
+
+    <meta itemprop="description" content="app.description">
+    <meta itemprop="image" content="app.image">
+    <!-- endbuild -->
+
+    <!-- Add to homescreen -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="preload" href="">
+  </head>
+  <body>
+    <ui-view></ui-view>
+    <script>
+      (function(p,i,r,h,o,O){p.GoogleAnalyticsObject=h;p[h]||(p[h]=
+      function(){(p[h].q=p[h].q||[]).push(arguments)});p[h].h=+new Date;
+      o=i.createElement(r);O=i.getElementsByTagName(r)[0];
+      o.src='//www.google-analytics.com/analytics.js';
+      O.parentNode.insertBefore(o,O)}(window,document,'script','ga'));
+      ga('create','UA-35984661-13');
+    </script>
+  </body>
+</html>

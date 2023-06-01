@@ -1,0 +1,383 @@
+{
+  "vars": {
+    "resources": {
+      "value": 10,
+      "private": false,
+      "category": "city",
+      "chart": "city-financial-health",
+      "label@en": "Resources",
+      "label@de": "Einnahmen",
+      "label@fr": "Revenus",
+      "label@sl": "Dohodki"
+    },
+    "expenditures": {
+      "value": 9,
+      "private": false,
+      "category": "city",
+      "chart": "city-financial-health",
+      "label@en": "Expenditures",
+      "label@de": "Ausgaben",
+      "label@fr": "Dépenses",
+      "label@sl": "Odhodki"
+    },
+    "reserves": {
+      "value": 50,
+      "private": false,
+      "category": "city",
+      "chart": "city-financial-health",
+      "label@en": "Reserves",
+      "label@de": "Rücklagen",
+      "label@fr": "Réserves",
+      "label@sl": "Rezerve"
+    },
+    "personal_account": {
+      "value": 0,
+      "private": false,
+      "category": "player",
+      "chart": true,
+      "label@en": "Your cash",
+      "label@de": "Ihr Bargeld",
+      "label@fr": "Vos gains",
+      "label@sl": "Vaša sredstva"
+    },
+    "risk_police": {
+      "value": 0,
+      "private": false,
+      "icon": "balance-scale",
+      "category": "risk",
+      "label@en": "Legal risk",
+      "label@de": "Juristisches Risiko",
+      "label@fr": "Risque légal",
+      "label@sl": "Pravno tveganje"
+    },
+    "risk_contractors": {
+      "value": 0,
+      "private": false,
+      "icon": "industry",
+      "category": "risk",
+      "label@en": "Industry mistrust",
+      "label@de": "Misstrauen der Industrie",
+      "label@fr": "Méfiance des industriels",
+      "label@sl": "Nezaupanje zasebnega sektorja"
+    },
+    "risk_political": {
+      "value": 0,
+      "private": false,
+      "icon": "handshake-o",
+      "category": "risk",
+      "label@en": "Political rejection",
+      "label@de": "Politischer Widerstand",
+      "label@fr": "Risque politique",
+      "label@sl": "Politično nezaupanje"
+    },
+    "risk_revolving_door": {
+      "value": 0,
+      "private": true,
+      "category": "risk"
+    },
+    "gift_company2": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "own_company": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "shell_company": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "trash_company": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "revolving_door": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    }
+  },
+  "charts": {
+    "city-financial-health": {
+      "title@en": "Financial health of the city",
+      "title@de": "Finanzielle Lage der Stadt",
+      "title@fr": "Santé financière de la ville",
+      "title@sl": "Finančno zdravje mesta",
+      "description@en": "City financials tell you how much money the city collects each year (resources) and spends (expenditure), while reserves tell you how much money the city has in the bank.",
+      "description@de": "Diese Indikatoren zeigen wieviele Steuern die Stadt jährlich einnimmt (Einnahmen), wieviel sie ausgibt (Ausgaben) und wieviel sie auf der Bank hat (Rücklagen).",
+      "description@fr": "Ces indicateurs montrent combien la ville collecte en impôts tous les ans (revenus), combien elle dépense (dépenses), et les réserves indiquent combien la ville possède en banque.",
+      "description@sl": "Mestne finance vam povedo, koliko sredstev mesto zbere na leteni ravni (prihodki), koliko porabi (odhodki) in koliko denarja je še naloženega v banki (mestne rezerve)."
+    }
+  },
+  "characters": {
+    "editor": {
+      "name@en": "Jeannette Wehunt",
+      "title@en": "Editor-in-chief",
+      "avatar": "./images/avatars/editor.png"
+    },
+    "colleague": {
+      "name@en": "Lisbet Swango",
+      "title@en": "Senior reporter",
+      "avatar": "./images/avatars/aw.png"
+    },
+    "ECATspox": {
+      "name@en": "Émeline Bonfils ",
+      "title@en": "ECAT spokesperson",
+      "avatar": "./images/avatars/ecatspox.png"
+    },
+    "you": {
+      "name@en": "You",
+      "name@de": "Sie",
+      "title@en": "Reporter",
+      "avatar": null
+    }
+  },
+  "years": {
+    "1": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "An assignment"
+    },
+    "2": {
+      "picture": "images/years/computer.png",
+      "title@en": "The European Center for Algorithmic Transparency"
+    }
+  },
+  "steps": [
+    {
+      "year": 1,
+      "texts": [
+        {
+          "character": "editor",
+          "text@en": "Hi there, welcome to the newsroom!"
+        },
+        {
+          "character": "editor",
+          "text@en": "I hear you're the new algorithmic accountability reporter."
+        },
+        {
+          "character": "editor",
+          "text@en": "Whatever that means."
+        },
+        {
+          "character": "editor",
+          "text@en": "I've got a tip for you."
+        },
+        {
+          "character": "editor",
+          "text@en": "Some people say that the TikTube algorithm is making teenagers sad."
+        },
+        {
+          "character": "editor",
+          "text@en": "Find out if that's true."
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "Sure boss.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Thank you, I'll do my best."
+            },
+            {
+              "character": "editor",
+              "text@en": "You'll do great."
+            },
+            {
+              "character": "editor",
+              "text@en": "You're not doing it alone. I'm pairing you with our senior reporter on Artificial Intelligence."
+            },
+            {
+              "character": "colleague",
+              "text@en": "Hello colleague."
+            },
+            {
+              "character": "helper",
+              "text@en": "I'll help you when you face tough decisions."
+            },
+            {
+              "character": "helper",
+              "text@en": "This won't be easy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "texts": [
+        {
+          "character": "colleague",
+          "text@en": "Let's start by asking the European Center for Algorithmic Transparency."
+        },
+        {
+          "character": "colleague",
+          "text@en": "They research this sort of things."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "Welcome to ECAT! What can I do for you?"
+        }
+      ],
+      "helper": [
+        {
+          "character": "colleague",
+          "text@en": "ECAT is run by the European Commission."
+        },
+                {
+          "character": "colleague",
+          "text@en": "They're just 30 people, not even that."
+        },
+        {
+          "character": "colleague",
+          "text@en": "I wrote an article on the topic once. [Click here to read it|ECAT]."
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "What do you know about TikTube's algorithm?",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "What research have you done on TikTube's algorithm?"
+            }
+          ]
+        },
+        {
+          "text@en": "What's the impact of TikTube on mental health?",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Have you done research on the impact of TikTube's algorithm on mental health?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "texts": [
+        {
+          "character": "ECATspox",
+          "text@en": "ECAT is committed to shedding light on algorithms that impact European citizens."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "We are building a team of many specialists for this task."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "But I can't comment on specific cases."
+        },      
+        {
+          "character": "ECATspox",
+          "text@en": "However, you can ask TikTube for data access."
+        }
+      ],
+      "helper": [
+        {
+          "character": "colleague",
+          "text@en": "That's a provision from a new law called the Digital Services Act."
+        },
+        {
+          "character": "colleague",
+          "text@en": "I wrote an article on the topic once. [Click here to read it|ECAT]."
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "Thanks, I'll think about it.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "I'm not sure I'm ready for this now."
+            }
+          ]
+        },
+        {
+          "text@en": "How do I request data access?",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "How can we make a request for data access?"
+            },
+            {
+              "character": "ECATspox",
+              "text@en": "It's easy."
+            },
+            {
+              "character": "ECATspox",
+              "text@en": "Just ask your country's Digital Services Coordinator."
+            },
+            {
+              "character": "ECATspox",
+              "text@en": "Once they give their approval, you can ask..."
+            },
+            {
+              "character": "you",
+              "text@en": "TikTube for their data?"
+            },
+            {
+              "character": "ECATspox",
+              "text@en": "No. You can ask an independent, third-party intermediary body, to request data on your behalf."
+            },
+            {
+              "character": "you",
+              "text@en": "Thanks. I'm not sure my boss will be up for it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "texts": [
+        {
+          "character": "editor",
+          "text@en": "Are you ready to publish?"
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "No, we need more time.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Not yet boss."
+            },
+            {
+              "character": "editor",
+              "text@en": "Then hurry up!"
+            }
+          ]
+        },
+        {
+          "text@en": "Yes. Here's the headline: European regulator hardly knows anything about TikTube.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Here's my piece, <b>European regulator hardly knows anything about TikTube</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "texts": [
+        {
+          "character": "editor",
+          "text@en": "There's a new AI called ChatPTG."
+        }
+      ]
+    }
+  ],
+  "endings": [
+    ],
+  "explainers": {
+  }
+}

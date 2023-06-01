@@ -1,0 +1,60 @@
+.stack {
+
+  &__cluster {
+    margin-bottom:$spacer / 2;
+  }
+
+  &__slice {
+
+    &--event {
+      font-size:0.9em;
+      text-align: center;
+      margin-top:$spacer;
+    }
+
+    &--chat {
+      margin-bottom:2px;
+      position: relative;
+      padding-left:calc(36px + #{$spacer});
+    }
+
+    &--chat &__wrapper {
+      padding:0.5em 0.7em;
+      background: darken($card-bg, 5);
+      display: inline-block;
+      border-radius: 0.5rem;
+    }
+
+    &--you {
+      text-align: right;
+    }
+
+    &--you &__wrapper {
+      background: mix($link-color, $card-bg);
+    }
+
+    &--you &__avatar {
+      display: none;
+    }
+
+    &__avatar {
+      border:1px solid rgba(black, 0.1);
+      position: absolute;
+      bottom:0;
+      left:0;
+      width:36px;
+      border-radius: 3px;
+    }
+
+    &__character {
+      font-size: 0.8em;
+      display: block;
+      padding:$spacer / 4 $spacer / 2;
+      color: $text-muted;
+
+      &__title {
+        color: lighten($text-muted, 20);
+      }
+    }
+  }
+}

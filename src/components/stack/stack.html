@@ -1,0 +1,16 @@
+<div class="stack" ng-click="$ctrl.game.continue()">
+  <div class="stack__cluster" ng-repeat="cluster in $ctrl.stack.clusters | filter:$ctrl.stack.clusterFilter">
+    <p class="stack__slice stack__slice--{{::slice.character.key}} stack__slice--{{::slice.type}}" ng-repeat="slice in cluster.slices | filter:$ctrl.stack.sliceFilter">
+      <img ng-src="{{::slice.character.avatar}}"  class="stack__slice__avatar" ng-if="$last && slice.character" />
+      <span class="stack__slice__character" ng-if="$first && slice.character">
+        {{::slice.character.name}}<span class="stack__slice__character__title"> - {{::slice.character.title}}</span>
+      </span>
+      <span class="stack__slice__wrapper" ng-bind-html="::slice.t.text | explainer:'main.hints' | emoji | unsafe"></span>
+    </p>
+  </div>
+  <p class="stack__slice stack__slice--chat" ng-class="{'stack__slice--you': $ctrl.stack.next.isYou()}" ng-if="$ctrl.stack.isTyping()">
+    <span class="stack__slice__wrapper stack__slice__wrapper--typing">
+      <img src="~images/three-dots.svg" height="8px" />
+    </span>
+  </p>
+</div>
