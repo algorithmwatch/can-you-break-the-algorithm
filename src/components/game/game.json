@@ -122,12 +122,12 @@
     "colleague": {
       "name@en": "Lisbet Swango",
       "title@en": "Senior reporter",
-      "avatar": "./images/avatars/aw.png"
+      "avatar": "./images/avatars/colleague.png"
     },
     "ECATspox": {
       "name@en": "Émeline Bonfils ",
       "title@en": "ECAT spokesperson",
-      "avatar": "./images/avatars/ecatspox.png"
+      "avatar": "./images/avatars/ecat-spox.png"
     },
     "you": {
       "name@en": "You",
@@ -142,7 +142,7 @@
       "title@en": "An assignment"
     },
     "2": {
-      "picture": "images/years/computer.png",
+      "picture": "images/years/ecat.png",
       "title@en": "The European Center for Algorithmic Transparency"
     }
   },
@@ -177,7 +177,7 @@
       ],
       "choices": [
         {
-          "text@en": "Sure boss.",
+          "text@en": "Sure, boss.",
           "feedback": [
             {
               "character": "you",
@@ -285,7 +285,7 @@
         },
         {
           "character": "colleague",
-          "text@en": "I wrote an article on the topic once. [Click here to read it|ECAT]."
+          "text@en": "I wrote an article on the topic once. [Click here to read it|dataAccess]."
         }
       ],
       "choices": [
@@ -379,5 +379,13 @@
   "endings": [
     ],
   "explainers": {
+    "ECAT": {
+      "title@en": "The European Center for Algorithmic Transparency",
+      "body@en": "ECAT opened in April 2023 in Sevilla, Spain. It should grow to 30 people by 2024. They shall support European regulators in their investigations of automated systems."
+    },
+    "dataAccess": {
+      "title@en": "Access to platform data",
+      "body@en": "Under the Digital Services Act, a European law passed in 2020, researchers can ask access to the data of very large online services. The obligation will start in mid-2024. Read <a href='https://algorithmwatch.org/en/dsa-data-access-explained/'>A guide to the EU’s new rules for researcher access to platform data</a> at AlgorithmWatch."
+    }
   }
 }
