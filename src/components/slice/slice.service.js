@@ -24,8 +24,8 @@ function SliceService(I18n) {
         // No reading time for the user's slices
         return 0;
       }
-      // We read approximativly 200 words per minute
-      const duration = (this.text || '').split(' ').length * 60 / 200 * 1000;
+      // Speed of reading set to 120 words per minute
+      const duration = (this.text || '').split(' ').length * 60 / 120 * 1000;
       // Reading time can't be under 700 milliseconds
       return Math.max(duration, 700);
     }

@@ -1,10 +1,10 @@
 <div class="main__toolbar text-md-left">
   <h1 class="main__toolbar__heading" data-fittext="1" translate>main.toolbar.heading</h1>
   <div class="main__toolbar__var">
-    <i class="fa fa-money"></i>
-    <span class="hidden-sm-down ml-1">{{ $ctrl.game.var('personal_account').label }}</span>
+    <i class="fa fa-users"></i>
+    <span class="hidden-sm-down ml-1">{{ $ctrl.game.var('sources_contacted').label }}</span>
     <div class="main__toolbar__var__digit">
-      {{ $ctrl.game.var('personal_account').value | number }}
+      {{ $ctrl.game.var('sources_contacted').value | number }}
     </div>
   </div>
   <div class="main__toolbar__var" ng-repeat="risk in $ctrl.game.publicRisks">

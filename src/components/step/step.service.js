@@ -29,7 +29,8 @@ function StepService(Choice, Slice, Stack, I18n, Explainer, $rootScope, $log) {
       return this[_meta].hasOwnProperty('helper');
     }
     displayHelper() {
-      return this.isLastSlice() && this.hasHelper() && !this.selection;
+      return false; // helpers are not displayed anymore
+      // return this.isLastSlice() && this.hasHelper() && !this.selection;
     }
     isPrevious() {
       return this === this.game.journey.slice(-2)[0];

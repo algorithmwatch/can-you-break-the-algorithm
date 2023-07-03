@@ -1,116 +1,33 @@
 {
   "vars": {
-    "resources": {
-      "value": 10,
-      "private": false,
-      "category": "city",
-      "chart": "city-financial-health",
-      "label@en": "Resources",
-      "label@de": "Einnahmen",
-      "label@fr": "Revenus",
-      "label@sl": "Dohodki"
-    },
-    "expenditures": {
-      "value": 9,
-      "private": false,
-      "category": "city",
-      "chart": "city-financial-health",
-      "label@en": "Expenditures",
-      "label@de": "Ausgaben",
-      "label@fr": "Dépenses",
-      "label@sl": "Odhodki"
-    },
-    "reserves": {
-      "value": 50,
-      "private": false,
-      "category": "city",
-      "chart": "city-financial-health",
-      "label@en": "Reserves",
-      "label@de": "Rücklagen",
-      "label@fr": "Réserves",
-      "label@sl": "Rezerve"
-    },
-    "personal_account": {
+    "sources_contacted": {
       "value": 0,
       "private": false,
       "category": "player",
-      "chart": true,
-      "label@en": "Your cash",
-      "label@de": "Ihr Bargeld",
-      "label@fr": "Vos gains",
-      "label@sl": "Vaša sredstva"
+      "chart": false,
+      "label@en": "Sources contacted"
     },
-    "risk_police": {
+    "time_left": {
       "value": 0,
       "private": false,
-      "icon": "balance-scale",
+      "icon": "hourglass",
       "category": "risk",
-      "label@en": "Legal risk",
-      "label@de": "Juristisches Risiko",
-      "label@fr": "Risque légal",
-      "label@sl": "Pravno tveganje"
+      "label@en": "Time left"
     },
-    "risk_contractors": {
-      "value": 0,
-      "private": false,
-      "icon": "industry",
-      "category": "risk",
-      "label@en": "Industry mistrust",
-      "label@de": "Misstrauen der Industrie",
-      "label@fr": "Méfiance des industriels",
-      "label@sl": "Nezaupanje zasebnega sektorja"
-    },
-    "risk_political": {
-      "value": 0,
-      "private": false,
-      "icon": "handshake-o",
-      "category": "risk",
-      "label@en": "Political rejection",
-      "label@de": "Politischer Widerstand",
-      "label@fr": "Risque politique",
-      "label@sl": "Politično nezaupanje"
-    },
-    "risk_revolving_door": {
-      "value": 0,
-      "private": true,
-      "category": "risk"
-    },
-    "gift_company2": {
+    "dataAccess": {
       "value": 0,
       "private": true,
       "category": "choice"
     },
-    "own_company": {
+    "tt-spox-explains-algorithm": {
       "value": 0,
       "private": true,
       "category": "choice"
     },
-    "shell_company": {
+    "tt-spox-mental-health": {
       "value": 0,
       "private": true,
       "category": "choice"
-    },
-    "trash_company": {
-      "value": 0,
-      "private": true,
-      "category": "choice"
-    },
-    "revolving_door": {
-      "value": 0,
-      "private": true,
-      "category": "choice"
-    }
-  },
-  "charts": {
-    "city-financial-health": {
-      "title@en": "Financial health of the city",
-      "title@de": "Finanzielle Lage der Stadt",
-      "title@fr": "Santé financière de la ville",
-      "title@sl": "Finančno zdravje mesta",
-      "description@en": "City financials tell you how much money the city collects each year (resources) and spends (expenditure), while reserves tell you how much money the city has in the bank.",
-      "description@de": "Diese Indikatoren zeigen wieviele Steuern die Stadt jährlich einnimmt (Einnahmen), wieviel sie ausgibt (Ausgaben) und wieviel sie auf der Bank hat (Rücklagen).",
-      "description@fr": "Ces indicateurs montrent combien la ville collecte en impôts tous les ans (revenus), combien elle dépense (dépenses), et les réserves indiquent combien la ville possède en banque.",
-      "description@sl": "Mestne finance vam povedo, koliko sredstev mesto zbere na leteni ravni (prihodki), koliko porabi (odhodki) in koliko denarja je še naloženega v banki (mestne rezerve)."
     }
   },
   "characters": {
@@ -125,9 +42,14 @@
       "avatar": "./images/avatars/colleague.png"
     },
     "ECATspox": {
-      "name@en": "Émeline Bonfils ",
+      "name@en": "Émeline Bonfils",
       "title@en": "ECAT spokesperson",
       "avatar": "./images/avatars/ecat-spox.png"
+    },
+    "tt-spox": {
+      "name@en": "Otmar Kadlec",
+      "title@en": "TikTube press officer",
+      "avatar": "./images/avatars/tt-spox.png"
     },
     "you": {
       "name@en": "You",
@@ -143,7 +65,15 @@
     },
     "2": {
       "picture": "images/years/ecat.png",
-      "title@en": "The European Center for Algorithmic Transparency"
+      "title@en": "Day 1: ECAT"
+    },
+    "3": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "Day 2"
+    },
+    "4": {
+      "picture": "images/years/tt.png",
+      "title@en": "Day 2: TikTube"
     }
   },
   "steps": [
@@ -168,7 +98,48 @@
         },
         {
           "character": "editor",
-          "text@en": "Some people say that the TikTube algorithm is making teenagers sad."
+          "text@en": "Ever heard of TikTube?"
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "Of course.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Of course, it's the social app all teenagers are on."
+            },
+            {
+              "character": "editor",
+              "text@en": "You're not as clueless as I thought."
+            }
+          ]
+        },
+        {
+          "text@en": "What's that?",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "I'm afraid I haven't."
+            },
+            {
+              "character": "editor",
+              "text@en": "TikTube is the social media platform all teenagers are on."
+            },
+            {
+              "character": "editor",
+              "text@en": "Everyone your age knows that."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "texts": [
+        {
+          "character": "editor",
+          "text@en": "I've heard that TikTube's algorithm is making teenagers sad."
         },
         {
           "character": "editor",
@@ -178,6 +149,9 @@
       "choices": [
         {
           "text@en": "Sure, boss.",
+          "var_changes": {
+            "time_left": 3
+          },
           "feedback": [
             {
               "character": "you",
@@ -185,23 +159,63 @@
             },
             {
               "character": "editor",
-              "text@en": "You'll do great."
+              "text@en": "You have 3 days."
             },
             {
               "character": "editor",
-              "text@en": "You're not doing it alone. I'm pairing you with our senior reporter on Artificial Intelligence."
-            },
+              "text@en": "Because you're new, I'm pairing you with our senior reporter on Artificial Intelligence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "helper":[
+        {"character": "colleague",
+          "text@en": "[ECAT|ECAT]."
+          }
+        ],
+      "texts": [
+        {
+          "character": "colleague",
+          "text@en": "Hello colleague."
+        },
+        {
+          "character": "colleague",
+          "text@en": "The editor-in-chief is tough, but she's fair."
+        },
+        {
+          "character": "colleague",
+          "text@en": "... to people who give her good stories, at least."
+        },
+        {
+          "character": "colleague",
+          "text@en": "You should start by asking the European Center for Algorithmic Transparency."
+        },
+        {
+          "character": "colleague",
+          "text@en": "They research this sort of things."
+        },
+        {
+          "character": "colleague",
+          "text@en": "Check your inbox before you call."
+        },
+        {
+          "character": "colleague",
+          "text@en": "I just [sent you an email|ECAT]."
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "Thanks",
+          "var_changes": {
+            "time_left": -1
+          },
+          "feedback": [
             {
-              "character": "colleague",
-              "text@en": "Hello colleague."
-            },
-            {
-              "character": "helper",
-              "text@en": "I'll help you when you face tough decisions."
-            },
-            {
-              "character": "helper",
-              "text@en": "This won't be easy."
+              "character": "you",
+              "text@en": "Thanks, I'll read it attentively."
             }
           ]
         }
@@ -211,48 +225,32 @@
       "year": 2,
       "texts": [
         {
-          "character": "colleague",
-          "text@en": "Let's start by asking the European Center for Algorithmic Transparency."
-        },
-        {
-          "character": "colleague",
-          "text@en": "They research this sort of things."
-        },
-        {
           "character": "ECATspox",
-          "text@en": "Welcome to ECAT! What can I do for you?"
-        }
-      ],
-      "helper": [
-        {
-          "character": "colleague",
-          "text@en": "ECAT is run by the European Commission."
-        },
-                {
-          "character": "colleague",
-          "text@en": "They're just 30 people, not even that."
-        },
-        {
-          "character": "colleague",
-          "text@en": "I wrote an article on the topic once. [Click here to read it|ECAT]."
+          "text@en": "Hello, what can I do for you?"
         }
       ],
       "choices": [
         {
-          "text@en": "What do you know about TikTube's algorithm?",
+          "text@en": "How does the TikTube algorithm work?",
+          "var_changes": {
+            "sources_contacted": 1
+          },
           "feedback": [
             {
               "character": "you",
-              "text@en": "What research have you done on TikTube's algorithm?"
+              "text@en": "How does the TikTube algorithm work?"
             }
           ]
         },
         {
-          "text@en": "What's the impact of TikTube on mental health?",
+          "text@en": "Does TikTube's algorithm make teenagers sad?",
+          "var_changes": {
+            "sources_contacted": 1
+          },
           "feedback": [
             {
               "character": "you",
-              "text@en": "Have you done research on the impact of TikTube's algorithm on mental health?"
+              "text@en": "Does TikTube's algorithm make teenagers sad?"
             }
           ]
         }
@@ -278,89 +276,57 @@
           "text@en": "However, you can ask TikTube for data access."
         }
       ],
-      "helper": [
-        {
-          "character": "colleague",
-          "text@en": "That's a provision from a new law called the Digital Services Act."
-        },
-        {
-          "character": "colleague",
-          "text@en": "I wrote an article on the topic once. [Click here to read it|dataAccess]."
-        }
-      ],
       "choices": [
         {
-          "text@en": "Thanks, I'll think about it.",
+          "text@en": "You didn't answer my question.",
           "feedback": [
             {
               "character": "you",
-              "text@en": "I'm not sure I'm ready for this now."
+              "text@en": "You didn't answer my question."
+            },
+            {
+              "character": "ECATspox",
+              "text@en": "Thanks for contacting ECAT."
+            },
+            {
+              "character": "ECATspox",
+              "text@en": "I'll be happy to assisst you again in the future."
             }
           ]
         },
         {
-          "text@en": "How do I request data access?",
+          "text@en": "How can I ask for access?",
+          "var_changes": {
+            "dataAccess": 1
+          },
           "feedback": [
             {
               "character": "you",
-              "text@en": "How can we make a request for data access?"
+              "text@en": "How can I ask for access?"
             },
             {
               "character": "ECATspox",
-              "text@en": "It's easy."
+              "text@en": "You simply need to team up with a researcher at a university."
             },
             {
               "character": "ECATspox",
-              "text@en": "Just ask your country's Digital Services Coordinator."
+              "text@en": "Then make a request to your national Digital Services Coordinator."
             },
             {
               "character": "ECATspox",
-              "text@en": "Once they give their approval, you can ask..."
-            },
-            {
-              "character": "you",
-              "text@en": "TikTube for their data?"
+              "text@en": "They will forward it to the Irish Digital Services Coordinator, because TikTube is based in Ireland."
             },
             {
               "character": "ECATspox",
-              "text@en": "No. You can ask an independent, third-party intermediary body, to request data on your behalf."
+              "text@en": "If the Irish agree, you'll be able to request the data from TikTube."
             },
             {
-              "character": "you",
-              "text@en": "Thanks. I'm not sure my boss will be up for it."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "year": 2,
-      "texts": [
-        {
-          "character": "editor",
-          "text@en": "Are you ready to publish?"
-        }
-      ],
-      "choices": [
-        {
-          "text@en": "No, we need more time.",
-          "feedback": [
-            {
-              "character": "you",
-              "text@en": "Not yet boss."
+              "character": "ECATspox",
+              "text@en": "As I said, it's very easy."
             },
             {
-              "character": "editor",
-              "text@en": "Then hurry up!"
-            }
-          ]
-        },
-        {
-          "text@en": "Yes. Here's the headline: European regulator hardly knows anything about TikTube.",
-          "feedback": [
-            {
-              "character": "you",
-              "text@en": "Here's my piece, <b>European regulator hardly knows anything about TikTube</b>."
+              "character": "ECATspox",
+              "text@en": "Good bye! 😊"
             }
           ]
         }
@@ -368,10 +334,327 @@
     },
     {
       "year": 3,
+      "condition": {
+        "var": "dataAccess",
+        "max": 0
+      },
       "texts": [
         {
-          "character": "editor",
-          "text@en": "There's a new AI called ChatPTG."
+          "character": "colleague",
+          "text@en": "How did it go at ECAT?"
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "They have no clue.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "I'm afraid ECAT has no clue about TikTube."
+            },
+            {
+              "character": "colleague",
+              "text@en": "Well, at least you tried."
+            }
+          ]
+        },
+        {
+          "text@en": "I couldn't get their spokesperson to talk.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "I asked questions, but got nothing."
+            },
+            {
+              "character": "colleague",
+              "text@en": "That's the point of many press officers."
+            },
+            {
+              "character": "colleague",
+              "text@en": "Don't let them wear you down."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "condition": {
+        "var": "dataAccess",
+        "min": 1
+      },
+      "texts": [
+        {
+          "character": "colleague",
+          "text@en": "How did it go at ECAT?"
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "They have no clue.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "I'm afraid ECAT has no clue about TikTube."
+            },
+            {
+              "character": "colleague",
+              "text@en": "Well, at least you tried."
+            }
+          ]
+        },
+        {
+          "text@en": "We should do a request for data access.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "We should try to make a request for data access."
+            },
+            {
+              "character": "colleague",
+              "text@en": "That mechanism will only start in mid-2024."
+            },
+            {
+              "character": "colleague",
+              "text@en": "And you just have 2 days left."
+            },
+            {
+              "character": "you",
+              "text@en": "What can I do, then?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "helper":[
+        {
+          "character": "colleague",
+          "text@en": "[revolvingDoor|revolvingDoor]."
+        }
+      ],
+      "texts": [
+        {
+          "character": "colleague",
+          "text@en": "You should try to contact TikTube directly."
+        },
+        {
+          "character": "colleague",
+          "text@en": "Be careful about their press officer."
+        },
+        {
+          "character": "colleague",
+          "text@en": "He's a former journalist, I know him well."
+        },
+        {
+          "character": "colleague",
+          "text@en": "I sent you an email with some tips, [check your inbox|revolvingDoor]."
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "Thanks",
+          "var_changes": {
+            "time_left": -1
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Thanks, your help is precious."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "texts": [
+        {
+          "character": "tt-spox",
+          "text@en": "Hi there!"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "I'm Otmar."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Call me Oti."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "I'm a good friend of your colleague Lisbet's!"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "We used to work together."
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "I'm trying to figure out how TikTube's algorithm works.",
+          "var_changes": {
+            "tt-spox-explains-algorithm": 1,
+            "sources_contacted": 1
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "I'm trying to figure out how TikTube's algorithm works."
+            },
+            {
+              "character": "you",
+              "text@en": "Can you help me?"
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "Of course!"
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "Our feed is personalized for each user."
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "The recommendations depend on a number of factors."
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "For instance, the content the user liked or commented on."
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "Or language preference, country setting, and device type."
+            }
+          ]
+        },
+        {
+          "text@en": "Does TikTube impact the mental health of its users?",
+          "var_changes": {
+            "tt-spox-mental-health": 1,
+            "sources_contacted": 1
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Some people say TikTube is making teenagers sad."
+            },
+            {
+              "character": "you",
+              "text@en": "Does TikTube impact the mental health of its users?"
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "TikTube lets users create authentic content and entertain audiences far and wide."
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "When we come across content that may not be appropriate for the general public, we do our best to remove it from our recommendation system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "condition": {
+        "var": "tt-spox-explains-algorithm",
+        "min": 1
+      },
+      "choices": [
+        {
+          "text@en": "Thanks!",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Thanks Oti, that's helpful!"
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "Anytime ☺️"
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "And say hi to Lisbet for me!"
+            }
+          ]
+        },
+        {
+          "text@en": "Can you be more precise?",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Can you be more precise?"
+            },
+            {
+              "character": "you",
+              "text@en": "For instance, are recommendations <i>entirely</i> personalized?"
+            },
+            {
+              "character": "you",
+              "text@en": "Or does the algorithm also use general parameters that apply to <i>everyone</i>?"
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "TikTube’s recommendation system drops in diverse types of content along with those you already know you love."
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "That way you can enjoy your favorite videos and explore new topics."
+            },
+            {
+              "character": "you",
+              "text@en": "Could this feature push too much depressing content, and make users sad?"
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "If a user sees something that's not to their liking, they can click on 'not interested' to indicate that it does not suit their taste or interest."
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "Thanks for your interest!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "condition": {
+        "var": "tt-spox-mental-health",
+        "min": 1
+      },
+      "choices": [
+        {
+          "text@en": "You haven't answered my question.",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "You haven't answered my question."
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "☺️"
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "Bye!"
+            }
+          ]
+        },
+        {
+          "text@en": "Have you conducted an audit of your algorithm?",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Has TikTube conducted an audit of its algorithm?"
+            },
+            {
+              "character": "tt-spox",
+              "text@en": "We collaborate regularly with researchers. Prof. Alois Manchego will soon release a study which you will find interesting."
+            }
+          ]
         }
       ]
     }
@@ -380,12 +663,12 @@
     ],
   "explainers": {
     "ECAT": {
-      "title@en": "The European Center for Algorithmic Transparency",
-      "body@en": "ECAT opened in April 2023 in Sevilla, Spain. It should grow to 30 people by 2024. They shall support European regulators in their investigations of automated systems."
+      "title@en": "Subject: The European Center for Algorithmic Transparency",
+      "body@en": "<p>Hello colleague,</p><p>ECAT opened in April 2023 in Sevilla, Spain. It should grow to 30 people by 2024. They shall support European regulators in their investigations of automated systems.</p><p>AlgorithmWatch wrote an explainer about it: <a href='https://algorithmwatch.org/en/dsa-explained/'>https://algorithmwatch.org/en/dsa-explained/</a>.</p><p>Cheers,</p><p>Lisbet</p>"
     },
-    "dataAccess": {
-      "title@en": "Access to platform data",
-      "body@en": "Under the Digital Services Act, a European law passed in 2020, researchers can ask access to the data of very large online services. The obligation will start in mid-2024. Read <a href='https://algorithmwatch.org/en/dsa-data-access-explained/'>A guide to the EU’s new rules for researcher access to platform data</a> at AlgorithmWatch."
+    "revolvingDoor": {
+      "title@en": "Subject: Revolving doors",
+      "body@en": "<p>Hi there,</p><p>Large tech companies have a thing European journalists don't: money. They hired lots of former journalists to carry out their lobbying. They will sweet-talk you into believing everything they say.</p><p>Stay alert, and don't fall for their tricks. Every piece of information you get from them must be verified, or at least veryfiable. Pay attention when they use the conditional tense, or say that their algorithm <i>might</i>, or <i>may</i>, or <i>could</i> do a certain thing. We need certainty.</p><p>Cheers,</p><p>Lisbet</p>"
     }
   }
 }
