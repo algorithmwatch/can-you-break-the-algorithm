@@ -1,0 +1,267 @@
+{
+  "year": 1,
+  "texts": [
+    {
+      "character": "editor",
+      "text@en": "Hi there, welcome to the newsroom!"
+    },
+    {
+      "character": "editor",
+      "text@en": "I hear you're the new algorithmic accountability reporter."
+    },
+    {
+      "character": "editor",
+      "text@en": "Whatever that means."
+    },
+    {
+      "character": "editor",
+      "text@en": "I've got a tip for you."
+    },
+    {
+      "character": "editor",
+      "text@en": "Ever heard of TikTube?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Of course.",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Of course, it's the social app all teenagers are on."
+        },
+        {
+          "character": "editor",
+          "text@en": "You're not as clueless as I thought."
+        }
+      ]
+    },
+    {
+      "text@en": "What's that?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "I'm afraid I haven't."
+        },
+        {
+          "character": "editor",
+          "text@en": "TikTube is the social media platform all teenagers are on."
+        },
+        {
+          "character": "editor",
+          "text@en": "Everyone your age knows that."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 1,
+  "texts": [
+    {
+      "character": "editor",
+      "text@en": "I've heard that TikTube's algorithm is making teenagers sad."
+    },
+    {
+      "character": "editor",
+      "text@en": "Find out if that's true."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Sure, boss.",
+      "var_changes": {
+        "time_left": 2
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thank you, I'll do my best."
+        },
+        {
+          "character": "editor",
+          "text@en": "You have 2 days."
+        },
+        {
+          "character": "editor",
+          "text@en": "Because you're new, I'm pairing you with our senior reporter on Artificial Intelligence."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 1,
+  "helper":[
+    {"character": "colleague",
+      "text@en": "[ECAT|ECAT]."
+      }
+    ],
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "Hello colleague."
+    },
+    {
+      "character": "you",
+      "text@en": "Hi Liz."
+    },
+    {
+      "character": "colleague",
+      "text@en": "It's Lisbet."
+    },
+    {
+      "character": "colleague",
+      "text@en": "The editor-in-chief is tough, but she's fair."
+    },
+    {
+      "character": "colleague",
+      "text@en": "... to people who give her good stories, at least."
+    },
+    {
+      "character": "colleague",
+      "text@en": "You should start by asking the European Center for Algorithmic Transparency."
+    },
+    {
+      "character": "you",
+      "text@en": "The European center for what?"
+    },
+    {
+      "character": "colleague",
+      "text@en": "Wait, let me write you an e-mail."
+    },
+    {
+      "character": "you",
+      "text@en": "That's nice of you."
+    },
+    {
+      "character": "colleague",
+      "text@en": "It'll be faster for me."
+    },
+    {
+      "character": "colleague",
+      "text@en": "[Check your inbox|ECAT] before you call."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Thanks",
+      "var_changes": {
+        "time_left": -1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thanks, I'll read it attentively."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 2,
+  "texts": [
+    {
+      "character": "ECATspox",
+      "text@en": "Hello, what can I do for you?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "How does the TikTube algorithm work?",
+      "var_changes": {
+        "sources_contacted": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "How does the TikTube algorithm work?"
+        }
+      ]
+    },
+    {
+      "text@en": "Does TikTube's algorithm make teenagers sad?",
+      "var_changes": {
+        "sources_contacted": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Does TikTube's algorithm make teenagers sad?"
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 2,
+  "texts": [
+    {
+      "character": "ECATspox",
+      "text@en": "According to the Digital Services Act, ECAT is committed to shedding light on algorithms that impact European citizens."
+    },
+    {
+      "character": "ECATspox",
+      "text@en": "We are building a team of many specialists for this task."
+    },
+    {
+      "character": "ECATspox",
+      "text@en": "But I can't comment on specific cases."
+    },      
+    {
+      "character": "ECATspox",
+      "text@en": "However, you can ask TikTube for data access."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "You didn't answer my question.",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "You didn't answer my question."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "According to the Regulation 1049/2001, you can make a request for more information."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "I'll be happy to assisst you again in the future."
+        }
+      ]
+    },
+    {
+      "text@en": "How can I ask for access?",
+      "var_changes": {
+        "dataAccess": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "How can I ask for access?"
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "According to the Digital Services Act, you simply need to team up with a researcher at a university."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "Then make a request to your national Digital Services Coordinator."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "They will forward it to the Irish Digital Services Coordinator, because TikTube is based in Ireland."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "If the Irish agree, you'll be able to request the data from TikTube."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "Thanks for contacting ECAT."
+        }
+      ]
+    }
+  ]
+},

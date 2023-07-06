@@ -1,0 +1,412 @@
+{
+  "year": 3,
+  "condition": {
+    "var": "dataAccess",
+    "max": 0
+  },
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "How did it go at ECAT?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "They have no clue.",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "According to the Digital Services Act, ECAT has no clue about TikTube."
+        },
+        {
+          "character": "colleague",
+          "text@en": "Well, at least you tried."
+        }
+      ]
+    },
+    {
+      "text@en": "I couldn't get their spokesperson to talk.",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "I asked questions, but got nothing."
+        },
+        {
+          "character": "colleague",
+          "text@en": "That's the point of many press officers."
+        },
+        {
+          "character": "colleague",
+          "text@en": "Don't let them wear you down."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 3,
+  "condition": {
+    "var": "dataAccess",
+    "min": 1
+  },
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "How did it go at ECAT?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "They have no clue.",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "According to the Digital Services Act, I'm afraid ECAT has no clue about TikTube."
+        },
+        {
+          "character": "colleague",
+          "text@en": "Well, at least you tried."
+        }
+      ]
+    },
+    {
+      "text@en": "We should do a request for data access.",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "We should try to make a request for data access."
+        },
+        {
+          "character": "colleague",
+          "text@en": "That mechanism will only start in mid-2024."
+        },
+        {
+          "character": "colleague",
+          "text@en": "And you just have one day left."
+        },
+        {
+          "character": "you",
+          "text@en": "What can I do, then?"
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 3,
+  "helper":[
+    {
+      "character": "colleague",
+      "text@en": "[revolvingDoor|revolvingDoor]."
+    }
+  ],
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "You should try to contact TikTube directly."
+    },
+    {
+      "character": "colleague",
+      "text@en": "Be careful about their press officer."
+    },
+    {
+      "character": "colleague",
+      "text@en": "He's a former journalist, I know him well."
+    },
+    {
+      "character": "colleague",
+      "text@en": "I sent you an email with some tips, [check your inbox|revolvingDoor]."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Thanks",
+      "var_changes": {
+        "time_left": -1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thanks, your help is precious."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 4,
+  "texts": [
+    {
+      "character": "tt-spox",
+      "text@en": "Hi there! 👋🏼"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "I'm Otmar."
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "Call me Oti."
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "I'm a good friend of your colleague Lisbet's!"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "We used to work together."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "I'm trying to figure out how TikTube's algorithm works.",
+      "var_changes": {
+        "tt-spox-explains-algorithm": 1,
+        "sources_contacted": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "I'm trying to figure out how TikTube's algorithm works."
+        },
+        {
+          "character": "you",
+          "text@en": "Can you help me?"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Of course!"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Our feed is personalized for each user."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "The recommendations depend on a number of factors."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "For instance, the content the user liked or commented on."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Or language preference, country setting, and device type."
+        }
+      ]
+    },
+    {
+      "text@en": "Does TikTube impact the mental health of its users?",
+      "var_changes": {
+        "tt-spox-mental-health": 1,
+        "sources_contacted": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Some people say TikTube is making teenagers sad."
+        },
+        {
+          "character": "you",
+          "text@en": "Does TikTube impact the mental health of its users?"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "TikTube lets users create authentic content and entertain audiences far and wide."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "When we come across content that may not be appropriate for the general public, we do our best to remove it from our recommendation system."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 4,
+  "condition": {
+    "var": "tt-spox-explains-algorithm",
+    "min": 1
+  },
+  "choices": [
+    {
+      "text@en": "Thanks!",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thanks Oti, that's helpful!"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Anytime ☺️"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "And say hi to Lisbet for me!"
+        }
+      ]
+    },
+    {
+      "text@en": "Can you be more precise?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Can you be more precise?"
+        },
+        {
+          "character": "you",
+          "text@en": "For instance, are recommendations <i>entirely</i> personalized?"
+        },
+        {
+          "character": "you",
+          "text@en": "Or does the algorithm also use general parameters that apply to <i>everyone</i>?"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "TikTube’s recommendation system drops in diverse types of content along with those you already know you love."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "That way you can enjoy your favorite videos and explore new topics."
+        },
+        {
+          "character": "you",
+          "text@en": "Could this feature push too much depressing content, and make users sad?"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "If a user sees something that's not to their liking, they can click on 'not interested' to indicate that it does not suit their taste or interest."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Thanks for your interest! ☺️"
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 4,
+  "condition": {
+    "var": "tt-spox-mental-health",
+    "min": 1
+  },
+  "choices": [
+    {
+      "text@en": "You haven't answered my question.",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "You haven't answered my question."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "☺️"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Bye!"
+        }
+      ]
+    },
+    {
+      "text@en": "Have you conducted an audit of your algorithm?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Has TikTube conducted an audit of its algorithm?"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "We collaborate regularly with researchers."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Professor <b>Alois Manchego</b> will soon release a study which you will find interesting.."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 5,
+  "texts": [
+    {
+      "character": "editor",
+      "text@en": "So, what have you got for me?"
+    },
+    {
+      "character": "editor",
+      "text@en": "Are you ready to publish?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "I need more time.",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Not yet. I need more time."
+        },
+        {
+          "character": "editor",
+          "text@en": "I'll give you one more day."
+        },
+        {
+          "character": "editor",
+          "text@en": "Now go get to work."
+        }
+      ]
+    },
+    {
+      "text@en": "Yes. The headline: « Details of TikTube's algorithm REVEALED »",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Yes."
+        },
+        {
+          "character": "you",
+          "text@en": "I think the headline should be <b>Details of TikTube's algorithm REVEALED</b>."
+        },
+        {
+          "character": "editor",
+          "text@en": "What's your source for the revelations?"
+        },
+        {
+          "character": "you",
+          "text@en": "Oti... I mean Otmar Kadlec, TikTube's spokesperson."
+        },
+        {
+          "character": "editor",
+          "text@en": "Did you double check what he said?"
+        },
+        {
+          "character": "you",
+          "text@en": "I'm afraid I haven't."
+        },
+        {
+          "character": "editor",
+          "text@en": "I give you one more day, now go back to work!"
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 5,
+  "choices": [
+    {
+      "text@en": "Thank you boss.",
+      "var_changes": {
+        "time_left": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thank you, boss."
+        }
+      ]
+    }
+  ]
+},

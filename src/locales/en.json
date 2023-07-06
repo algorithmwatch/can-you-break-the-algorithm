@@ -2,12 +2,12 @@
   "app": {
     "title": "Can you break the algorithm?",
     "url": "https://jplusplus.github.io/the-accountant/",
-    "description": "Can you run a city without falling prey to the sirens of corruption? Test yourself by playing The Good, The Bad and The Accountant!",
+    "description": "You're a journalist. A new app is taking its toll of the mental health of teenagers. Find out how its algorithm works.",
     "image": "https://jplusplus.github.io/the-accountant/images/share-en.png",
     "share": {
       "tweet": {
-        "via": "jplusplus_",
-        "text": "How long can you survive in a corrupt city hall? Take your chance!"
+        "via": "AlgorithmWatch",
+        "text": "Can you break TikTube's algorithm? Take your chance!"
       }
     }
   },
@@ -16,7 +16,7 @@
     "intro": {
       "heading": "Can you break <br />the algorithm?",
       "meta": "— by <a href='http://jplusplus.org' target='_blank'>AlgorithmWatch</a>",
-      "description": "<p>You're a journalist reporting on algorithms. A new app is taking its toll of the mental health of teenagers. Find out why.</p><p>Every example in the game is based on real cases.</p>",
+      "description": "<p>You're a journalist. A new app is taking its toll of the mental health of teenagers. Find out how its algorithm works.</p><p>Every example in the game is based on real cases.</p>",
       "new-game": "Start a new game",
       "continue": "Continue"
     },
@@ -25,7 +25,7 @@
       "over": {
         "undo": "Undo last action",
         "again": "Play again",
-        "share": "You embezzled <a ui-sref='main.vars'>{{amount}} in {{years}} years</a>. Challenge your friends to make more!"
+        "share": "You did not crack TikTube's algorithm, but it's unlikely anyone can.<br/><br/>At AlgorithmWatch, we work hard to bring light to automated systems from the real world. We conducted audits from TikTok, Instagram, LinkedIn and Google products, sometimes forcing Big Tech to implement changes.<br/><br/>If you'd like to support our work, you can<ul><li>Share this game with your network,</li><li><a href='https://algorithmwatch.org/en/donate/' target='_blank'>Make a donation</a> – even 1€ helps!</li><li>Subscribe to the <a href='https://automatedsociety.algorithmwatch.org/#/en' target='_blank'>Automated Society newsletter</a>, probably the best biweekly briefing on automated decision-making in Europe.</li></ul>"
       }
     },
     "toolbar": {

@@ -1,4 +1,5 @@
 run:
+		cat src/components/game/partials/*.json > src/components/game/game.json
 		./node_modules/.bin/webpack-dashboard -p 3030 -- ./node_modules/.bin/gulp serve
 
 build:

@@ -1,0 +1,15 @@
+"explainers": {
+    "ECAT": {
+      "title@en": "Subject: The European Center for Algorithmic Transparency",
+      "body@en": "<p>Hello colleague,</p><p>As I told you, here's a short helper about ECAT.</p><p>ECAT opened in April 2023 in Sevilla, Spain. It should grow to 30 people by 2024. They shall support European regulators in their investigations of automated systems.</p><p>AlgorithmWatch wrote an explainer about it: <a target='_blank' href='https://algorithmwatch.org/en/dsa-explained/'>https://algorithmwatch.org/en/dsa-explained/</a>.</p><p>Cheers,</p><p>Lisbet</p>"
+    },
+    "revolvingDoor": {
+      "title@en": "Subject: Revolving doors",
+      "body@en": "<p>Hi there,</p><p>Large tech companies have a thing European journalists don't: money. They hired lots of former journalists to carry out their lobbying. They will sweet-talk you into believing everything they say.</p><p>Stay alert, and don't fall for their tricks. Every piece of information you get from them must be verified, or at least veryfiable. Pay attention when they use the conditional tense, or say that their algorithm <i>might</i>, or <i>may</i>, or <i>could</i> do a certain thing. We need certainty.</p><p>Cheers,</p><p>Lisbet</p>"
+    },
+    "AlgorithmicImaginaries": {
+      "title@en": "Subject: Algorithmic imaginaries",
+      "body@en": "<p>Hi colleague,</p><p>People who use or are subjected to automated systems don't have access to the black boxes anymore than you do. But they have plenty of experience.</p><p>Sometimes, they do manage to pull out actions based on it, like when TikTokers managed to <a href='https://www.nytimes.com/2020/06/21/style/tiktok-trump-rally-tulsa.html' target='_blank'>sink a far-right event in 2020</a> by fake-registering then not showing up.</p><p>But most of the time, this hands-on knowledge is fleeting. One YouTuber thought he'd cracked the TikTok algorithm, for instance, only to later realize that <a href='https://www.youtube.com/watch?v=Fyl1IKkNC5o' target='_blank'>he had not</a>.</p><p>This is what academics call <b>algorithmic imaginaries</b>. Even if the beliefs of users are not based in fact, these beliefs exist and must be taken into account in your reporting.</p><p>Cheers,</p><p>Lisbet</p>"
+    }
+  }
+}
