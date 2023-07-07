@@ -63,6 +63,11 @@
       "value": 0,
       "private": true,
       "category": "choice"
+    },
+    "game_over_final": {
+      "value": 0,
+      "private": true,
+      "category": "risk"
     }
   },
   "characters": {

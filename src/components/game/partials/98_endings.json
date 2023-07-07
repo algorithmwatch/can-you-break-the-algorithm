@@ -1,4 +1,11 @@
 ],
 "endings": [
-  ],
+  {
+    "condition": {
+      "var": "game_over_final",
+      "min": 1
+    },
+    "text@en":""
+  }
+],
   

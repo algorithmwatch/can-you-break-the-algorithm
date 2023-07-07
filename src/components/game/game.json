@@ -63,6 +63,11 @@
       "value": 0,
       "private": true,
       "category": "choice"
+    },
+    "game_over_final": {
+      "value": 0,
+      "private": true,
+      "category": "risk"
     }
   },
   "characters": {
@@ -110,6 +115,11 @@
       "name@en": "Jane Doe",
       "title@en": "Former TikTube employee",
       "avatar": "./images/avatars/janedoe.png"
+    },
+    "leaker-colleague": {
+      "name@en": "Dany Mohren",
+      "title@en": "TikTube employee",
+      "avatar": "./images/avatars/tt-employee.png"
     },
     "you": {
       "name@en": "You",
@@ -882,6 +892,7 @@
       "text@en": "My nephew.",
       "var_changes": {
         "teen-nephew": 1,
+        "time_left": -1,
         "sources_contacted": 1
       },
       "feedback": [
@@ -893,6 +904,9 @@
     },
     {
       "text@en": "No.",
+      "var_changes": {
+        "time_left": -1
+      },
       "feedback": [
         {
           "character": "you",
@@ -1335,7 +1349,10 @@
   },
   "choices": [
     {
-      "text@en": "Game over"
+      "text@en": "Game over",
+      "var_changes": {
+        "game_over_final": 1
+      }
     }
   ]
 },{
@@ -1358,7 +1375,9 @@
     {
       "text@en": "Please share.",
       "var_changes": {
-        "leaker_yes": 1
+        "leaker_yes": 1,
+        "sources_contacted": 1,
+        "time_left": -1
       },
       "feedback": [
         {
@@ -1374,7 +1393,8 @@
     {
       "text@en": "Can you prove who you are?",
       "var_changes": {
-        "leaker_prove": 1
+        "leaker_prove": 1,
+        "time_left": -1
       },
       "feedback": [
         {
@@ -1387,7 +1407,7 @@
         },
         {
           "character": "leaker",
-          "text@en": "<img src='images/email-inbox.png' width=500 height=269 alt='An image of an e-mail inbox'/>"
+          "text@en": "<img src='images/email-inbox.png' style='max-width:100%' width=500 height=auto alt='An image of an e-mail inbox'/>"
         },
         {
           "character": "colleague",
@@ -1405,6 +1425,9 @@
     },
     {
       "text@en": "Not interested. That would be against the law on trade secrets.",
+      "var_changes": {
+        "time_left": -1
+      },
       "feedback": [
         {
           "character": "you",
@@ -1428,7 +1451,8 @@
     {
       "text@en": "Thanks, will do.",
       "var_changes": {
-        "leaker_yes": 1
+        "leaker_yes": 1,
+        "sources_contacted": 1
       },
       "feedback": [
         {
@@ -1464,16 +1488,66 @@
     },
     {
       "character": "leaker",
-      "text@en": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=253 alt='A slide with text: survey from users show negative effect on mental health.'/>"
+      "text@en": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='A slide with text: survey from users show negative effect on mental health.'/>"
     },
     {
       "character": "leaker",
-      "text@en": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=253 alt='A slide with text: Teens notably sadder after using the app.'/>"
+      "text@en": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='A slide with text: Teens notably sadder after using the app.'/>"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Thanks.",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Wow, that's heavy."
+        },
+        {
+          "character": "you",
+          "text@en": "Thanks."
+        }
+      ]
+    },
+    {
+      "text@en": "Who can confirm that they're genuine?",
+      "var_changes" : {
+        "sources_contacted": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "How can I confirm that they're not fake?"
+        },
+        {
+          "character": "leaker",
+          "text@en": "A former colleague will contact you soon."
+        },
+        {
+          "character": "leaker-colleague",
+          "text@en": "I've been told to contact you."
+        },
+        {
+          "character": "leaker-colleague",
+          "text@en": "What you saw appear genuine."
+        },
+        {
+          "character": "leaker-colleague",
+          "text@en": "You never talked to me."
+        }
+      ]
     }
   ]
 }],
 "endings": [
-  ],
+  {
+    "condition": {
+      "var": "game_over_final",
+      "min": 1
+    },
+    "text@en":""
+  }
+],
   "explainers": {
     "ECAT": {
       "title@en": "Subject: The European Center for Algorithmic Transparency",

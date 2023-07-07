@@ -57,7 +57,7 @@
     {
       "text@en": "No.",
       "var_changes": {
-        "time_left": -1,
+        "time_left": -1
       },
       "feedback": [
         {
@@ -501,7 +501,10 @@
   },
   "choices": [
     {
-      "text@en": "Game over"
+      "text@en": "Game over",
+      "var_changes": {
+        "game_over_final": 1
+      }
     }
   ]
 },
