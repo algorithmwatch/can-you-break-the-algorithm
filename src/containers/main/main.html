@@ -74,7 +74,7 @@
       <span translate>main.steps.undo</span>
     </button>
     <div class="main__footer__timeline">
-      <div class="container-fluid">
+      <div class="container-fluid" style="display: none;">
         <div class="row">
           <div ng-repeat="year in :: $ctrl.game.years" class="col main__footer__timeline__year"  ng-class="{ 'main__footer__timeline__year--active':  year <= $ctrl.game.step.year }">
             <div class="main__footer__timeline__year__label">

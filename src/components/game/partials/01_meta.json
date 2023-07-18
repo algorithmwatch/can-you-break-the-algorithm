@@ -99,6 +99,11 @@
       "private": true,
       "category": "choice"
     },
+    "finances_AIlab": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
     "game_over": {
       "value": 0,
       "private": true,
