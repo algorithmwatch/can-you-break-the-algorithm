@@ -1,5 +1,5 @@
 {
-  "year": 6,
+  "year": 15,
   "helper":[
     {"character": "colleague",
       "text@en": "[AlgorithmicImaginaries|AlgorithmicImaginaries]."
@@ -73,11 +73,11 @@
   ]
 },
 {
-  "year": 7,
-  "condition": {
-    "var": "teen-nephew",
-    "min": 1
-  },
+  "year": 16,
+  "conditions": [{
+      "var": "teen-nephew",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "nephew",
@@ -110,11 +110,62 @@
   ],
   "choices": [
     {
+      "text@en": "It never shows you depressing videos?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "It never shows you depressing videos?"
+        },
+        {
+          "character": "you",
+          "text@en": "Videos that you might not want to watch?"
+        },
+        {
+          "character": "nephew",
+          "text@en": "Sometimes."
+        },
+        {
+          "character": "nephew",
+          "text@en": "I just swipe them away."
+        }
+      ]
+    },
+    {
+      "text@en": "Has TikTube ever surprised you?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Has TikTube ever surprised you?"
+        },
+        {
+          "character": "you",
+          "text@en": "Does TikTube's algorithm ever surprise you?"
+        },
+        {
+          "character": "nephew",
+          "text@en": "What would be the point if it did not?"
+        },
+        {
+          "character": "nephew",
+          "text@en": "I thought journalists asked better questions."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 16,
+  "conditions": [{
+      "var": "teen-nephew",
+      "min": 1
+    }],
+  "choices": [
+    {
       "text@en": "Thanks",
       "feedback": [
         {
           "character": "you",
-          "text@en": "Thanks."
+          "text@en": "Well... thanks anyway."
         },
         {
           "character": "you",
@@ -125,11 +176,11 @@
   ]
 },
 {
-  "year": 7,
-  "condition": {
-    "var": "teen-nephew",
-    "max": 0
-  },
+  "year": 16,
+  "conditions": [{
+      "var": "teen-nephew",
+      "max": 0
+    }],
   "texts": [
     {
       "character": "teen1",
@@ -265,11 +316,11 @@
   ]
 },
 {
-  "year": 8,
-  "condition": {
-    "var": "teens_didnt_speak",
-    "min": 1
-  },
+  "year": 17,
+  "conditions": [{
+      "var": "teens_didnt_speak",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "editor",
@@ -300,11 +351,11 @@
   ]
 },
 {
-  "year": 8,
-  "condition": {
-    "var": "teens_spoke",
-    "min": 1
-  },
+  "year": 17,
+  "conditions": [{
+      "var": "teens_spoke",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "editor",
@@ -419,11 +470,11 @@
   ]
 },
 {
-  "year": 8,
-  "condition": {
-    "var": "teen-nephew",
-    "min": 1
-  },
+  "year": 17,
+  "conditions": [{
+      "var": "teen-nephew",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "editor",
@@ -494,11 +545,11 @@
   ]
 },
 {
-  "year": 8,
-  "condition": {
-    "var": "game_over",
-    "min": 1
-  },
+  "year": 17,
+  "conditions": [{
+      "var": "game_over",
+      "min": 1
+    }],
   "choices": [
     {
       "text@en": "Game over",

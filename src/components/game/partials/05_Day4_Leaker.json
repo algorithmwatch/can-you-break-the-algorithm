@@ -1,5 +1,5 @@
 {
-  "year": 9,
+  "year": 18,
   "texts": [
     {
       "character": "leaker",
@@ -26,10 +26,6 @@
         {
           "character": "you",
           "text@en": "Yes, please!"
-        },
-        {
-          "character": "you",
-          "text@en": "Just send them to me over email."
         }
       ]
     },
@@ -58,11 +54,7 @@
         },
         {
           "character": "colleague",
-          "text@en": "You'll need to double-check anything she sends."
-        },
-        {
-          "character": "colleague",
-          "text@en": "Make sure to use secure communication with her."
+          "text@en": "You'll need to double-check anything they send."
         }
       ]
     },
@@ -77,7 +69,7 @@
           "text@en": "Thanks, but I'll pass."
         },
         {
-          "character": "colleague",
+          "character": "you",
           "text@en": "I'm afraid the law on trade secrets prevents me from accepting."
         }
       ]
@@ -85,14 +77,14 @@
   ]
 },
 {
-  "year": 9,
-  "condition": {
-    "var": "leaker_prove",
-    "min": 1
-  },
+  "year": 18,
+  "conditions": [{
+      "var": "leaker_prove",
+      "min": 1
+    }],
   "choices": [
     {
-      "text@en": "Thanks, will do.",
+      "text@en": "Yes.",
       "var_changes": {
         "leaker_yes": 1,
         "sources_contacted": 1
@@ -100,18 +92,18 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "Thanks, I'll move the conversation to Signal."
+          "text@en": "Thanks, will do."
         }
       ]
     }
   ]
 },
 {
-  "year": 9,
-  "condition": {
-    "var": "leaker_yes",
-    "min": 1
-  },
+  "year": 18,
+  "conditions": [{
+      "var": "leaker_yes",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "leaker",
@@ -172,7 +164,7 @@
         },
         {
           "character": "leaker-colleague",
-          "text@en": "What you saw appear genuine."
+          "text@en": "What you saw appears genuine."
         },
         {
           "character": "leaker-colleague",
@@ -181,4 +173,4 @@
       ]
     }
   ]
-}
+},

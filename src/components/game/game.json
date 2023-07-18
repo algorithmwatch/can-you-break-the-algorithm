@@ -59,6 +59,46 @@
       "private": true,
       "category": "choice"
     },
+    "manchego": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "brandt": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "experiment": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "ready_to_publish": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "more_time": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "doing_experiment": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "stopped_experiment": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "continued_experiment": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
     "game_over": {
       "value": 0,
       "private": true,
@@ -68,13 +108,19 @@
       "value": 0,
       "private": true,
       "category": "risk"
+    },
+    "game_over_win": {
+      "value": 0,
+      "private": true,
+      "category": "risk"
     }
   },
   "characters": {
     "editor": {
       "name@en": "Jeannette Wehunt",
       "title@en": "Editor-in-chief",
-      "avatar": "./images/avatars/editor.png"
+      "avatar": "./images/avatars/editor.png",
+      "color": "#f00"
     },
     "colleague": {
       "name@en": "Lisbet Swango",
@@ -121,6 +167,21 @@
       "title@en": "TikTube employee",
       "avatar": "./images/avatars/tt-employee.png"
     },
+    "manchego": {
+      "name@en": "Alois Manchego",
+      "title@en": "Professor, head of the AI accountability lab",
+      "avatar": "./images/avatars/manchego.png"
+    },
+    "brandt": {
+      "name@en": "Hiltrud Brandt",
+      "title@en": "Anthropologist",
+      "avatar": "./images/avatars/brandt.png"
+    },
+    "dev": {
+      "name@en": "Ant1G4F4m",
+      "title@en": "Computer developer",
+      "avatar": "./images/avatars/dev.png"
+    },
     "you": {
       "name@en": "You",
       "name@de": "Sie",
@@ -129,46 +190,74 @@
     }
   },
   "years": {
-    "1": {
+    "10": {
       "picture": "images/years/newsroom.png",
       "title@en": "An assignment"
     },
-    "2": {
+    "11": {
       "picture": "images/years/ecat.png",
       "title@en": "Day 1: ECAT"
     },
-    "3": {
+    "12": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 2"
     },
-    "4": {
+    "13": {
       "picture": "images/years/tt.png",
       "title@en": "Day 2: TikTube"
     },
-    "5": {
+    "14": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 2"
     },
-    "6": {
+    "15": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 3"
     },
-    "7": {
+    "16": {
       "picture": "images/years/teenagers.png",
       "title@en": "Day 3: Asking users"
     },
-    "8": {
+    "17": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 3"
     },
-    "9": {
+    "18": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 4: A surprise"
+    },
+    "19": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "Day 5"
+    },
+    "20": {
+      "picture": "images/years/campus.png",
+      "title@en": "Day 5: On campus"
+    },
+    "21": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "Day 5"
+    },
+    "22": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "Day 6"
+    },
+    "23": {
+      "picture": "images/years/experiment.png",
+      "title@en": "Day 6: The experiment"
+    },
+    "24": {
+      "picture": "images/years/tt.png",
+      "title@en": "Day 9: Problems"
+    },
+    "25": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "Day 12"
     }
   },  
   "steps": [
 {
-  "year": 1,
+  "year": 10,
   "texts": [
     {
       "character": "editor",
@@ -225,7 +314,7 @@
   ]
 },
 {
-  "year": 1,
+  "year": 10,
   "texts": [
     {
       "character": "editor",
@@ -260,7 +349,7 @@
   ]
 },
 {
-  "year": 1,
+  "year": 10,
   "helper":[
     {"character": "colleague",
       "text@en": "[ECAT|ECAT]."
@@ -309,7 +398,7 @@
     },
     {
       "character": "colleague",
-      "text@en": "[Check your inbox|ECAT] before you call."
+      "text@en": "You might want to [check your inbox|ECAT] before you call."
     }
   ],
   "choices": [
@@ -328,7 +417,7 @@
   ]
 },
 {
-  "year": 2,
+  "year": 11,
   "texts": [
     {
       "character": "ECATspox",
@@ -363,7 +452,7 @@
   ]
 },
 {
-  "year": 2,
+  "year": 11,
   "texts": [
     {
       "character": "ECATspox",
@@ -396,7 +485,12 @@
         },
         {
           "character": "ECATspox",
-          "text@en": "I'll be happy to assisst you again in the future."
+          "text@en": "Thanks for contacting ECAT."
+        }
+        ,
+        {
+          "character": "ECATspox",
+          "text@en": "We wish you good luck in your reporting."
         }
       ]
     },
@@ -429,17 +523,21 @@
         {
           "character": "ECATspox",
           "text@en": "Thanks for contacting ECAT."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "We wish you good luck in your reporting."
         }
       ]
     }
   ]
 },
 {
-  "year": 3,
-  "condition": {
-    "var": "dataAccess",
-    "max": 0
-  },
+  "year": 12,
+  "conditions": [{
+      "var": "dataAccess",
+      "max": 0
+    }],
   "texts": [
     {
       "character": "colleague",
@@ -452,7 +550,7 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "According to the Digital Services Act, ECAT has no clue about TikTube."
+          "text@en": "ECAT has no clue about TikTube."
         },
         {
           "character": "colleague",
@@ -480,11 +578,11 @@
   ]
 },
 {
-  "year": 3,
-  "condition": {
-    "var": "dataAccess",
-    "min": 1
-  },
+  "year": 12,
+  "conditions": [{
+      "var": "dataAccess",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "colleague",
@@ -497,7 +595,7 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "According to the Digital Services Act, I'm afraid ECAT has no clue about TikTube."
+          "text@en": "I'm afraid ECAT has no clue about TikTube."
         },
         {
           "character": "colleague",
@@ -529,7 +627,7 @@
   ]
 },
 {
-  "year": 3,
+  "year": 12,
   "helper":[
     {
       "character": "colleague",
@@ -548,6 +646,10 @@
     {
       "character": "colleague",
       "text@en": "He's a former journalist, I know him well."
+    },
+    {
+      "character": "colleague",
+      "text@en": "Compared to him, ECAT's spokesperson is helpful."
     },
     {
       "character": "colleague",
@@ -570,7 +672,7 @@
   ]
 },
 {
-  "year": 4,
+  "year": 13,
   "texts": [
     {
       "character": "tt-spox",
@@ -659,11 +761,11 @@
   ]
 },
 {
-  "year": 4,
-  "condition": {
-    "var": "tt-spox-explains-algorithm",
-    "min": 1
-  },
+  "year": 13,
+  "conditions": [{
+      "var": "tt-spox-explains-algorithm",
+      "min": 1
+    }],
   "choices": [
     {
       "text@en": "Thanks!",
@@ -715,18 +817,22 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "Thanks for your interest! ☺️"
+          "text@en": "Thanks for your interest ☺️"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "And say hi to Lisbet for me!"
         }
       ]
     }
   ]
 },
 {
-  "year": 4,
-  "condition": {
-    "var": "tt-spox-mental-health",
-    "min": 1
-  },
+  "year": 13,
+  "conditions": [{
+      "var": "tt-spox-mental-health",
+      "min": 1
+    }],
   "choices": [
     {
       "text@en": "You haven't answered my question.",
@@ -758,14 +864,22 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "Professor <b>Alois Manchego</b> will soon release a study which you will find interesting.."
+          "text@en": "Professor <b>Alois Manchego</b> will soon release a study which you will find interesting."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Thanks for your interest ☺️"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "And say hi to Lisbet for me!"
         }
       ]
     }
   ]
 },
 {
-  "year": 5,
+  "year": 14,
   "texts": [
     {
       "character": "editor",
@@ -830,7 +944,7 @@
   ]
 },
 {
-  "year": 5,
+  "year": 14,
   "choices": [
     {
       "text@en": "Thank you boss.",
@@ -847,7 +961,7 @@
   ]
 },
 {
-  "year": 6,
+  "year": 15,
   "helper":[
     {"character": "colleague",
       "text@en": "[AlgorithmicImaginaries|AlgorithmicImaginaries]."
@@ -921,11 +1035,11 @@
   ]
 },
 {
-  "year": 7,
-  "condition": {
-    "var": "teen-nephew",
-    "min": 1
-  },
+  "year": 16,
+  "conditions": [{
+      "var": "teen-nephew",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "nephew",
@@ -958,11 +1072,62 @@
   ],
   "choices": [
     {
+      "text@en": "It never shows you depressing videos?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "It never shows you depressing videos?"
+        },
+        {
+          "character": "you",
+          "text@en": "Videos that you might not want to watch?"
+        },
+        {
+          "character": "nephew",
+          "text@en": "Sometimes."
+        },
+        {
+          "character": "nephew",
+          "text@en": "I just swipe them away."
+        }
+      ]
+    },
+    {
+      "text@en": "Has TikTube ever surprised you?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Has TikTube ever surprised you?"
+        },
+        {
+          "character": "you",
+          "text@en": "Does TikTube's algorithm ever surprise you?"
+        },
+        {
+          "character": "nephew",
+          "text@en": "What would be the point if it did not?"
+        },
+        {
+          "character": "nephew",
+          "text@en": "I thought journalists asked better questions."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 16,
+  "conditions": [{
+      "var": "teen-nephew",
+      "min": 1
+    }],
+  "choices": [
+    {
       "text@en": "Thanks",
       "feedback": [
         {
           "character": "you",
-          "text@en": "Thanks."
+          "text@en": "Well... thanks anyway."
         },
         {
           "character": "you",
@@ -973,11 +1138,11 @@
   ]
 },
 {
-  "year": 7,
-  "condition": {
-    "var": "teen-nephew",
-    "max": 0
-  },
+  "year": 16,
+  "conditions": [{
+      "var": "teen-nephew",
+      "max": 0
+    }],
   "texts": [
     {
       "character": "teen1",
@@ -1113,11 +1278,11 @@
   ]
 },
 {
-  "year": 8,
-  "condition": {
-    "var": "teens_didnt_speak",
-    "min": 1
-  },
+  "year": 17,
+  "conditions": [{
+      "var": "teens_didnt_speak",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "editor",
@@ -1148,11 +1313,11 @@
   ]
 },
 {
-  "year": 8,
-  "condition": {
-    "var": "teens_spoke",
-    "min": 1
-  },
+  "year": 17,
+  "conditions": [{
+      "var": "teens_spoke",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "editor",
@@ -1267,11 +1432,11 @@
   ]
 },
 {
-  "year": 8,
-  "condition": {
-    "var": "teen-nephew",
-    "min": 1
-  },
+  "year": 17,
+  "conditions": [{
+      "var": "teen-nephew",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "editor",
@@ -1342,11 +1507,11 @@
   ]
 },
 {
-  "year": 8,
-  "condition": {
-    "var": "game_over",
-    "min": 1
-  },
+  "year": 17,
+  "conditions": [{
+      "var": "game_over",
+      "min": 1
+    }],
   "choices": [
     {
       "text@en": "Game over",
@@ -1356,7 +1521,7 @@
     }
   ]
 },{
-  "year": 9,
+  "year": 18,
   "texts": [
     {
       "character": "leaker",
@@ -1383,10 +1548,6 @@
         {
           "character": "you",
           "text@en": "Yes, please!"
-        },
-        {
-          "character": "you",
-          "text@en": "Just send them to me over email."
         }
       ]
     },
@@ -1415,11 +1576,7 @@
         },
         {
           "character": "colleague",
-          "text@en": "You'll need to double-check anything she sends."
-        },
-        {
-          "character": "colleague",
-          "text@en": "Make sure to use secure communication with her."
+          "text@en": "You'll need to double-check anything they send."
         }
       ]
     },
@@ -1434,7 +1591,7 @@
           "text@en": "Thanks, but I'll pass."
         },
         {
-          "character": "colleague",
+          "character": "you",
           "text@en": "I'm afraid the law on trade secrets prevents me from accepting."
         }
       ]
@@ -1442,14 +1599,14 @@
   ]
 },
 {
-  "year": 9,
-  "condition": {
-    "var": "leaker_prove",
-    "min": 1
-  },
+  "year": 18,
+  "conditions": [{
+      "var": "leaker_prove",
+      "min": 1
+    }],
   "choices": [
     {
-      "text@en": "Thanks, will do.",
+      "text@en": "Yes.",
       "var_changes": {
         "leaker_yes": 1,
         "sources_contacted": 1
@@ -1457,18 +1614,18 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "Thanks, I'll move the conversation to Signal."
+          "text@en": "Thanks, will do."
         }
       ]
     }
   ]
 },
 {
-  "year": 9,
-  "condition": {
-    "var": "leaker_yes",
-    "min": 1
-  },
+  "year": 18,
+  "conditions": [{
+      "var": "leaker_yes",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "leaker",
@@ -1529,13 +1686,1289 @@
         },
         {
           "character": "leaker-colleague",
-          "text@en": "What you saw appear genuine."
+          "text@en": "What you saw appears genuine."
         },
         {
           "character": "leaker-colleague",
           "text@en": "You never talked to me."
         }
       ]
+    }
+  ]
+},{
+  "year": 19,
+  "conditions": [{
+      "var": "leaker_yes",
+      "min": 1
+    }],
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "You've got yourself a nice scoop with this leak."
+    }
+  ],
+  "choices" : [
+    {
+      "text@en": "Thanks",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thanks. Couldn't have done it without you."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 19,
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "You still need to get some more context from academics working on algorithms."
+    },
+    {
+      "character": "colleague",
+      "text@en": "Here are two specialists. Call one of them."
+    }
+  ],
+  "choices" : [
+    {
+      "text@en": "Prof. Alois Manchego, head of the AI accountability lab",
+      "var_changes": {
+        "manchego": 1,
+        "time_left": -1,
+        "sources_contacted": 1
+      }
+    },
+    {
+      "text@en": "Hiltrud Brandt, PhD",
+      "var_changes": {
+        "brandt": 1,
+        "time_left": -1,
+        "sources_contacted": 1
+      }
+    }
+  ]
+},
+{
+  "year": 20,
+  "conditions": [{
+      "var":"manchego",
+      "min": 1
+    }],
+  "texts": [
+    {
+      "character": "manchego",
+      "text@en": "Hello. I'm professor Manchego."
+    },
+    {
+      "character": "manchego",
+      "text@en": "I created the AI accountability lab."
+    },
+    {
+      "character": "manchego",
+      "text@en": "I've been called a leading authority in the field several times."
+    }
+  ],
+  "choices" : [
+    {
+      "text@en": "Does TikTube make teens sad?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Does TikTube make teens sad?"
+        },
+        {
+          "character": "manchego",
+          "text@en": "As far as I know, there is only anecdotal evidence for this hypothesis."
+        },
+        {
+          "character": "manchego",
+          "text@en": "My work tends to show that teens use TikTube to accomplish themselves."
+        },
+        {
+          "character": "manchego",
+          "text@en": "I'll soon publish a major paper on teenage use of TikTube."
+        },
+        {
+          "character": "manchego",
+          "text@en": "I'll add you to my mailing list."
+        }
+      ]
+    },
+    {
+      "text@en": "How does the TikTube algorithm work?",
+      "feedback": [
+          {
+            "character": "you",
+            "text@en": "How does the TikTube algorithm work?"
+          },
+          {
+            "character": "manchego",
+            "text@en": "It's really complex."
+          },
+          {
+            "character": "manchego",
+            "text@en": "I've been given exclusive access to TikTube."
+          },
+          {
+            "character": "manchego",
+            "text@en": "I can tell you that these are expert people."
+          },
+          {
+            "character": "you",
+            "text@en": "So, how does it work?"
+          },
+          {
+            "character": "manchego",
+            "text@en": "TikTube automatically assess a user's interests."
+          },
+          {
+            "character": "manchego",
+            "text@en": "Then offers videos to match."
+          }
+        ]
+      }
+  ]
+},
+{
+  "year": 20,
+  "conditions": [{
+      "var":"manchego",
+      "min": 1
+    }],
+  "choices" : [
+    {
+      "text@en": "Thanks",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thank you professor."
+        },
+        {
+          "character": "you",
+          "text@en": "This is illuminating."
+        }
+      ]
+    },
+    {
+      "text@en": "Who finances the AI accountability lab?",
+      "feedback": [
+          {
+            "character": "you",
+            "text@en": "Who finances the AI accountability lab?"
+          },
+          {
+            "character": "manchego",
+            "text@en": "We are funded by Google, Meta, Deutsche Bank and TikTube."
+          },
+          {
+            "character": "manchego",
+            "text@en": "But we are 100% independent."
+          },
+          {
+            "character": "manchego",
+            "text@en": "These companies are interested in the work we do."
+          },
+          {
+            "character": "manchego",
+            "text@en": "And they recognize that I'm a leading authority in the field."
+          },
+          {
+            "character": "manchego",
+            "text@en": "I'll now excuse myself."
+          },
+          {
+            "character": "manchego",
+            "text@en": "I have to give an interview to CNN."
+          }
+        ]
+      }
+  ]
+},
+{
+  "year": 20,
+  "conditions": [{
+      "var":"brandt",
+      "min": 1
+    }],
+  "texts": [
+    {
+      "character": "brandt",
+      "text@en": "Good morning, I'm Hiltrud Brandt."
+    },
+    {
+      "character": "brandt",
+      "text@en": "I did a PhD on the social impact of automated systems."
+    },
+    {
+      "character": "brandt",
+      "text@en": "I'm now a post-doctoral researcher."
+    }
+  ],
+  "choices" : [
+    {
+      "text@en": "Does TikTube make teens sad?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Does TikTube make teens sad?"
+        }
+      ]
+    },
+    {
+      "text@en": "How does the TikTube algorithm work?",
+      "feedback": [
+          {
+            "character": "you",
+            "text@en": "How does the TikTube algorithm work?"
+          }
+        ]
+      }
+  ]
+},
+{
+  "year": 20,
+  "conditions": [{
+      "var":"brandt",
+      "min": 1
+    }],
+  "texts": [
+    {
+      "character": "brandt",
+      "text@en": "Asking the question in this way might not be helpful."
+    },
+    {
+      "character": "brandt",
+      "text@en": "TikTube is actually made of many parts."
+    },
+    {
+      "character": "brandt",
+      "text@en": "There's a system to spot and block any pornography, for instance."
+    },
+    {
+      "character": "brandt",
+      "text@en": "And another one to decide which ads to display."
+    },
+    {
+      "character": "brandt",
+      "text@en": "And another one to recommend new accounts to follow."
+    },
+    {
+      "character": "you",
+      "text@en": "And another one to decide which videos to show to a given user?"
+    },
+    {
+      "character": "brandt",
+      "text@en": "Exactly."
+    },
+    {
+      "character": "brandt",
+      "text@en": "Not only are there many algorithms – plural."
+    },
+    {
+      "character": "brandt",
+      "text@en": "They constantly interact with humans."
+    },
+    {
+      "character": "brandt",
+      "text@en": "Be they users, people who tag videos to train Machine Learning models, executives who decide to chase a new goal..."
+    },
+    {
+      "character": "brandt",
+      "text@en": "It's impossible to give a precise description of how this system works."
+    },
+    {
+      "character": "brandt",
+      "text@en": "It's simply too vast, too complex."
+    },
+    {
+      "character": "you",
+      "text@en": "So, we'll never know if TikTube makes teens sad?"
+    },
+    {
+      "character": "brandt",
+      "text@en": "Oh, of course we can find out."
+    },
+    {
+      "character": "brandt",
+      "text@en": "But you'll need to rephrase your question."
+    },
+    {
+      "character": "brandt",
+      "text@en": "For one thing, teens have many reasons to be sad."
+    },
+    {
+      "character": "brandt",
+      "text@en": "The climate catastrophe, the low wages..."
+    }
+  ],
+  "choices" : [
+    {
+      "text@en": "How does TikTube contribute to this?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "You mean that TikTube doesn't compare?"
+        },
+        {
+          "character": "brandt",
+          "text@en": "This would be hard to find out."
+        },
+        {
+          "character": "brandt",
+          "text@en": "You'd need to make a randomized controlled trial."
+        },
+        {
+          "character": "brandt",
+          "text@en": "One group would use TikTube, one wouldn't, and you'd compare their mental health outcome."
+        },
+        {
+          "character": "brandt",
+          "text@en": "But – thank goodness – no serious ethical review board would accept such an experiment."
+        }
+      ]
+    },
+    {
+      "text@en": "So, what can I find out?",
+      "var_changes": {
+        "experiment" : 1
+      },
+      "feedback": [
+          {
+            "character": "you",
+            "text@en": "So, what can I actually research?"
+          },
+          {
+            "character": "brandt",
+            "text@en": "You could conduct a small-scale audit."
+          },
+          {
+            "character": "brandt",
+            "text@en": "To check whether TikTube gives priority to sad content, for instance."
+          },
+          {
+            "character": "brandt",
+            "text@en": "If you create an account that posts sad content..."
+          },
+          {
+            "character": "brandt",
+            "text@en": "And another one that doesn't..."
+          },
+          {
+            "character": "brandt",
+            "text@en": "And ask people to follow both and report when they see your posts..."
+          },
+          {
+            "character": "brandt",
+            "text@en": "Then you would see how often sad content is shown."
+          },
+          {
+            "character": "brandt",
+            "text@en": "💡"
+          },
+          {
+            "character": "you",
+            "text@en": "Thanks, I'll talk to my colleagues."
+          }
+        ]
+      }
+  ]
+},
+{
+  "year": 21,
+  "conditions" : [{
+      "var": "manchego",
+      "min": 1
+    }],
+  "texts": [
+    {
+      "character": "editor",
+      "text@en": "So, what's your headline?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "« Despite concerns, TikTube is mostly good for teens »",
+      "var_changes" : {
+        "game_over": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "My story should be titled <b>Despite concerns, TikTube is mostly good for teens</b>."
+        },
+        {
+          "character": "editor",
+          "text@en": "You have the front page."
+        },
+        {
+          "character": "editor",
+          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good.mp4' type='video/mp4'>OK, published!</video> "
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Nice story! 👍🏼"
+        },
+        {
+          "character": "manchego",
+          "text@en": "Well done."
+        },
+        {
+          "character": "manchego",
+          "text@en": "But you should have put a picture of me on the front page."
+        },
+        {
+          "character": "manchego",
+          "text@en": "Not for my ego, but to give more weight to your piece."
+        },
+        {
+          "character": "brandt",
+          "text@en": "You know that Manchego's research is financed by TikTube, right?"
+        }
+      ]
+    },
+    {
+      "text@en": "I need more time.",
+      "var_changes" : {
+        "game_over": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "I'm afraid I need more time, boss."
+        },
+        {
+          "character": "editor",
+          "text@en": "Listen, I'm running a newsroom."
+        },
+        {
+          "character": "editor",
+          "text@en": "Not a spa."
+        },
+        {
+          "character": "editor",
+          "text@en": "This algorithmic accountability beat is nothing for you."
+        },
+        {
+          "character": "editor",
+          "text@en": "From now on, you'll do post-editing on texts that have been automatically generated by ChatGPT."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 21,
+  "conditions" : [{
+      "var": "brandt",
+      "min": 1
+    }],
+  "texts": [
+    {
+      "character": "editor",
+      "text@en": "Are you ready to publish?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Yes",
+      "var_changes" : {
+        "ready_to_publish": 1
+      }
+    },
+    {
+      "text@en": "I need more time.",
+      "var_changes" : {
+        "more_time": 1
+      }
+    }
+  ]
+},
+{
+  "year": 21,
+  "conditions" : [{
+      "var": "more_time",
+      "min": 1
+    },
+    {
+        "var": "sources_contacted",
+        "min": 5
+    },
+    {
+        "var": "leaker_yes",
+        "min": 1
+    },
+    {
+        "var": "experiment",
+        "min": 1
+    }
+  ],
+  "texts": [
+    {
+      "character": "you",
+      "text@en": "I'd need more time, boss."
+    },
+    {
+      "character": "you",
+      "text@en": "I'd like to conduct an experiment."
+    },
+    {
+      "character": "you",
+      "text@en": "To check whether TikTube prioritizes sad content."
+    },
+    {
+      "character": "editor",
+      "text@en": "OK."
+    },
+    {
+      "character": "editor",
+      "text@en": "But this is ONLY because your colleague Lisbet Swango speaks highly of you."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Thank you, boss",
+      "var_changes" : {
+        "doing_experiment": 1,
+        "time_left": 7
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thank you, boss."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 21,
+  "conditions" : [{
+      "var": "more_time",
+      "min": 1
+    },
+    {
+      "var": "doing_experiment",
+      "max": 0
+    }
+  ],
+  "texts": [
+    {
+      "character": "editor",
+      "text@en": "How much time would you need?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en" : "One day",
+      "var_changes": {"game_over" : 1},
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Just one day, boss."
+        },
+        {
+          "character": "editor",
+          "text@en": "Listen, I'm running a newsroom."
+        },
+        {
+          "character": "editor",
+          "text@en": "Not a spa."
+        },
+        {
+          "character": "editor",
+          "text@en": "This algorithmic accountability beat is nothing for you."
+        },
+        {
+          "character": "editor",
+          "text@en": "From now on, you'll do post-editing on texts that have been automatically generated by ChatGPT."
+        }
+      ]
+    },
+    {
+      "text@en" : "Three days",
+      "var_changes": {"game_over" : 1},
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Just three day, boss."
+        },
+        {
+          "character": "editor",
+          "text@en": "Listen, I'm running a newsroom."
+        },
+        {
+          "character": "editor",
+          "text@en": "Not a spa."
+        },
+        {
+          "character": "editor",
+          "text@en": "This algorithmic accountability beat is nothing for you."
+        },
+        {
+          "character": "editor",
+          "text@en": "From now on, you'll do post-editing on texts that have been automatically generated by ChatGPT."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 21,
+  "conditions" : [{
+      "var": "ready_to_publish",
+      "min": 1
+    },
+    {
+      "var": "doing_experiment",
+      "max": 0
+    },
+    {
+        "var": "leaker_yes",
+        "min": 1
+      }],
+  "texts": [
+    {
+      "character": "editor",
+      "text@en": "And what's your headline?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "« TikTube is too complex to understand »",
+      "var_changes" : {
+        "game_over": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "My story should be titled <b>TikTube is too complex to understand</b>."
+        },
+        {
+          "character": "editor",
+          "text@en": "You have the front page."
+        },
+        {
+          "character": "editor",
+          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>OK, published!</video> "
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Nice story! 👍🏼"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "I'll always be happy to help you understand more."
+        },
+        {
+          "character": "brandt",
+          "text@en": "No."
+        },
+        {
+          "character": "brandt",
+          "text@en": "That wasn't my point AT ALL."
+        },
+        {
+          "character": "brandt",
+          "text@en": "I meant that we should ask precise questions."
+        },
+        {
+          "character": "brandt",
+          "text@en": "Not that we should stop asking."
+        }
+      ]
+    },
+    {
+      "text@en": "« Internal documents reveal that TikTube harms teens »",
+      "var_changes" : {
+        "game_over": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "My story should be titled <b>Internal documents reveal that TikTube harms teens</b>."
+        },
+        {
+          "character": "editor",
+          "text@en": "You have the front page."
+        },
+        {
+          "character": "editor",
+          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-leak.mp4' type='video/mp4'>OK, published!</video> "
+        },
+        {
+          "character": "colleague",
+          "text@en": "Nicely done."
+        },
+        {
+          "character": "brandt",
+          "text@en": "Interesting story."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Stupid claim. 🤮"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "In the slide you used for your article, ALL GROUPS say that TikTube makes them feel better about themselves."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "You distorted the facts. 🤥"
+        }
+      ]
+
+    }
+  ]
+},
+{
+  "year": 21,
+  "conditions" : [{
+      "var": "ready_to_publish",
+      "min": 1
+    },
+    {
+      "var": "doing_experiment",
+      "max": 0
+    },
+    {
+        "var": "leaker_yes",
+        "max": 0
+      }],
+  "texts": [
+    {
+      "character": "editor",
+      "text@en": "And what's your headline?"
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "« TikTube is too complex to understand »",
+      "var_changes" : {
+        "game_over": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "My story should be titled <b>TikTube is too complex to understand</b>."
+        },
+        {
+          "character": "editor",
+          "text@en": "You have the front page."
+        },
+        {
+          "character": "editor",
+          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>OK, published!</video> "
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Nice story! 👍🏼"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "I'll always be happy to help you understand more."
+        },
+        {
+          "character": "brandt",
+          "text@en": "No."
+        },
+        {
+          "character": "brandt",
+          "text@en": "That wasn't my point AT ALL."
+        },
+        {
+          "character": "brandt",
+          "text@en": "I meant that we should ask precise questions."
+        },
+        {
+          "character": "brandt",
+          "text@en": "Not that we should stop asking."
+        }
+      ]
+    },
+    {
+      "text@en": "« Large platforms are so complex they should be regulated »",
+      "var_changes" : {
+        "game_over": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "My story should be titled <b>Large platforms are so complex they should be regulated</b>."
+        },
+        {
+          "character": "editor",
+          "text@en": "You have the front page."
+        },
+        {
+          "character": "editor",
+          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/large-platforms-regulation.mp4' type='video/mp4'>OK, published!</video> "
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "According to the Digital Services Act, large platforms are already regulated."
+        },
+        {
+          "character": "brandt",
+          "text@en": "Interesting story."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Nice story 👍🏼"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "TikTube is strongly in favor of sound regulation."
+        }
+      ]
+
+    }
+  ]
+},
+{
+  "year": 21,
+  "conditions": [{
+      "var": "game_over",
+      "min": 1
+    }],
+  "choices": [
+    {
+      "text@en": "Game over",
+      "var_changes": {
+        "game_over_final": 1
+      }
+    }
+  ]
+},{
+  "year": 22,
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "Well done."
+    },
+    {
+      "character": "colleague",
+      "text@en": "The editor-in-chief is rarely so generous."
+    },
+    {
+      "character": "you",
+      "text@en": "It's all because of you."
+    },
+    {
+      "character": "colleague",
+      "text@en": "😊"
+    },
+    {
+      "character": "colleague",
+      "text@en": "To conduct your audit of TikTube, get in touch with Ant1G4F4m."
+    },
+    {
+      "character": "you",
+      "text@en": "How to pronounce her name?"
+    },
+    {
+      "character": "colleague",
+      "text@en": "That's not the point."
+    },
+    {
+      "character": "colleague",
+      "text@en": "She's a brilliant computer developer."
+    }
+  ],
+  "choices":[
+    {
+      "text@en" : "Thanks.",
+      "var_changes" : {
+        "time_left" : -1,
+        "sources_contacted": 1
+      },
+      "feedback" : [
+        {
+          "character": "you",
+          "text@en": "Thanks, will do."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 23,
+  "texts": [
+    {
+      "character": "dev",
+      "text@en": "Hello, what can I do for you?"
+    },
+    {
+      "character": "you",
+      "text@en": "I'd like to carry out an audit of TikTube."
+    },
+    {
+      "character": "you",
+      "text@en": "To know whether sad content is prioritized in the newsfeed."
+    },
+    {
+      "character": "dev",
+      "text@en": "And how shall we do this?"
+    },
+    {
+      "character": "you",
+      "text@en": "We set up two TikTube accounts."
+    },
+    {
+      "character": "you",
+      "text@en": "One posts happy content, the other sad content."
+    },
+    {
+      "character": "you",
+      "text@en": "Lots of users follow both."
+    },
+    {
+      "character": "you",
+      "text@en": "And we check whether they see more posts from the happy or from the sad account."
+    },
+    {
+      "character": "dev",
+      "text@en": "These <i>'lots of users'</i>, are they real people or bots?"
+    }
+  ],
+  "choices" : [
+    {
+      "text@en": "Real people",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Real users."
+        },
+        {
+          "character": "dev",
+          "text@en": "OK, I assume you have months ahead of you?"
+        },
+        {
+          "character": "dev",
+          "text@en": "Convincing people to participate is hard."
+        },
+        {
+          "character": "you",
+          "text@en": "I have five days."
+        },
+        {
+          "character": "dev",
+          "text@en": "I'll create some bots, then."
+        },
+        {
+          "character": "dev",
+          "text@en": "But they might get blocked by TikTube."
+        }
+      ]
+    },
+    {
+      "text@en": "Bots",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Bots."
+        },
+        {
+          "character": "dev",
+          "text@en": "OK, but keep in mind that TikTube might detect them and block us."
+        }
+      ]
+    },
+    {
+      "text@en": "What?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "I haven't thought of that."
+        },
+        {
+          "character": "dev",
+          "text@en": "I'd rather go with bots, it's much faster."
+        },
+        {
+          "character": "dev",
+          "text@en": "But TikTube might block us."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 23,
+  "texts": [
+    {
+      "character": "dev",
+      "text@en": "I'll get started now."
+    },
+    {
+      "character": "dev",
+      "text@en": "And get back to you in a few days."
+    }
+  ],
+  "choices": [
+    {
+      "text@en" : "Looking forward.",
+      "var_changes": {
+        "time_left" : -3
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thanks, looking forward."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 24,
+  "texts": [
+    {
+      "character": "tt-spox",
+      "text@en": "Hello again 👋🏼"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "I've seen that you have a project going on."
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "That's great! 👍🏼 We love external researchers."
+    },
+    {
+      "character": "you",
+      "text@en": "Thanks!"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "But this particular project of yours is going against our Terms of Service."
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "Our lawyers will be happy to support you to make it compliant. 🫱🏼"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "But you'll need to shut down your project first."
+    }
+  ],
+  "choices": [
+    {
+      "text@en" : "Sure.",
+      "var_changes" : {
+        "stopped_experiment": 1,
+        "time_left" : -3
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Oh, I apologize."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "No harm done! 😊"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "We'll soon be in touch to help you."
+        }
+      ]
+    },
+    {
+      "text@en" : "No way.",
+      "var_changes": {
+        "time_left" : -3,
+        "continued_experiment": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "I guess you'll have to review your Terms of Service."
+        },
+        {
+          "character": "you",
+          "text@en": "Because I'm keeping my project on."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "You could land in trouble."
+        },
+        {
+          "character": "you",
+          "text@en": "Your bluff does not work on me."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 25,
+  "conditions": [
+    {
+      "var": "continued_experiment",
+      "min": 1
+    }
+  ],
+  "texts": [
+    {
+      "character": "dev",
+      "text@en": "Here are the results."
+    },
+    {
+      "character": "dev",
+      "text@en": "It's really exciting."
+    },
+    {
+      "character": "dev",
+      "text@en": "The odds of seeing a video that shows sad content over the odds of seeing any video from our test accounts is 3.2!"
+    },
+    {
+      "character": "you",
+      "text@en": "Could you repeat in plain English please?"
+    },
+    {
+      "character": "dev",
+      "text@en": "Based on our data, TikTube does prioritize sad content, a lot."
+    },
+    {
+      "character": "dev",
+      "text@en": "Of course, we did it with bots, and the behavior of real users could be different."
+    },
+    {
+      "character": "dev",
+      "text@en": "It's still solid evidence that something fishy is going on."
+    },
+    {
+      "character": "editor",
+      "text@en": "So."
+    },
+    {
+      "character": "editor",
+      "text@en": "How's that audit going?"
+    },
+    {
+      "character": "you",
+      "text@en": "The story will soon be ready."
+    },
+    {
+      "character": "you",
+      "text@en": "The headline should be <b>New evidence that TikTube prioritizes sad content</b>."
+    },
+    {
+      "character": "editor",
+      "text@en": "You have the front page."
+    },
+    {
+      "character": "editor",
+      "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-prio-sad-content.mp4' type='video/mp4'>OK, published!</video> "
+    },
+    {
+      "character": "colleague",
+      "text@en": "Very nice piece, well done."
+    },
+    {
+      "character": "brandt",
+      "text@en": "Interesting findings."
+    },
+    {
+      "character": "brandt",
+      "text@en": "I'll cite you in my next paper."
+    },
+    {
+      "character": "ECATspox",
+      "text@en": "I just read your story."
+    },
+    {
+      "character": "ECATspox",
+      "text@en": "Would you be interested in giving a workshop at ECAT?"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "We strongly dispute your findings."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Game over",
+      "var_changes": {
+        "game_over_win": 1
+      }
+    }
+  ]
+},
+{
+  "year": 25,
+  "conditions": [
+    {
+      "var": "stopped_experiment",
+      "min": 1
+    }
+  ],
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "Why are you staring at your screen like that?"
+    },
+    {
+      "character": "you",
+      "text@en": "I'm waiting for an email from TikTube."
+    },
+    {
+      "character": "you",
+      "text@en": "They promised they'd help me if I stopped my audit."
+    },
+    {
+      "character": "colleague",
+      "text@en": "You trusted them?"
+    },
+    {
+      "character": "colleague",
+      "text@en": "Seriously?"
+    },
+    {
+      "character": "you",
+      "text@en": "Did I make a mistake?"
+    },
+    {
+      "character": "editor",
+      "text@en": "So."
+    },
+    {
+      "character": "editor",
+      "text@en": "How's that audit going?"
+    },
+    {
+      "character": "you",
+      "text@en": "Well..."
+    },
+    {
+      "character": "you",
+      "text@en": "Can I start over?"
+    },
+    {
+      "character": "editor",
+      "text@en": "Listen, I'm running a newsroom."
+    },
+    {
+      "character": "editor",
+      "text@en": "Not a preschool."
+    },
+    {
+      "character": "editor",
+      "text@en": "This algorithmic accountability beat is nothing for you."
+    },
+    {
+      "character": "editor",
+      "text@en": "From now on, you'll do post-editing on texts that have been automatically generated by ChatGPT."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Game over",
+      "var_changes": {
+        "game_over_final": 1
+      }
     }
   ]
 }],
@@ -1545,7 +2978,14 @@
       "var": "game_over_final",
       "min": 1
     },
-    "text@en":""
+    "text@en":"You did not crack TikTube's algorithm, but it's unlikely anyone can."
+  },
+  {
+    "condition": {
+      "var": "game_over_win",
+      "min": 1
+    },
+    "text@en":"<h2>Congratulations</h2>You did not crack TikTube's algorithm, but now you know that it makes no sense to talk of <i>cracking</i> an algorithm.<br/><br/>You did, however, bring new facts to the public, which will help users and decision-makers better understand how large platforms work."
   }
 ],
   "explainers": {

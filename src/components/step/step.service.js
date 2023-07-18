@@ -20,7 +20,7 @@ function StepService(Choice, Slice, Stack, I18n, Explainer, $rootScope, $log) {
       });
     }
     hasCondition() {
-      return this[_meta].hasOwnProperty('condition');
+      return this[_meta].hasOwnProperty('conditions');
     }
     hasExplainer() {
       return this.hasHelper();
@@ -82,16 +82,24 @@ function StepService(Choice, Slice, Stack, I18n, Explainer, $rootScope, $log) {
       return Boolean(!this.selection && super.isTyping());
     }
     get assert() {
-      // Minimum value condition
-      if (this.condition.hasOwnProperty('min')) {
-        return this.game.var(this.condition.var).value >= this.condition.min;
-      // Maximum value condition
-      } else if (this.condition.hasOwnProperty('max')) {
-        return this.game.var(this.condition.var).value <= this.condition.max;
+      const conditions = this.conditions;
+      for (let i = 0; i < conditions.length; i++) {
+        const condition = conditions[i];
+        // Minimum value condition
+        if (condition.hasOwnProperty('min')) {
+          if (this.game.var(condition.var).value < condition.min) {
+            return false;
+          }
+        } else if (condition.hasOwnProperty('max')) {
+          if (this.game.var(condition.var).value > condition.max) {
+            return false;
+          }
+        }
       }
-      // No condition (or unkown)
+      // All conditions passed (or no conditions defined)
       return true;
     }
+
     get choices() {
       return this.memoize('choices', () => {
         // Create choices
@@ -112,8 +120,8 @@ function StepService(Choice, Slice, Stack, I18n, Explainer, $rootScope, $log) {
     get game() {
       return this[_game];
     }
-    get condition() {
-      return this[_meta].condition || {};
+    get conditions() {
+      return this[_meta].conditions || {};
     }
     get explainer() {
       return this.memoize('explainer', () => {

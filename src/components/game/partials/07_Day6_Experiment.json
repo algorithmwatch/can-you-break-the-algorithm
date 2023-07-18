@@ -1,0 +1,432 @@
+{
+  "year": 22,
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "Well done."
+    },
+    {
+      "character": "colleague",
+      "text@en": "The editor-in-chief is rarely so generous."
+    },
+    {
+      "character": "you",
+      "text@en": "It's all because of you."
+    },
+    {
+      "character": "colleague",
+      "text@en": "😊"
+    },
+    {
+      "character": "colleague",
+      "text@en": "To conduct your audit of TikTube, get in touch with Ant1G4F4m."
+    },
+    {
+      "character": "you",
+      "text@en": "How to pronounce her name?"
+    },
+    {
+      "character": "colleague",
+      "text@en": "That's not the point."
+    },
+    {
+      "character": "colleague",
+      "text@en": "She's a brilliant computer developer."
+    }
+  ],
+  "choices":[
+    {
+      "text@en" : "Thanks.",
+      "var_changes" : {
+        "time_left" : -1,
+        "sources_contacted": 1
+      },
+      "feedback" : [
+        {
+          "character": "you",
+          "text@en": "Thanks, will do."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 23,
+  "texts": [
+    {
+      "character": "dev",
+      "text@en": "Hello, what can I do for you?"
+    },
+    {
+      "character": "you",
+      "text@en": "I'd like to carry out an audit of TikTube."
+    },
+    {
+      "character": "you",
+      "text@en": "To know whether sad content is prioritized in the newsfeed."
+    },
+    {
+      "character": "dev",
+      "text@en": "And how shall we do this?"
+    },
+    {
+      "character": "you",
+      "text@en": "We set up two TikTube accounts."
+    },
+    {
+      "character": "you",
+      "text@en": "One posts happy content, the other sad content."
+    },
+    {
+      "character": "you",
+      "text@en": "Lots of users follow both."
+    },
+    {
+      "character": "you",
+      "text@en": "And we check whether they see more posts from the happy or from the sad account."
+    },
+    {
+      "character": "dev",
+      "text@en": "These <i>'lots of users'</i>, are they real people or bots?"
+    }
+  ],
+  "choices" : [
+    {
+      "text@en": "Real people",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Real users."
+        },
+        {
+          "character": "dev",
+          "text@en": "OK, I assume you have months ahead of you?"
+        },
+        {
+          "character": "dev",
+          "text@en": "Convincing people to participate is hard."
+        },
+        {
+          "character": "you",
+          "text@en": "I have five days."
+        },
+        {
+          "character": "dev",
+          "text@en": "I'll create some bots, then."
+        },
+        {
+          "character": "dev",
+          "text@en": "But they might get blocked by TikTube."
+        }
+      ]
+    },
+    {
+      "text@en": "Bots",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Bots."
+        },
+        {
+          "character": "dev",
+          "text@en": "OK, but keep in mind that TikTube might detect them and block us."
+        }
+      ]
+    },
+    {
+      "text@en": "What?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "I haven't thought of that."
+        },
+        {
+          "character": "dev",
+          "text@en": "I'd rather go with bots, it's much faster."
+        },
+        {
+          "character": "dev",
+          "text@en": "But TikTube might block us."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 23,
+  "texts": [
+    {
+      "character": "dev",
+      "text@en": "I'll get started now."
+    },
+    {
+      "character": "dev",
+      "text@en": "And get back to you in a few days."
+    }
+  ],
+  "choices": [
+    {
+      "text@en" : "Looking forward.",
+      "var_changes": {
+        "time_left" : -3
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thanks, looking forward."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 24,
+  "texts": [
+    {
+      "character": "tt-spox",
+      "text@en": "Hello again 👋🏼"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "I've seen that you have a project going on."
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "That's great! 👍🏼 We love external researchers."
+    },
+    {
+      "character": "you",
+      "text@en": "Thanks!"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "But this particular project of yours is going against our Terms of Service."
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "Our lawyers will be happy to support you to make it compliant. 🫱🏼"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "But you'll need to shut down your project first."
+    }
+  ],
+  "choices": [
+    {
+      "text@en" : "Sure.",
+      "var_changes" : {
+        "stopped_experiment": 1,
+        "time_left" : -3
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Oh, I apologize."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "No harm done! 😊"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "We'll soon be in touch to help you."
+        }
+      ]
+    },
+    {
+      "text@en" : "No way.",
+      "var_changes": {
+        "time_left" : -3,
+        "continued_experiment": 1
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "I guess you'll have to review your Terms of Service."
+        },
+        {
+          "character": "you",
+          "text@en": "Because I'm keeping my project on."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "You could land in trouble."
+        },
+        {
+          "character": "you",
+          "text@en": "Your bluff does not work on me."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 25,
+  "conditions": [
+    {
+      "var": "continued_experiment",
+      "min": 1
+    }
+  ],
+  "texts": [
+    {
+      "character": "dev",
+      "text@en": "Here are the results."
+    },
+    {
+      "character": "dev",
+      "text@en": "It's really exciting."
+    },
+    {
+      "character": "dev",
+      "text@en": "The odds of seeing a video that shows sad content over the odds of seeing any video from our test accounts is 3.2!"
+    },
+    {
+      "character": "you",
+      "text@en": "Could you repeat in plain English please?"
+    },
+    {
+      "character": "dev",
+      "text@en": "Based on our data, TikTube does prioritize sad content, a lot."
+    },
+    {
+      "character": "dev",
+      "text@en": "Of course, we did it with bots, and the behavior of real users could be different."
+    },
+    {
+      "character": "dev",
+      "text@en": "It's still solid evidence that something fishy is going on."
+    },
+    {
+      "character": "editor",
+      "text@en": "So."
+    },
+    {
+      "character": "editor",
+      "text@en": "How's that audit going?"
+    },
+    {
+      "character": "you",
+      "text@en": "The story will soon be ready."
+    },
+    {
+      "character": "you",
+      "text@en": "The headline should be <b>New evidence that TikTube prioritizes sad content</b>."
+    },
+    {
+      "character": "editor",
+      "text@en": "You have the front page."
+    },
+    {
+      "character": "editor",
+      "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-prio-sad-content.mp4' type='video/mp4'>OK, published!</video> "
+    },
+    {
+      "character": "colleague",
+      "text@en": "Very nice piece, well done."
+    },
+    {
+      "character": "brandt",
+      "text@en": "Interesting findings."
+    },
+    {
+      "character": "brandt",
+      "text@en": "I'll cite you in my next paper."
+    },
+    {
+      "character": "ECATspox",
+      "text@en": "I just read your story."
+    },
+    {
+      "character": "ECATspox",
+      "text@en": "Would you be interested in giving a workshop at ECAT?"
+    },
+    {
+      "character": "tt-spox",
+      "text@en": "We strongly dispute your findings."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Game over",
+      "var_changes": {
+        "game_over_win": 1
+      }
+    }
+  ]
+},
+{
+  "year": 25,
+  "conditions": [
+    {
+      "var": "stopped_experiment",
+      "min": 1
+    }
+  ],
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "Why are you staring at your screen like that?"
+    },
+    {
+      "character": "you",
+      "text@en": "I'm waiting for an email from TikTube."
+    },
+    {
+      "character": "you",
+      "text@en": "They promised they'd help me if I stopped my audit."
+    },
+    {
+      "character": "colleague",
+      "text@en": "You trusted them?"
+    },
+    {
+      "character": "colleague",
+      "text@en": "Seriously?"
+    },
+    {
+      "character": "you",
+      "text@en": "Did I make a mistake?"
+    },
+    {
+      "character": "editor",
+      "text@en": "So."
+    },
+    {
+      "character": "editor",
+      "text@en": "How's that audit going?"
+    },
+    {
+      "character": "you",
+      "text@en": "Well..."
+    },
+    {
+      "character": "you",
+      "text@en": "Can I start over?"
+    },
+    {
+      "character": "editor",
+      "text@en": "Listen, I'm running a newsroom."
+    },
+    {
+      "character": "editor",
+      "text@en": "Not a preschool."
+    },
+    {
+      "character": "editor",
+      "text@en": "This algorithmic accountability beat is nothing for you."
+    },
+    {
+      "character": "editor",
+      "text@en": "From now on, you'll do post-editing on texts that have been automatically generated by ChatGPT."
+    }
+  ],
+  "choices": [
+    {
+      "text@en": "Game over",
+      "var_changes": {
+        "game_over_final": 1
+      }
+    }
+  ]
+}

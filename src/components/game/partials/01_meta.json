@@ -59,6 +59,46 @@
       "private": true,
       "category": "choice"
     },
+    "manchego": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "brandt": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "experiment": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "ready_to_publish": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "more_time": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "doing_experiment": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "stopped_experiment": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "continued_experiment": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
     "game_over": {
       "value": 0,
       "private": true,
@@ -68,13 +108,19 @@
       "value": 0,
       "private": true,
       "category": "risk"
+    },
+    "game_over_win": {
+      "value": 0,
+      "private": true,
+      "category": "risk"
     }
   },
   "characters": {
     "editor": {
       "name@en": "Jeannette Wehunt",
       "title@en": "Editor-in-chief",
-      "avatar": "./images/avatars/editor.png"
+      "avatar": "./images/avatars/editor.png",
+      "color": "#f00"
     },
     "colleague": {
       "name@en": "Lisbet Swango",
@@ -121,6 +167,21 @@
       "title@en": "TikTube employee",
       "avatar": "./images/avatars/tt-employee.png"
     },
+    "manchego": {
+      "name@en": "Alois Manchego",
+      "title@en": "Professor, head of the AI accountability lab",
+      "avatar": "./images/avatars/manchego.png"
+    },
+    "brandt": {
+      "name@en": "Hiltrud Brandt",
+      "title@en": "Anthropologist",
+      "avatar": "./images/avatars/brandt.png"
+    },
+    "dev": {
+      "name@en": "Ant1G4F4m",
+      "title@en": "Computer developer",
+      "avatar": "./images/avatars/dev.png"
+    },
     "you": {
       "name@en": "You",
       "name@de": "Sie",
@@ -129,41 +190,69 @@
     }
   },
   "years": {
-    "1": {
+    "10": {
       "picture": "images/years/newsroom.png",
       "title@en": "An assignment"
     },
-    "2": {
+    "11": {
       "picture": "images/years/ecat.png",
       "title@en": "Day 1: ECAT"
     },
-    "3": {
+    "12": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 2"
     },
-    "4": {
+    "13": {
       "picture": "images/years/tt.png",
       "title@en": "Day 2: TikTube"
     },
-    "5": {
+    "14": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 2"
     },
-    "6": {
+    "15": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 3"
     },
-    "7": {
+    "16": {
       "picture": "images/years/teenagers.png",
       "title@en": "Day 3: Asking users"
     },
-    "8": {
+    "17": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 3"
     },
-    "9": {
+    "18": {
       "picture": "images/years/newsroom.png",
       "title@en": "Day 4: A surprise"
+    },
+    "19": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "Day 5"
+    },
+    "20": {
+      "picture": "images/years/campus.png",
+      "title@en": "Day 5: On campus"
+    },
+    "21": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "Day 5"
+    },
+    "22": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "Day 6"
+    },
+    "23": {
+      "picture": "images/years/experiment.png",
+      "title@en": "Day 6: The experiment"
+    },
+    "24": {
+      "picture": "images/years/tt.png",
+      "title@en": "Day 9: Problems"
+    },
+    "25": {
+      "picture": "images/years/newsroom.png",
+      "title@en": "Day 12"
     }
   },  
   "steps": [

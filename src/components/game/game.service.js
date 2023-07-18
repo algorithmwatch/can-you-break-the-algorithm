@@ -142,7 +142,7 @@ function gameService($log, $rootScope, Step, Var, Ending, Character, I18n, memoi
     findPicture(lastYear = this.step.year) {
       return this.memoize('findPicture', lastYear => {
         // Find the closest years
-        const year = _.chain(this.meta.years).keys().sort().findLast(y => {
+        const year = _.chain(this.meta.years).keys().map(Number).sort().findLast(y => {
           return y <= lastYear && this.meta.years[y].picture;
         });
         // Return the picture for this year

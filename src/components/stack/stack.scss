@@ -46,6 +46,12 @@
       border-radius: 3px;
     }
 
+    a {
+      color: inherit;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
     &__character {
       font-size: 0.8em;
       display: block;

@@ -1,5 +1,5 @@
 {
-  "year": 1,
+  "year": 10,
   "texts": [
     {
       "character": "editor",
@@ -56,7 +56,7 @@
   ]
 },
 {
-  "year": 1,
+  "year": 10,
   "texts": [
     {
       "character": "editor",
@@ -91,7 +91,7 @@
   ]
 },
 {
-  "year": 1,
+  "year": 10,
   "helper":[
     {"character": "colleague",
       "text@en": "[ECAT|ECAT]."
@@ -140,7 +140,7 @@
     },
     {
       "character": "colleague",
-      "text@en": "[Check your inbox|ECAT] before you call."
+      "text@en": "You might want to [check your inbox|ECAT] before you call."
     }
   ],
   "choices": [
@@ -159,7 +159,7 @@
   ]
 },
 {
-  "year": 2,
+  "year": 11,
   "texts": [
     {
       "character": "ECATspox",
@@ -194,7 +194,7 @@
   ]
 },
 {
-  "year": 2,
+  "year": 11,
   "texts": [
     {
       "character": "ECATspox",
@@ -227,7 +227,12 @@
         },
         {
           "character": "ECATspox",
-          "text@en": "I'll be happy to assisst you again in the future."
+          "text@en": "Thanks for contacting ECAT."
+        }
+        ,
+        {
+          "character": "ECATspox",
+          "text@en": "We wish you good luck in your reporting."
         }
       ]
     },
@@ -260,6 +265,10 @@
         {
           "character": "ECATspox",
           "text@en": "Thanks for contacting ECAT."
+        },
+        {
+          "character": "ECATspox",
+          "text@en": "We wish you good luck in your reporting."
         }
       ]
     }

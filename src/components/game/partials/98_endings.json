@@ -5,7 +5,14 @@
       "var": "game_over_final",
       "min": 1
     },
-    "text@en":""
+    "text@en":"You did not crack TikTube's algorithm, but it's unlikely anyone can."
+  },
+  {
+    "condition": {
+      "var": "game_over_win",
+      "min": 1
+    },
+    "text@en":"<h2>Congratulations</h2>You did not crack TikTube's algorithm, but now you know that it makes no sense to talk of <i>cracking</i> an algorithm.<br/><br/>You did, however, bring new facts to the public, which will help users and decision-makers better understand how large platforms work."
   }
 ],
   

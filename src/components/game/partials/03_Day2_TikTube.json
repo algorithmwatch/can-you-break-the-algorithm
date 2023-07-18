@@ -1,9 +1,9 @@
 {
-  "year": 3,
-  "condition": {
-    "var": "dataAccess",
-    "max": 0
-  },
+  "year": 12,
+  "conditions": [{
+      "var": "dataAccess",
+      "max": 0
+    }],
   "texts": [
     {
       "character": "colleague",
@@ -16,7 +16,7 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "According to the Digital Services Act, ECAT has no clue about TikTube."
+          "text@en": "ECAT has no clue about TikTube."
         },
         {
           "character": "colleague",
@@ -44,11 +44,11 @@
   ]
 },
 {
-  "year": 3,
-  "condition": {
-    "var": "dataAccess",
-    "min": 1
-  },
+  "year": 12,
+  "conditions": [{
+      "var": "dataAccess",
+      "min": 1
+    }],
   "texts": [
     {
       "character": "colleague",
@@ -61,7 +61,7 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "According to the Digital Services Act, I'm afraid ECAT has no clue about TikTube."
+          "text@en": "I'm afraid ECAT has no clue about TikTube."
         },
         {
           "character": "colleague",
@@ -93,7 +93,7 @@
   ]
 },
 {
-  "year": 3,
+  "year": 12,
   "helper":[
     {
       "character": "colleague",
@@ -112,6 +112,10 @@
     {
       "character": "colleague",
       "text@en": "He's a former journalist, I know him well."
+    },
+    {
+      "character": "colleague",
+      "text@en": "Compared to him, ECAT's spokesperson is helpful."
     },
     {
       "character": "colleague",
@@ -134,7 +138,7 @@
   ]
 },
 {
-  "year": 4,
+  "year": 13,
   "texts": [
     {
       "character": "tt-spox",
@@ -223,11 +227,11 @@
   ]
 },
 {
-  "year": 4,
-  "condition": {
-    "var": "tt-spox-explains-algorithm",
-    "min": 1
-  },
+  "year": 13,
+  "conditions": [{
+      "var": "tt-spox-explains-algorithm",
+      "min": 1
+    }],
   "choices": [
     {
       "text@en": "Thanks!",
@@ -279,18 +283,22 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "Thanks for your interest! ☺️"
+          "text@en": "Thanks for your interest ☺️"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "And say hi to Lisbet for me!"
         }
       ]
     }
   ]
 },
 {
-  "year": 4,
-  "condition": {
-    "var": "tt-spox-mental-health",
-    "min": 1
-  },
+  "year": 13,
+  "conditions": [{
+      "var": "tt-spox-mental-health",
+      "min": 1
+    }],
   "choices": [
     {
       "text@en": "You haven't answered my question.",
@@ -322,14 +330,22 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "Professor <b>Alois Manchego</b> will soon release a study which you will find interesting.."
+          "text@en": "Professor <b>Alois Manchego</b> will soon release a study which you will find interesting."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Thanks for your interest ☺️"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "And say hi to Lisbet for me!"
         }
       ]
     }
   ]
 },
 {
-  "year": 5,
+  "year": 14,
   "texts": [
     {
       "character": "editor",
@@ -394,7 +410,7 @@
   ]
 },
 {
-  "year": 5,
+  "year": 14,
   "choices": [
     {
       "text@en": "Thank you boss.",
