@@ -239,11 +239,6 @@
       "var":"brandt",
       "min": 1
     }],
-  "helper":[
-    {"character": "brandt",
-      "text@en": "[AlgorithmicAudits|AlgorithmicAudits]."
-      }
-  ],
   "texts": [
     {
       "character": "brandt",
@@ -272,7 +267,42 @@
     {
       "character": "brandt",
       "text@en": "Exactly."
+    }
+  ],
+  "choices" : [
+    {
+      "text@en": "Which of these systems should I investigate?",
+      "feedback": [
+        {
+          "character": "brandt",
+          "text@en": "This is a question for you to answer."
+        }
+      ]
     },
+    {
+      "text@en": "Please go on.",
+      "var_changes": {
+        "brandt_continue": 1
+      }
+    }
+  ]
+},
+{
+  "year": 20,
+  "conditions": [{
+      "var":"brandt",
+      "min": 1
+    },
+    {
+      "var": "brandt_continue",
+      "min": 1
+    }],
+  "helper":[
+    {"character": "brandt",
+      "text@en": "[AlgorithmicAudits|AlgorithmicAudits]."
+      }
+  ],
+  "texts": [
     {
       "character": "brandt",
       "text@en": "Not only are there many algorithms – plural."
@@ -341,7 +371,7 @@
       ]
     },
     {
-      "text@en": "So, what can I find out?",
+      "text@en": "So, how do I rephrase my question?",
       "var_changes": {
         "experiment" : 1
       },

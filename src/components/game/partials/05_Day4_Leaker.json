@@ -159,6 +159,18 @@
           "text@en": "A former colleague will contact you soon."
         },
         {
+          "character": "you",
+          "text@en": "Lisbet, is that enough to check the veracity of the docs?"
+        },
+        {
+          "character": "colleague",
+          "text@en": "Two sources are better than one. Three better than two. You get the idea."
+        },
+        {
+          "character": "leaker-colleague",
+          "text@en": "Pssst..."
+        },
+        {
           "character": "leaker-colleague",
           "text@en": "I've been told to contact you."
         },

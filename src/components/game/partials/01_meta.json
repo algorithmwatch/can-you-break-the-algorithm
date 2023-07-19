@@ -104,6 +104,11 @@
       "private": true,
       "category": "choice"
     },
+    "brandt_continue": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
     "game_over": {
       "value": 0,
       "private": true,
@@ -205,7 +210,7 @@
     },
     "12": {
       "picture": "images/years/newsroom.png",
-      "title@en": "Day 2"
+      "title@en": "Day 2, 9am"
     },
     "13": {
       "picture": "images/years/tt.png",
@@ -213,11 +218,11 @@
     },
     "14": {
       "picture": "images/years/newsroom.png",
-      "title@en": "Day 2"
+      "title@en": "Day 2, 4pm"
     },
     "15": {
       "picture": "images/years/newsroom.png",
-      "title@en": "Day 3"
+      "title@en": "Day 3, 9am"
     },
     "16": {
       "picture": "images/years/teenagers.png",
@@ -225,7 +230,7 @@
     },
     "17": {
       "picture": "images/years/newsroom.png",
-      "title@en": "Day 3"
+      "title@en": "Day 3, 4pm"
     },
     "18": {
       "picture": "images/years/newsroom.png",
@@ -233,7 +238,7 @@
     },
     "19": {
       "picture": "images/years/newsroom.png",
-      "title@en": "Day 5"
+      "title@en": "Day 5, 9am"
     },
     "20": {
       "picture": "images/years/campus.png",
@@ -241,11 +246,11 @@
     },
     "21": {
       "picture": "images/years/newsroom.png",
-      "title@en": "Day 5"
+      "title@en": "Day 5, 4pm"
     },
     "22": {
       "picture": "images/years/newsroom.png",
-      "title@en": "Day 6"
+      "title@en": "Day 6, 9am"
     },
     "23": {
       "picture": "images/years/experiment.png",
