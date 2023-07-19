@@ -135,10 +135,6 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "Has TikTube ever surprised you?"
-        },
-        {
-          "character": "you",
           "text@en": "Does TikTube's algorithm ever surprise you?"
         },
         {
