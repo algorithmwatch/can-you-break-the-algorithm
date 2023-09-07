@@ -5,7 +5,7 @@
       "var": "game_over_final",
       "min": 1
     },
-    "text@en":"You did not crack TikTube's algorithm, but it's unlikely anyone can."
+    "text@en":"<h2>You lost!</h2>Cracking TikTube's algorithm is impossible, but journalists can investigate much more thoroughly than you did this time. Try again!"
   },
   {
     "condition": {

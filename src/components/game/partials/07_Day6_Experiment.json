@@ -38,7 +38,7 @@
     {
       "text@en" : "Thanks.",
       "var_changes" : {
-        "time_left" : -1,
+        "time_left" : -4,
         "sources_contacted": 1
       },
       "feedback" : [
@@ -168,7 +168,7 @@
     {
       "text@en" : "Looking forward.",
       "var_changes": {
-        "time_left" : -3
+        "time_left" : -4
       },
       "feedback": [
         {
@@ -216,7 +216,7 @@
       "text@en" : "Sure.",
       "var_changes" : {
         "stopped_experiment": 1,
-        "time_left" : -3
+        "time_left" : -4
       },
       "feedback": [
         {
@@ -236,7 +236,7 @@
     {
       "text@en" : "No way.",
       "var_changes": {
-        "time_left" : -3,
+        "time_left" : -4,
         "continued_experiment": 1
       },
       "feedback": [
@@ -414,7 +414,7 @@
     },
     {
       "character": "editor",
-      "text@en": "This algorithmic accountability beat is nothing for you."
+      "text@en": "This algorithmic accountability beat is too hard for you."
     },
     {
       "character": "editor",

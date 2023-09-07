@@ -1,9 +1,9 @@
 {
   "app": {
     "title": "Can you break the algorithm?",
-    "url": "https://jplusplus.github.io/the-accountant/",
+    "url": "https://algorithmwatch.github.io/can-you-break-the-algorithm/",
     "description": "You're a journalist. A new app is taking its toll of the mental health of teenagers. Find out how its algorithm works.",
-    "image": "https://jplusplus.github.io/the-accountant/images/share-en.png",
+    "image": "https://algorithmwatch.github.io/can-you-break-the-algorithm/images/share-en.png",
     "share": {
       "tweet": {
         "via": "AlgorithmWatch",
@@ -15,7 +15,7 @@
     "back": "Back to the game",
     "intro": {
       "heading": "Can you break <br />the algorithm?",
-      "meta": "— by <a href='http://jplusplus.org' target='_blank'>AlgorithmWatch</a>",
+      "meta": "— by <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
       "description": "<p>You're a journalist. A new app is taking its toll of the mental health of teenagers. Find out how its algorithm works.</p><p>Every example in the game is based on real cases.</p>",
       "new-game": "Start a new game",
       "continue": "Continue"
@@ -38,9 +38,9 @@
       },
       "share": {
         "label": "Share",
-        "twitter": "Share on Twitter",
-        "facebook": "Share on Facebook",
-        "reddit": "Share on Reddit"
+        "whatsapp": "Share over email",
+        "linkedin": "Share on LinkedIn",
+        "mastodon": "Share on Mastodon"
       }
     },
     "hints": {

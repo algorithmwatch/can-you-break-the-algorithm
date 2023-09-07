@@ -33,7 +33,7 @@
         },
         {
           "character": "colleague",
-          "text@en": "That's the point of many press officers."
+          "text@en": "Stonewalling is the actual job of many spokespersons."
         },
         {
           "character": "colleague",
@@ -82,7 +82,7 @@
         },
         {
           "character": "colleague",
-          "text@en": "And you just have one day left."
+          "text@en": "And I highly doubt the boss will wait that long."
         },
         {
           "character": "you",
@@ -115,7 +115,7 @@
     },
     {
       "character": "colleague",
-      "text@en": "Compared to him, ECAT's spokesperson is helpful."
+      "text@en": "Compared to him, Émeline Bonfils at ECAT gives scoops."
     },
     {
       "character": "colleague",
@@ -126,7 +126,7 @@
     {
       "text@en": "Thanks",
       "var_changes": {
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -267,7 +267,7 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "TikTube’s recommendation system drops in diverse types of content along with those you already know you love."
+          "text@en": "TikTube’s recommendation system drops in diverse types of content along with those we already know you love."
         },
         {
           "character": "tt-spox",
@@ -283,7 +283,7 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "Thanks for your interest ☺️"
+          "text@en": "Thanks for your call ☺️"
         },
         {
           "character": "tt-spox",
@@ -309,11 +309,11 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "☺️"
+          "text@en": "I'll be happy to answer any additional request you send me ☺️"
         },
         {
           "character": "tt-spox",
-          "text@en": "Bye!"
+          "text@en": "You have my number!"
         }
       ]
     },
@@ -395,11 +395,15 @@
         },
         {
           "character": "editor",
-          "text@en": "Did you double check what he said?"
+          "text@en": "Did you double-check what he said?"
         },
         {
           "character": "you",
           "text@en": "I'm afraid I haven't."
+        },
+        {
+          "character": "editor",
+          "text@en": "🙄"
         },
         {
           "character": "editor",
@@ -415,7 +419,7 @@
     {
       "text@en": "Thank you boss.",
       "var_changes": {
-        "time_left": 1
+        "time_left": 5
       },
       "feedback": [
         {

@@ -59,6 +59,11 @@
       "private": true,
       "category": "choice"
     },
+    "leaker_verify": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
     "manchego": {
       "value": 0,
       "private": true,
@@ -100,6 +105,11 @@
       "category": "choice"
     },
     "finances_AIlab": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "finances_AIlab_push": {
       "value": 0,
       "private": true,
       "category": "choice"
@@ -201,67 +211,67 @@
   },
   "years": {
     "10": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "An assignment"
     },
     "11": {
-      "picture": "images/years/ecat.png",
+      "picture": "images/years/ecat.jpg",
       "title@en": "Day 1: ECAT"
     },
     "12": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 2, 9am"
     },
     "13": {
-      "picture": "images/years/tt.png",
+      "picture": "images/years/tt.jpg",
       "title@en": "Day 2: TikTube"
     },
     "14": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 2, 4pm"
     },
     "15": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 3, 9am"
     },
     "16": {
-      "picture": "images/years/teenagers.png",
+      "picture": "images/years/teenagers.jpg",
       "title@en": "Day 3: Asking users"
     },
     "17": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 3, 4pm"
     },
     "18": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 4: A surprise"
     },
     "19": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 5, 9am"
     },
     "20": {
-      "picture": "images/years/campus.png",
+      "picture": "images/years/campus.jpg",
       "title@en": "Day 5: On campus"
     },
     "21": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 5, 4pm"
     },
     "22": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 6, 9am"
     },
     "23": {
-      "picture": "images/years/experiment.png",
+      "picture": "images/years/experiment.jpg",
       "title@en": "Day 6: The experiment"
     },
     "24": {
-      "picture": "images/years/tt.png",
+      "picture": "images/years/tt.jpg",
       "title@en": "Day 9: Problems"
     },
     "25": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 12"
     }
   },  

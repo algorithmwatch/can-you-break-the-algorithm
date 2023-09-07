@@ -42,17 +42,17 @@
     <div class="main__toolbar__share__label">
       <span data-fittext="1" translate>main.toolbar.share.label</span>
     </div>
-    <a class="main__toolbar__share__button" href="#" socialshare socialshare-provider="twitter" socialshare-url="{{'app.url' | translate}}" socialshare-via="{{ 'app.share.tweet.via' | translate }}" socialshare-text="{{ 'app.share.tweet.text' | translate }}" translate-attr="{title: 'main.toolbar.share.twitter'}">
-      <i class="fa fa-twitter fa-fw"></i>
-      <span class="sr-only" translate>main.toolbar.share.twitter</span>
+    <a class="main__toolbar__share__button" href="mailto:?subject={{'app.title' | translate}}&amp;body={{'app.description' | translate}}\n\n{{'app.url' | translate}}">
+      <i class="fa fa-solid fa-envelope"></i>
+      <span class="sr-only" translate>main.toolbar.share.email</span>
     </a>
-    <a class="main__toolbar__share__button" href="#" socialshare socialshare-provider="facebook" socialshare-url="{{'app.url' | translate}}" translate-attr="{title: 'main.toolbar.share.facebook'}">
-      <i class="fa fa-facebook fa-fw"></i>
-      <span class="sr-only" translate>main.toolbar.share.facebook</span>
+    <a class="main__toolbar__share__button" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?title={{'app.title' | translate}}&source=AlgorithmWatch&url={{'app.url' | translate}}">
+      <i class="fa fa-brands fa-linkedin"></i>
+      <span class="sr-only" translate>main.toolbar.share.linkedin</span>
     </a>
-    <a class="main__toolbar__share__button" href="#" socialshare socialshare-provider="reddit" socialshare-url="{{'app.url' | translate}}" translate-attr="{title: 'main.toolbar.share.reddit'}">
-      <i class="fa fa-reddit fa-fw"></i>
-      <span class="sr-only" translate>main.toolbar.share.reddit</span>
+    <a class="main__toolbar__share__button" href="https://api.whatsapp.com/send?phone=&text={{'app.title' | translate}}%20{{'app.url' | translate}}">
+      <i class="fa fa-brands fa-whatsapp"></i>
+      <span class="sr-only" translate>main.toolbar.share.whatsapp</span>
     </a>
   </div>
 </div>

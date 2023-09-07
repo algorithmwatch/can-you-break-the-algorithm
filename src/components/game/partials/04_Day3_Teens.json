@@ -28,7 +28,7 @@
     },
     {
       "character": "colleague",
-      "text@en": "I don't have time now, but I'll send you an e-mail."
+      "text@en": "I wrote something about it a while ago, I'll send it to you over e-mail."
     },
     {
       "character": "colleague",
@@ -44,7 +44,7 @@
       "text@en": "My nephew.",
       "var_changes": {
         "teen-nephew": 1,
-        "time_left": -1,
+        "time_left": -4,
         "sources_contacted": 1
       },
       "feedback": [
@@ -57,7 +57,7 @@
     {
       "text@en": "No.",
       "var_changes": {
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -165,7 +165,7 @@
         },
         {
           "character": "you",
-          "text@en": "I'll leave now, you seem busy."
+          "text@en": "I'll leave you alone now, you seem busy."
         }
       ]
     }
@@ -327,7 +327,7 @@
     {
       "text@en": "I need more time.",
       "var_changes": {
-        "time_left": 2
+        "time_left": 8
       },
       "feedback": [
         {
@@ -362,7 +362,7 @@
     {
       "text@en": "I need more time.",
       "var_changes": {
-        "time_left": 2
+        "time_left": 8
       },
       "feedback": [
         {
@@ -481,7 +481,7 @@
     {
       "text@en": "I need more time.",
       "var_changes": {
-        "time_left": 2
+        "game_over": 1
       },
       "feedback": [
         {
@@ -490,11 +490,15 @@
         },
         {
           "character": "editor",
-          "text@en": "You have two more days."
+          "text@en": "Let's see..."
         },
         {
           "character": "editor",
-          "text@en": "Not more."
+          "text@en": "You talked to 3 people and one of them is YOUR NEPHEW?"
+        },
+        {
+          "character": "editor",
+          "text@en": "Just go back to whatever it was you did before, and take it as a favor from me."
         }
       ]
     },

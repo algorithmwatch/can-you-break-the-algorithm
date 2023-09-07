@@ -1,5 +1,10 @@
 {
   "year": 18,
+  "helper":[
+    {"character": "colleague",
+      "text@en": "[Sources|Sources]."
+      }
+  ],
   "texts": [
     {
       "character": "leaker",
@@ -10,8 +15,24 @@
       "text@en": "I'm a former employee at TikTube."
     },
     {
+      "character": "colleague",
+      "text@en": "That could be explosive."
+    },
+    {
+      "character": "colleague",
+      "text@en": "But be careful to double-check."
+    },
+    {
+      "character": "colleague",
+      "text@en": "Some colleagues got caught with fake leaks in the past. [Check your inbox for more|Sources]."
+    },
+    {
       "character": "leaker",
       "text@en": "I have some documents that might interest you."
+    },
+    {
+      "character": "leaker",
+      "text@en": "Wanna look at them?"
     }
   ],
   "choices": [
@@ -20,7 +41,7 @@
       "var_changes": {
         "leaker_yes": 1,
         "sources_contacted": 1,
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -33,7 +54,7 @@
       "text@en": "Can you prove who you are?",
       "var_changes": {
         "leaker_prove": 1,
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -51,17 +72,13 @@
         {
           "character": "colleague",
           "text@en": "Anyone could fake this."
-        },
-        {
-          "character": "colleague",
-          "text@en": "You'll need to double-check anything they send."
         }
       ]
     },
     {
       "text@en": "Not interested. That would be against the law on trade secrets.",
       "var_changes": {
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -84,7 +101,7 @@
     }],
   "choices": [
     {
-      "text@en": "Yes.",
+      "text@en": "I know.",
       "var_changes": {
         "leaker_yes": 1,
         "sources_contacted": 1
@@ -92,7 +109,7 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "Thanks, will do."
+          "text@en": "I know, I'll double-check."
         }
       ]
     }
@@ -147,7 +164,8 @@
     {
       "text@en": "Who can confirm that they're genuine?",
       "var_changes" : {
-        "sources_contacted": 1
+        "sources_contacted": 1,
+        "leaker_verify": 1
       },
       "feedback": [
         {
@@ -157,14 +175,6 @@
         {
           "character": "leaker",
           "text@en": "A former colleague will contact you soon."
-        },
-        {
-          "character": "you",
-          "text@en": "Lisbet, is that enough to check the veracity of the docs?"
-        },
-        {
-          "character": "colleague",
-          "text@en": "Two sources are better than one. Three better than two. You get the idea."
         },
         {
           "character": "leaker-colleague",

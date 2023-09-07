@@ -59,6 +59,11 @@
       "private": true,
       "category": "choice"
     },
+    "leaker_verify": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
     "manchego": {
       "value": 0,
       "private": true,
@@ -100,6 +105,11 @@
       "category": "choice"
     },
     "finances_AIlab": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
+    "finances_AIlab_push": {
       "value": 0,
       "private": true,
       "category": "choice"
@@ -201,67 +211,67 @@
   },
   "years": {
     "10": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "An assignment"
     },
     "11": {
-      "picture": "images/years/ecat.png",
+      "picture": "images/years/ecat.jpg",
       "title@en": "Day 1: ECAT"
     },
     "12": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 2, 9am"
     },
     "13": {
-      "picture": "images/years/tt.png",
+      "picture": "images/years/tt.jpg",
       "title@en": "Day 2: TikTube"
     },
     "14": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 2, 4pm"
     },
     "15": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 3, 9am"
     },
     "16": {
-      "picture": "images/years/teenagers.png",
+      "picture": "images/years/teenagers.jpg",
       "title@en": "Day 3: Asking users"
     },
     "17": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 3, 4pm"
     },
     "18": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 4: A surprise"
     },
     "19": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 5, 9am"
     },
     "20": {
-      "picture": "images/years/campus.png",
+      "picture": "images/years/campus.jpg",
       "title@en": "Day 5: On campus"
     },
     "21": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 5, 4pm"
     },
     "22": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 6, 9am"
     },
     "23": {
-      "picture": "images/years/experiment.png",
+      "picture": "images/years/experiment.jpg",
       "title@en": "Day 6: The experiment"
     },
     "24": {
-      "picture": "images/years/tt.png",
+      "picture": "images/years/tt.jpg",
       "title@en": "Day 9: Problems"
     },
     "25": {
-      "picture": "images/years/newsroom.png",
+      "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 12"
     }
   },  
@@ -339,7 +349,7 @@
     {
       "text@en": "Sure, boss.",
       "var_changes": {
-        "time_left": 2
+        "time_left": 10
       },
       "feedback": [
         {
@@ -407,12 +417,20 @@
     {
       "text@en": "Thanks",
       "var_changes": {
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
           "character": "you",
           "text@en": "Thanks, I'll read it attentively."
+        },
+        {
+          "character": "colleague",
+          "text@en": "In the meantime, I'll tell some people about your investigation."
+        },
+        {
+          "character": "colleague",
+          "text@en": "Maybe someone will come forward with information."
         }
       ]
     }
@@ -569,7 +587,7 @@
         },
         {
           "character": "colleague",
-          "text@en": "That's the point of many press officers."
+          "text@en": "Stonewalling is the actual job of many spokespersons."
         },
         {
           "character": "colleague",
@@ -618,7 +636,7 @@
         },
         {
           "character": "colleague",
-          "text@en": "And you just have one day left."
+          "text@en": "And I highly doubt the boss will wait that long."
         },
         {
           "character": "you",
@@ -651,7 +669,7 @@
     },
     {
       "character": "colleague",
-      "text@en": "Compared to him, ECAT's spokesperson is helpful."
+      "text@en": "Compared to him, Émeline Bonfils at ECAT gives scoops."
     },
     {
       "character": "colleague",
@@ -662,7 +680,7 @@
     {
       "text@en": "Thanks",
       "var_changes": {
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -803,7 +821,7 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "TikTube’s recommendation system drops in diverse types of content along with those you already know you love."
+          "text@en": "TikTube’s recommendation system drops in diverse types of content along with those we already know you love."
         },
         {
           "character": "tt-spox",
@@ -819,7 +837,7 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "Thanks for your interest ☺️"
+          "text@en": "Thanks for your call ☺️"
         },
         {
           "character": "tt-spox",
@@ -845,11 +863,11 @@
         },
         {
           "character": "tt-spox",
-          "text@en": "☺️"
+          "text@en": "I'll be happy to answer any additional request you send me ☺️"
         },
         {
           "character": "tt-spox",
-          "text@en": "Bye!"
+          "text@en": "You have my number!"
         }
       ]
     },
@@ -931,11 +949,15 @@
         },
         {
           "character": "editor",
-          "text@en": "Did you double check what he said?"
+          "text@en": "Did you double-check what he said?"
         },
         {
           "character": "you",
           "text@en": "I'm afraid I haven't."
+        },
+        {
+          "character": "editor",
+          "text@en": "🙄"
         },
         {
           "character": "editor",
@@ -951,7 +973,7 @@
     {
       "text@en": "Thank you boss.",
       "var_changes": {
-        "time_left": 1
+        "time_left": 5
       },
       "feedback": [
         {
@@ -992,7 +1014,7 @@
     },
     {
       "character": "colleague",
-      "text@en": "I don't have time now, but I'll send you an e-mail."
+      "text@en": "I wrote something about it a while ago, I'll send it to you over e-mail."
     },
     {
       "character": "colleague",
@@ -1008,7 +1030,7 @@
       "text@en": "My nephew.",
       "var_changes": {
         "teen-nephew": 1,
-        "time_left": -1,
+        "time_left": -4,
         "sources_contacted": 1
       },
       "feedback": [
@@ -1021,7 +1043,7 @@
     {
       "text@en": "No.",
       "var_changes": {
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -1129,7 +1151,7 @@
         },
         {
           "character": "you",
-          "text@en": "I'll leave now, you seem busy."
+          "text@en": "I'll leave you alone now, you seem busy."
         }
       ]
     }
@@ -1291,7 +1313,7 @@
     {
       "text@en": "I need more time.",
       "var_changes": {
-        "time_left": 2
+        "time_left": 8
       },
       "feedback": [
         {
@@ -1326,7 +1348,7 @@
     {
       "text@en": "I need more time.",
       "var_changes": {
-        "time_left": 2
+        "time_left": 8
       },
       "feedback": [
         {
@@ -1445,7 +1467,7 @@
     {
       "text@en": "I need more time.",
       "var_changes": {
-        "time_left": 2
+        "game_over": 1
       },
       "feedback": [
         {
@@ -1454,11 +1476,15 @@
         },
         {
           "character": "editor",
-          "text@en": "You have two more days."
+          "text@en": "Let's see..."
         },
         {
           "character": "editor",
-          "text@en": "Not more."
+          "text@en": "You talked to 3 people and one of them is YOUR NEPHEW?"
+        },
+        {
+          "character": "editor",
+          "text@en": "Just go back to whatever it was you did before, and take it as a favor from me."
         }
       ]
     },
@@ -1520,6 +1546,11 @@
   ]
 },{
   "year": 18,
+  "helper":[
+    {"character": "colleague",
+      "text@en": "[Sources|Sources]."
+      }
+  ],
   "texts": [
     {
       "character": "leaker",
@@ -1530,8 +1561,24 @@
       "text@en": "I'm a former employee at TikTube."
     },
     {
+      "character": "colleague",
+      "text@en": "That could be explosive."
+    },
+    {
+      "character": "colleague",
+      "text@en": "But be careful to double-check."
+    },
+    {
+      "character": "colleague",
+      "text@en": "Some colleagues got caught with fake leaks in the past. [Check your inbox for more|Sources]."
+    },
+    {
       "character": "leaker",
       "text@en": "I have some documents that might interest you."
+    },
+    {
+      "character": "leaker",
+      "text@en": "Wanna look at them?"
     }
   ],
   "choices": [
@@ -1540,7 +1587,7 @@
       "var_changes": {
         "leaker_yes": 1,
         "sources_contacted": 1,
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -1553,7 +1600,7 @@
       "text@en": "Can you prove who you are?",
       "var_changes": {
         "leaker_prove": 1,
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -1571,17 +1618,13 @@
         {
           "character": "colleague",
           "text@en": "Anyone could fake this."
-        },
-        {
-          "character": "colleague",
-          "text@en": "You'll need to double-check anything they send."
         }
       ]
     },
     {
       "text@en": "Not interested. That would be against the law on trade secrets.",
       "var_changes": {
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
@@ -1604,7 +1647,7 @@
     }],
   "choices": [
     {
-      "text@en": "Yes.",
+      "text@en": "I know.",
       "var_changes": {
         "leaker_yes": 1,
         "sources_contacted": 1
@@ -1612,7 +1655,7 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "Thanks, will do."
+          "text@en": "I know, I'll double-check."
         }
       ]
     }
@@ -1667,7 +1710,8 @@
     {
       "text@en": "Who can confirm that they're genuine?",
       "var_changes" : {
-        "sources_contacted": 1
+        "sources_contacted": 1,
+        "leaker_verify": 1
       },
       "feedback": [
         {
@@ -1677,14 +1721,6 @@
         {
           "character": "leaker",
           "text@en": "A former colleague will contact you soon."
-        },
-        {
-          "character": "you",
-          "text@en": "Lisbet, is that enough to check the veracity of the docs?"
-        },
-        {
-          "character": "colleague",
-          "text@en": "Two sources are better than one. Three better than two. You get the idea."
         },
         {
           "character": "leaker-colleague",
@@ -1710,6 +1746,10 @@
   "conditions": [{
       "var": "leaker_yes",
       "min": 1
+    },
+    {
+      "var": "leaker_verify",
+      "min": 1
     }],
   "texts": [
     {
@@ -1724,6 +1764,54 @@
         {
           "character": "you",
           "text@en": "Thanks. Couldn't have done it without you."
+        }
+      ]
+    }
+  ]
+},
+{
+  "year": 19,
+  "conditions": [{
+      "var": "leaker_yes",
+      "min": 1
+    },
+    {
+      "var": "leaker_verify",
+      "max": 0
+    }],
+  "texts": [
+    {
+      "character": "colleague",
+      "text@en": "You've got yourself a nice scoop with this leak."
+    },
+    {
+      "character": "colleague",
+      "text@en": "But you didn't double-check the info."
+    },
+    {
+      "character": "colleague",
+      "text@en": "Publishing that would be very risky."
+    }
+  ],
+  "choices" : [
+    {
+      "text@en": "Really?",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Really?"
+        },
+        {
+          "character": "you",
+          "text@en": "It looked legit to me."
+        },
+        {
+          "character": "colleague",
+          "text@en": "Fake sources are a thing."
+        },
+        {
+          "character": "colleague",
+          "text@en": "You really should [read my emails|Sources]."
         }
       ]
     }
@@ -1746,7 +1834,7 @@
       "text@en": "Prof. Alois Manchego, head of the AI accountability lab",
       "var_changes": {
         "manchego": 1,
-        "time_left": -1,
+        "time_left": -4,
         "sources_contacted": 1
       }
     },
@@ -1754,7 +1842,7 @@
       "text@en": "Hiltrud Brandt, PhD",
       "var_changes": {
         "brandt": 1,
-        "time_left": -1,
+        "time_left": -4,
         "sources_contacted": 1
       }
     }
@@ -1886,6 +1974,72 @@
           {
             "character": "manchego",
             "text@en": "And they recognize that I'm a leading authority in the field."
+          },
+          {
+            "character": "manchego",
+            "text@en": "I'll now excuse myself."
+          },
+          {
+            "character": "manchego",
+            "text@en": "I have to give an interview to CNN."
+          }
+        ]
+      }
+  ]
+},
+{
+  "year": 20,
+  "conditions": [{
+      "var":"manchego",
+      "min": 1
+    },
+    {
+      "var":"finances_AIlab",
+      "min": 1
+    }],
+  "choices" : [
+    {
+      "text@en": "Thanks",
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Thank you professor."
+        },
+        {
+          "character": "you",
+          "text@en": "This is illuminating."
+        },
+        {
+          "character": "manchego",
+          "text@en": "I'll now excuse myself."
+        },
+        {
+          "character": "manchego",
+          "text@en": "I have to give an interview to CNN."
+        }
+      ]
+    },
+    {
+      "text@en": "Do these companies have a right of regard on your research?",
+      "var_changes": {
+        "finances_AIlab_push": 1
+      },
+      "feedback": [
+          {
+            "character": "you",
+            "text@en": "Do these companies have a right of regard on your research?"
+          },
+          {
+            "character": "manchego",
+            "text@en": "Of course. I send them an advance copy of everything we publish."
+          },
+          {
+            "character": "manchego",
+            "text@en": "He who pays must get something in return, is it not fair?"
+          },
+          {
+            "character": "manchego",
+            "text@en": "But it never happened that my work displeased them."
           },
           {
             "character": "manchego",
@@ -2200,7 +2354,7 @@
         },
         {
           "character": "editor",
-          "text@en": "This algorithmic accountability beat is nothing for you."
+          "text@en": "The algorithmic accountability beat is too hard for you."
         },
         {
           "character": "editor",
@@ -2217,7 +2371,7 @@
       "min": 1
     },
     {
-      "var": "finances_AIlab",
+      "var": "finances_AIlab_push",
       "min": 1
     }],
   "texts": [
@@ -2299,7 +2453,7 @@
         },
         {
           "character": "manchego",
-          "text@en": "I'll see you in court."
+          "text@en": "This is slander. I'll see you in court."
         }
       ]
     },
@@ -2323,7 +2477,7 @@
         },
         {
           "character": "editor",
-          "text@en": "This algorithmic accountability beat is nothing for you."
+          "text@en": "This algorithmic accountability beat is too hard for you."
         },
         {
           "character": "editor",
@@ -2371,7 +2525,7 @@
         "min": 5
     },
     {
-        "var": "leaker_yes",
+        "var": "leaker_verify",
         "min": 1
     },
     {
@@ -2406,7 +2560,7 @@
       "text@en": "Thank you, boss",
       "var_changes" : {
         "doing_experiment": 1,
-        "time_left": 7
+        "time_left": 10
       },
       "feedback": [
         {
@@ -2453,7 +2607,7 @@
         },
         {
           "character": "editor",
-          "text@en": "This algorithmic accountability beat is nothing for you."
+          "text@en": "This algorithmic accountability beat is too hard for you."
         },
         {
           "character": "editor",
@@ -2479,7 +2633,7 @@
         },
         {
           "character": "editor",
-          "text@en": "This algorithmic accountability beat is nothing for you."
+          "text@en": "This algorithmic accountability beat is too hard for you."
         },
         {
           "character": "editor",
@@ -2755,7 +2909,7 @@
     {
       "text@en" : "Thanks.",
       "var_changes" : {
-        "time_left" : -1,
+        "time_left" : -4,
         "sources_contacted": 1
       },
       "feedback" : [
@@ -2885,7 +3039,7 @@
     {
       "text@en" : "Looking forward.",
       "var_changes": {
-        "time_left" : -3
+        "time_left" : -4
       },
       "feedback": [
         {
@@ -2933,7 +3087,7 @@
       "text@en" : "Sure.",
       "var_changes" : {
         "stopped_experiment": 1,
-        "time_left" : -3
+        "time_left" : -4
       },
       "feedback": [
         {
@@ -2953,7 +3107,7 @@
     {
       "text@en" : "No way.",
       "var_changes": {
-        "time_left" : -3,
+        "time_left" : -4,
         "continued_experiment": 1
       },
       "feedback": [
@@ -3131,7 +3285,7 @@
     },
     {
       "character": "editor",
-      "text@en": "This algorithmic accountability beat is nothing for you."
+      "text@en": "This algorithmic accountability beat is too hard for you."
     },
     {
       "character": "editor",
@@ -3153,7 +3307,7 @@
       "var": "game_over_final",
       "min": 1
     },
-    "text@en":"You did not crack TikTube's algorithm, but it's unlikely anyone can."
+    "text@en":"<h2>You lost!</h2>Cracking TikTube's algorithm is impossible, but journalists can investigate much more thoroughly than you did this time. Try again!"
   },
   {
     "condition": {
@@ -3175,6 +3329,10 @@
     "AlgorithmicImaginaries": {
       "title@en": "Subject: Algorithmic imaginaries",
       "body@en": "<p>Hi colleague,</p><p>People who use or are subjected to automated systems don't have access to the black boxes anymore than you do. But they have plenty of experience.</p><p>Sometimes, they do manage to pull out actions based on it, like when TikTokers managed to <a href='https://archive.is/SsGxu' target='_blank'>sink a far-right event in 2020</a> by fake-registering then not showing up.</p><p>But most of the time, this hands-on knowledge is fleeting. One YouTuber thought he'd cracked the TikTok algorithm, for instance, only to later realize that <a href='https://r.algorithmwatch.org/nl3/12S3npamH6ovXuqgdZQczg' target='_blank'>he had not</a>.</p><p>This is what academics call <b>algorithmic imaginaries</b>: What people think about an automated system. Even if the beliefs of users are not based in fact, these beliefs exist and must be taken into account in your reporting.</p><p>Cheers,</p><p>Lisbet</p>"
+    },
+    "Sources": {
+      "title@en": "Subject: Double-check your sources",
+      "body@en": "<p>Hi colleague,</p><p>In this trade, you cannot blindly trust people.</p><p>Whenever a person shares a fact with you, you need to double-check it, by asking someone or finding a document that confirms the initial statement.</p><p>The risk of being lied to is not hypothetical. In October 2022, <i>The Wire</i> published an explosive revelation about Meta... based on fake screenshots. <a href='https://www.theverge.com/2022/10/26/23425377/the-wire-subject-deception-member-team-meta-india' target='_blank'>They had to retract the story</a>.</p><p>Cheers,</p><p>Lisbet</p>"
     },
     "AlgorithmicAudits": {
       "title@en": "Subject: Auditing an automated system",

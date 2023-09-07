@@ -71,7 +71,7 @@
     {
       "text@en": "Sure, boss.",
       "var_changes": {
-        "time_left": 2
+        "time_left": 10
       },
       "feedback": [
         {
@@ -139,12 +139,20 @@
     {
       "text@en": "Thanks",
       "var_changes": {
-        "time_left": -1
+        "time_left": -4
       },
       "feedback": [
         {
           "character": "you",
           "text@en": "Thanks, I'll read it attentively."
+        },
+        {
+          "character": "colleague",
+          "text@en": "In the meantime, I'll tell some people about your investigation."
+        },
+        {
+          "character": "colleague",
+          "text@en": "Maybe someone will come forward with information."
         }
       ]
     }
