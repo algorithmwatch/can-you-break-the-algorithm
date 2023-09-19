@@ -2,42 +2,51 @@
   "year": 18,
   "helper":[
     {"character": "colleague",
-      "text@en": "[Sources|Sources]."
+      "text@en": "[Sources|Sources].",
+      "text@de": ""
       }
   ],
   "texts": [
     {
       "character": "leaker",
-      "text@en": "Hi there."
+      "text@en": "Hi there.",
+      "text@de": "Hallo."
     },
     {
       "character": "leaker",
-      "text@en": "I'm a former employee at TikTube."
+      "text@en": "I'm a former employee at TikTube.",
+      "text@de": "Ich habe früher für TikTube gearbeitet."
     },
     {
       "character": "colleague",
-      "text@en": "That could be explosive."
+      "text@en": "That could be explosive.",
+      "text@de": "Mein Material könnte wie eine Bombe hochgehen."
     },
     {
       "character": "colleague",
-      "text@en": "But be careful to double-check."
+      "text@en": "But be careful to double-check.",
+      "text@de": "Aber Sie sollten die Sache unbedingt selber nochmal prüfen."
     },
     {
       "character": "colleague",
-      "text@en": "Some colleagues got caught with fake leaks in the past. [Check your inbox for more|Sources]."
+      "text@en": "Some colleagues got caught with fake leaks in the past. [Check your inbox for more|Sources].",
+      "text@de": "In der Vergangenheit sind immer wieder gefälschte Dokumente geleakt worden. Schau in die [Mail|Immer mindestens zwei Quellen], die ich dir dazu geschickt habe."
     },
     {
       "character": "leaker",
-      "text@en": "I have some documents that might interest you."
+      "text@en": "I have some documents that might interest you.",
+      "text@de": "Ich habe einige Dokumente, die Sie interessieren könnten."
     },
     {
       "character": "leaker",
-      "text@en": "Wanna look at them?"
+      "text@en": "Wanna look at them?",
+      "text@de": "Wollen Sie einen Blick drauf werfen?"
     }
   ],
   "choices": [
     {
       "text@en": "Please share.",
+      "text@de": "Ich möchte sie gerne sehen.",
       "var_changes": {
         "leaker_yes": 1,
         "sources_contacted": 1,
@@ -46,12 +55,14 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "Yes, please!"
+          "text@en": "Yes, please!",
+          "text@de": "Ja, bitte!"
         }
       ]
     },
     {
       "text@en": "Can you prove who you are?",
+      "text@de": "Können Sie mir Ihre Identität bestätigen?",
       "var_changes": {
         "leaker_prove": 1,
         "time_left": -4
@@ -59,35 +70,42 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "Can you prove who you say you are?"
+          "text@en": "Can you prove who you say you are?",
+          "text@de": "Können Sie beweisen, dass Sie wirklich der sind, als der Sie sich ausgeben?"
         },
         {
           "character": "leaker",
-          "text@en": "Here's a screenshot of my e-mail inbox at TikTube."
+          "text@en": "Here's a screenshot of my e-mail inbox at TikTube.",
+          "text@de": "Hier ist ein Screenshot vom Posteingang meiner TikTube-Mailadresse."
         },
         {
           "character": "leaker",
-          "text@en": "<img src='images/email-inbox.png' style='max-width:100%' width=500 height=auto alt='An image of an e-mail inbox'/>"
+          "text@en": "<img src='images/email-inbox.png' style='max-width:100%' width=500 height=auto alt='An image of an e-mail inbox'/>",
+          "text@de": "<img src='images/email-inbox.png' style='max-width:100%' width=500 height=auto alt='Posteingang-Bild'/>"
         },
         {
           "character": "colleague",
-          "text@en": "Anyone could fake this."
+          "text@en": "Anyone could fake this.",
+          "text@de": "Das lässt sich leicht fälschen."
         }
       ]
     },
     {
       "text@en": "Not interested. That would be against the law on trade secrets.",
+      "text@de": "Ich bin nicht interessiert. Das würde gegen den gesetzlichen Schutz von Geschäftsgeheimnissen verstoßen.",
       "var_changes": {
         "time_left": -4
       },
       "feedback": [
         {
           "character": "you",
-          "text@en": "Thanks, but I'll pass."
+          "text@en": "Thanks, but I'll pass.",
+          "text@de": "Danke, aber ich bin nicht interessiert."
         },
         {
           "character": "you",
-          "text@en": "I'm afraid the law on trade secrets prevents me from accepting."
+          "text@en": "I'm afraid the law on trade secrets prevents me from accepting.",
+          "text@de": "Ich muss leider ablehnen. Geschäftsgeheimnisse sind gesetzlich geschützt."
         }
       ]
     }
@@ -102,6 +120,7 @@
   "choices": [
     {
       "text@en": "I know.",
+      "text@de": "Ich weiß.",
       "var_changes": {
         "leaker_yes": 1,
         "sources_contacted": 1
@@ -109,7 +128,8 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "I know, I'll double-check."
+          "text@en": "I know, I'll double-check.",
+          "text@de": "Ich weiß. Ich werde es prüfen."
         }
       ]
     }
@@ -124,45 +144,55 @@
   "texts": [
     {
       "character": "leaker",
-      "text@en": "I was in the ethics team at TikTube."
+      "text@en": "I was in the ethics team at TikTube.",
+      "text@de": "Ich gehörte bei TikTube zum Ethik-Team."
     },
     {
       "character": "leaker",
-      "text@en": "We did research on our impact on mental health."
+      "text@en": "We did research on our impact on mental health.",
+      "text@de": "Wir haben Studien zum Einfluss von TikTube auf die geistige Gesundheit durchgeführt."
     },
     {
       "character": "leaker",
-      "text@en": "The team was disbanded in early 2023."
+      "text@en": "The team was disbanded in early 2023.",
+      "text@de": "Das Team wurde Anfang 2023 aufgelöst."
     },
     {
       "character": "leaker",
-      "text@en": "Here are some slides from an internal presentation I made last year."
+      "text@en": "Here are some slides from an internal presentation I made last year.",
+      "text@de": "Hier sind ein paar Folien einer internen Präsentation aus dem letzten Jahr."
     },
     {
       "character": "leaker",
-      "text@en": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='A slide with text: survey from users show negative effect on mental health.'/>"
+      "text@en": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='A slide with text: survey from users show negative effect on mental health.'/>",
+      "text@de": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='Folie mit Aufschrift: Umfrage unter Nutzern bestätigt negative Auswirkungen auf mentale Verfassung.'/>"
     },
     {
       "character": "leaker",
-      "text@en": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='A slide with text: Teens notably sadder after using the app.'/>"
+      "text@en": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='A slide with text: Teens notably sadder after using the app.'/>",
+      "text@de": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='Folie mit Aufschrift: Die App ruft nachweislich bei Teenagern Depressionen hervor.'/>"
     }
   ],
   "choices": [
     {
       "text@en": "Thanks.",
+      "text@de": "Danke.",
       "feedback": [
         {
           "character": "you",
-          "text@en": "Wow, that's heavy."
+          "text@en": "Wow, that's heavy.",
+          "text@de": "Wow, das ist eine Riesensache."
         },
         {
           "character": "you",
-          "text@en": "Thanks."
+          "text@en": "Thanks.",
+          "text@de": "Danke."
         }
       ]
     },
     {
       "text@en": "Who can confirm that they're genuine?",
+      "text@de": "Wer kann mir bestätigen, dass die Dokumente echt sind?",
       "var_changes" : {
         "sources_contacted": 1,
         "leaker_verify": 1
@@ -170,27 +200,33 @@
       "feedback": [
         {
           "character": "you",
-          "text@en": "How can I confirm that they're not fake?"
+          "text@en": "How can I confirm that they're not fake?",
+          "text@de": "Wie kann ich sicher sein, dass die Dokumente echt sind?"
         },
         {
           "character": "leaker",
-          "text@en": "A former colleague will contact you soon."
+          "text@en": "A former colleague will contact you soon.",
+          "text@de": "Ein früherer Kollege von mir wird sich bald bei Ihnen melden."
         },
         {
           "character": "leaker-colleague",
-          "text@en": "Pssst..."
+          "text@en": "Pssst...",
+          "text@de": "Pssst..."
         },
         {
           "character": "leaker-colleague",
-          "text@en": "I've been told to contact you."
+          "text@en": "I've been told to contact you.",
+          "text@de": "Ich sollte mich bei Ihnen melden."
         },
         {
           "character": "leaker-colleague",
-          "text@en": "What you saw appears genuine."
+          "text@en": "What you saw appears genuine.",
+          "text@de": "Die Dokumente, die Sie gesehen haben, scheinen echt zu sein."
         },
         {
           "character": "leaker-colleague",
-          "text@en": "You never talked to me."
+          "text@en": "You never talked to me.",
+          "text@de": "Wir haben aber nie miteinander gesprochen."
         }
       ]
     }

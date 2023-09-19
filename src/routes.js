@@ -1,6 +1,3 @@
-import _ from 'lodash';
-import Uri from 'jsuri';
-
 /** @ngInject */
 module.exports.routesConfig = function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
   $locationProvider.html5Mode(false).hashPrefix('');
@@ -50,21 +47,4 @@ module.exports.routesConfig = function routesConfig($stateProvider, $urlRouterPr
         }
       }
     });
-};
-
-/** @ngInject */
-module.exports.gaRun = function gaRun($transitions, $window, $location) {
-  // Redirect to login if route requires auth and you're not logged in
-  $transitions.onSuccess({}, transition => {
-    const identifier = transition.targetState().identifier();
-    // Build parameters string
-    const uri = _.reduce(transition.targetState().params(), (uri, value, key) => {
-      return uri.addQueryParam(key, value);
-    }, new Uri($location.url()));
-    // Send 'pageview' to Google Analytics
-    $window.ga('send', 'pageview', {
-      name: identifier.name || identifier,
-      page: uri.toString()
-    });
-  });
 };

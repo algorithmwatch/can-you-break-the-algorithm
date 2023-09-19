@@ -3,53 +3,65 @@
   "texts": [
     {
       "character": "editor",
-      "text@en": "Hi there, welcome to the newsroom!"
+      "text@en": "Hi there, welcome to the newsroom!",
+      "text@de": "Hallo, willkommen in unserer Redaktion!"
     },
     {
       "character": "editor",
-      "text@en": "I hear you're the new algorithmic accountability reporter."
+      "text@en": "I hear you're the new algorithmic accountability reporter.",
+      "text@de": "Du bist also die*der neue Reporter*in für algorithmische Rechenschaft. "
     },
     {
       "character": "editor",
-      "text@en": "Whatever that means."
+      "text@en": "Whatever that means.",
+      "text@de": "Was immer das heißen soll. "
     },
     {
       "character": "editor",
-      "text@en": "I've got a tip for you."
+      "text@en": "I've got a tip for you.",
+      "text@de": "Ich hab gleich was für dich."
     },
     {
       "character": "editor",
-      "text@en": "Ever heard of TikTube?"
+      "text@en": "Ever heard of TikTube?",
+      "text@de": "Schonmal was von TikTube gehört?"
     }
   ],
   "choices": [
     {
       "text@en": "Of course.",
+      "text@de": "Klar.",
       "feedback": [
         {
           "character": "you",
-          "text@en": "Of course, it's the social app all teenagers are on."
+          "text@en": "Of course, it's the social app all teenagers are on.",
+          "text@de": "Klar, das ist diese App für Teenager."
         },
         {
           "character": "editor",
-          "text@en": "You're not as clueless as I thought."
+          "text@en": "You're not as clueless as I thought.",
+          "text@de": "Du bist also gar nicht so verplant wie du aussiehst."
         }
       ]
     },
     {
       "text@en": "What's that?",
+      "text@de": "Was ist das?",
       "feedback": [
         {
           "character": "you",
-          "text@en": "I'm afraid I haven't."
+          "text@en": "I'm afraid I haven't.",
+          "text@de": "Leider nicht."
         },
         {
           "character": "editor",
-          "text@en": "TikTube is the social media platform all teenagers are on."
+          "text@en": "TikTube is the social media platform all teenagers are on.",
+          "text@de": "TikTube ist die Social-Media-Plattform, auf der sich die ganzen Teenager rumtreiben."
         },
         {
           "character": "editor",
-          "text@en": "Everyone in this newsroom knows that."
+          "text@en": "Everyone in this newsroom knows that.",
+          "text@de": "Das gehört hier in der Redaktion zum Allgemeinwissen."
         }
       ]
     }
@@ -60,31 +72,37 @@
   "texts": [
     {
       "character": "editor",
-      "text@en": "I've heard that TikTube's algorithm is making teenagers sad."
+      "text@en": "I've heard that TikTube's algorithm is making teenagers sad.",
+      "text@de": "Ich habe gehört, dass der TikTube-Algorithmus Teenager depressiv macht."
     },
     {
       "character": "editor",
-      "text@en": "Find out if that's true."
+      "text@en": "Find out if that's true.",
+      "text@de": "Find heraus, ob das stimmt."
     }
   ],
   "choices": [
     {
       "text@en": "Sure, boss.",
+      "text@de": "Alles klar, ich mach mich sofort an die Arbeit.",
       "var_changes": {
         "time_left": 10
       },
       "feedback": [
         {
           "character": "you",
-          "text@en": "Thank you, I'll do my best."
+          "text@en": "Thank you, I'll do my best.",
+          "text@de": "Danke, ich werd mein Bestes geben."
         },
         {
           "character": "editor",
-          "text@en": "You have 2 days."
+          "text@en": "You have 2 days.",
+          "text@de": "In zwei Tagen will ich Ergebnisse sehen."
         },
         {
           "character": "editor",
-          "text@en": "Because you're new, I'm pairing you with our senior reporter on Artificial Intelligence."
+          "text@en": "Because you're new, I'm pairing you with our senior reporter on Artificial Intelligence.",
+          "text@de": "Weil du neu bist, wirst du mit der KI-Chefreporterin zusammenarbeiten."
         }
       ]
     }
@@ -94,65 +112,79 @@
   "year": 10,
   "helper":[
     {"character": "colleague",
-      "text@en": "[ECAT|ECAT]."
+      "text@en": "[ECAT|ECAT].",
+      "text@de": ""
       }
     ],
   "texts": [
     {
       "character": "colleague",
-      "text@en": "Hello colleague."
+      "text@en": "Hello colleague.",
+      "text@de": "Hallo Neuankömmling."
     },
     {
       "character": "colleague",
-      "text@en": "The editor-in-chief is tough, but she's fair."
+      "text@en": "The editor-in-chief is tough, but she's fair.",
+      "text@de": "Die Chefredakteurin ist eigentlich ganz in Ordnung."
     },
     {
       "character": "colleague",
-      "text@en": "... to people who give her good stories, at least."
+      "text@en": "... to people who give her good stories, at least.",
+      "text@de": "Solange du was Brauchbares ablieferst."
     },
     {
       "character": "colleague",
-      "text@en": "You should start by asking the European Center for Algorithmic Transparency."
+      "text@en": "You should start by asking the European Center for Algorithmic Transparency.",
+      "text@de": "Frag zuerst im Europäischen Zentrum für algorithmische Transparenz nach."
     },
     {
       "character": "you",
-      "text@en": "The European center for what?"
+      "text@en": "The European center for what?",
+      "text@de": "Was für ein Europäisches Zentrum?"
     },
     {
       "character": "colleague",
-      "text@en": "Wait, let me write you an e-mail."
+      "text@en": "Wait, let me write you an e-mail.",
+      "text@de": "Warte mal, ich schick dir 'ne Mail."
     },
     {
       "character": "you",
-      "text@en": "That's nice of you."
+      "text@en": "That's nice of you.",
+      "text@de": "Das ist nett von dir."
     },
     {
       "character": "colleague",
-      "text@en": "It'll be faster for me."
+      "text@en": "It'll be faster for me.",
+      "text@de": "So ist's auch leichter für mich."
     },
     {
       "character": "colleague",
-      "text@en": "You might want to [check your inbox|ECAT] before you call."
+      "text@en": "You might want to [check your inbox|ECAT] before you call.",
+      "text@de": "Schau dir die [Mail|ECAT] genau an, bevor du dort anrufst."
     }
   ],
   "choices": [
     {
       "text@en": "Thanks",
+      "text@de": "Danke!",
       "var_changes": {
         "time_left": -4
       },
       "feedback": [
         {
           "character": "you",
-          "text@en": "Thanks, I'll read it attentively."
+          "text@en": "Thanks, I'll read it attentively.",
+          "text@de": "Danke, ich werde mir alles genau durchlesen."
         },
         {
           "character": "colleague",
-          "text@en": "In the meantime, I'll tell some people about your investigation."
+          "text@en": "In the meantime, I'll tell some people about your investigation.",
+          "text@de": "In der Zwischenzeit werde ich ein paar Leuten von deiner Recherche erzählen."
         },
         {
           "character": "colleague",
-          "text@en": "Maybe someone will come forward with information."
+          "text@en": "Maybe someone will come forward with information.",
+          "text@de": "Vielleicht hat ja jemand Informationen für dich."
         }
       ]
     }
@@ -163,31 +195,36 @@
   "texts": [
     {
       "character": "ECATspox",
-      "text@en": "Hello, what can I do for you?"
+      "text@en": "Hello, what can I do for you?",
+      "text@de": "Hallo, was kann ich für Sie tun?"
     }
   ],
   "choices": [
     {
       "text@en": "How does the TikTube algorithm work?",
+      "text@de": "Können Sie mir sagen, wie der TikTube-Algorithmus funktioniert?",
       "var_changes": {
         "sources_contacted": 1
       },
       "feedback": [
         {
           "character": "you",
-          "text@en": "How does the TikTube algorithm work?"
+          "text@en": "How does the TikTube algorithm work?",
+          "text@de": "Können Sie mir sagen, wie der TikTube-Algorithmus funktioniert?"
         }
       ]
     },
     {
       "text@en": "Does TikTube's algorithm make teenagers sad?",
+      "text@de": "Macht der TikTube-Algorithmus Teenager depressiv?",
       "var_changes": {
         "sources_contacted": 1
       },
       "feedback": [
         {
           "character": "you",
-          "text@en": "Does TikTube's algorithm make teenagers sad?"
+          "text@en": "Does TikTube's algorithm make teenagers sad?",
+          "text@de": "Macht der TikTube-Algorithmus Teenager depressiv?"
         }
       ]
     }
@@ -198,77 +235,94 @@
   "texts": [
     {
       "character": "ECATspox",
-      "text@en": "According to the Digital Services Act, ECAT is committed to shedding light on algorithms that impact European citizens."
+      "text@en": "According to the Digital Services Act, ECAT is committed to shedding light on algorithms that impact European citizens.",
+      "text@de": "Dem Digital Services Act zufolge soll das Europäische Zentrum für algorithmische Transparenz über Algorithmen aufklären, die Folgen für die europäische Bevölkerung haben."
     },
     {
       "character": "ECATspox",
-      "text@en": "We are building a team of many specialists for this task."
+      "text@en": "We are building a team of many specialists for this task.",
+      "text@de": "Wir stellen dafür gerade ein Team aus Spezialist*innen auf."
     },
     {
       "character": "ECATspox",
-      "text@en": "But I can't comment on specific cases."
+      "text@en": "But I can't comment on specific cases.",
+      "text@de": "Über Einzelfälle kann ich allerdings nichts sagen."
     },      
     {
       "character": "ECATspox",
-      "text@en": "However, you can ask TikTube for data access."
+      "text@en": "However, you can ask TikTube for data access.",
+      "text@de": "Sie können aber bei TikTube die entsprechenden Daten anfordern."
     }
   ],
   "choices": [
     {
       "text@en": "You didn't answer my question.",
+      "text@de": "Sie haben meine Frage nicht beantwortet.",
       "feedback": [
         {
           "character": "you",
-          "text@en": "You didn't answer my question."
+          "text@en": "You didn't answer my question.",
+          "text@de": "Sie haben meine Frage nicht beantwortet."
         },
         {
           "character": "ECATspox",
-          "text@en": "According to the Regulation 1049/2001, you can make a request for more information."
+          "text@en": "According to the Regulation 1049/2001, you can make a request for more information.",
+          "text@de": "Nach der Verordnung 1049/2001 steht Ihnen das Recht zu, einen Antrag auf nähere Informationen zu stellen."
         },
         {
           "character": "ECATspox",
-          "text@en": "Thanks for contacting ECAT."
+          "text@en": "Thanks for contacting ECAT.",
+          "text@de": "Vielen Dank, dass Sie sich an das Europäische Zentrum für algorithmische Transparenz gewendet haben."
         }
         ,
         {
           "character": "ECATspox",
-          "text@en": "We wish you good luck in your reporting."
+          "text@en": "We wish you good luck in your reporting.",
+          "text@de": "Wir wünschen Ihnen viel Erfolg bei Ihrer Recherche."
         }
       ]
     },
     {
       "text@en": "How can I ask for access?",
+      "text@de": "Wie stelle ich einen Datenzugriff-Antrag?",
       "var_changes": {
         "dataAccess": 1
       },
       "feedback": [
         {
           "character": "you",
-          "text@en": "How can I ask for access?"
+          "text@en": "How can I ask for access?",
+          "text@de": "Wie stelle ich einen Datenzugriff-Antrag?"
         },
         {
           "character": "ECATspox",
-          "text@en": "According to the Digital Services Act, you simply need to team up with a researcher at a university."
+          "text@en": "According to the Digital Services Act, you simply need to team up with a researcher at a university.",
+          "text@de": "Nach dem Digital Services Act müssen Sie einfach mit jemandem aus der universitären Forschung zusammenarbeiten."
         },
         {
           "character": "ECATspox",
-          "text@en": "Then make a request to your national Digital Services Coordinator."
+          "text@en": "Then make a request to your national Digital Services Coordinator.",
+          "text@de": "Den Antrag reichen Sie dann bei Ihrer nationalen Aufsichtsbehörde für Plattformregulierung ein, dem Digital Services Coordinator."
         },
         {
           "character": "ECATspox",
-          "text@en": "They will forward it to the Irish Digital Services Coordinator, because TikTube is based in Ireland."
+          "text@en": "They will forward it to the Irish Digital Services Coordinator, because TikTube is based in Ireland.",
+          "text@de": "Die deutsche Behörde leitet den Antrag an den irischen Digital Services Coordinator weiter, weil TikTube seinen Sitz in Irland hat."
         },
         {
           "character": "ECATspox",
-          "text@en": "If the Irish agree, you'll be able to request the data from TikTube."
+          "text@en": "If the Irish agree, you'll be able to request the data from TikTube.",
+          "text@de": "Wenn die irische Behörde grünes Licht gibt, können Sie die Daten bei TikTube anfordern."
         },
         {
           "character": "ECATspox",
-          "text@en": "Thanks for contacting ECAT."
+          "text@en": "Thanks for contacting ECAT.",
+          "text@de": "Vielen Dank, dass Sie sich an das Europäische Zentrum für algorithmische Transparenz gewendet haben."
         },
         {
           "character": "ECATspox",
-          "text@en": "We wish you good luck in your reporting."
+          "text@en": "We wish you good luck in your reporting.",
+          "text@de": "Wir wünschen Ihnen viel Erfolg bei Ihrer Recherche."
         }
       ]
     }
