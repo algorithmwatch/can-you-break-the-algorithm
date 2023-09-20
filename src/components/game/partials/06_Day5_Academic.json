@@ -12,7 +12,7 @@
     {
       "character": "colleague",
       "text@en": "You've got yourself a nice scoop with this leak.",
-      "text@de": "Sie sind mit diesem Leak auf eine große Story gestoßen."
+      "text@de": "Du bist mit diesem Leak auf eine große Story gestoßen."
     }
   ],
   "choices" : [
@@ -23,7 +23,7 @@
         {
           "character": "you",
           "text@en": "Thanks. Couldn't have done it without you.",
-          "text@de": "Danke. Ihr Anteil an der Story ist genauso groß wie meiner."
+          "text@de": "Danke. Dein Anteil an der Story ist genauso groß wie meiner."
         }
       ]
     }
@@ -79,7 +79,7 @@
         {
           "character": "colleague",
           "text@en": "You really should [read my emails|Sources].",
-          "text@de": "Du solltest wirklich meine [Mail|Immer mindestens zwei Quellen] lesen."
+          "text@de": "Du solltest wirklich meine [Mail|Sources] lesen."
         }
       ]
     }
@@ -130,7 +130,7 @@
     {
       "character": "manchego",
       "text@en": "Hello. I'm professor Manchego.",
-      "text@de": "Hallo. I'm professor Manchego."
+      "text@de": "Hallo. Ich bin Professor Manchego."
     },
     {
       "character": "manchego",
@@ -272,16 +272,6 @@
             "character": "manchego",
             "text@en": "And they recognize that I'm a leading authority in the field.",
             "text@de": "Und wie ich bereits erwähnte, bin ich auf diesem Gebiet eine Kapazität."
-          },
-          {
-            "character": "manchego",
-            "text@en": "I'll now excuse myself.",
-            "text@de": "Leider muss ich mich nun von Ihnen verabschieden."
-          },
-          {
-            "character": "manchego",
-            "text@en": "I have to give an interview to CNN.",
-            "text@de": "Ich muss CNN noch ein Interview geben. "
           }
         ]
       }
@@ -462,6 +452,11 @@
       "text@de": "Welches von diesen Systemen sollte ich mir genauer anschauen?",
       "feedback": [
         {
+          "character": "you",
+          "text@en": "Which of these systems should I investigate?",
+          "text@de": "Welches von diesen Systemen sollte ich mir genauer anschauen?"
+        },
+        {
           "character": "brandt",
           "text@en": "This is a question for you to answer.",
           "text@de": "Diese Frage müssen Sie für sich entscheiden."
@@ -473,7 +468,14 @@
       "text@de": "Was sollte ich dabei beachten?",
       "var_changes": {
         "brandt_continue": 1
-      }
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Please go on.",
+          "text@de": "Was sollte ich dabei beachten?"
+        }
+      ]
     }
   ]
 },
@@ -621,7 +623,7 @@
           {
             "character": "brandt",
             "text@en": "Auditing algorithms is a complex thing. [I'll send you an email with more examples|AlgorithmicAudits].",
-            "text@de": "Algorithmen zu prüfen ist eine komplexe Angelegenheit. Ich schicke Ihnen dazu noch eine [Mail|Wie ein automatisiertes System geprüft wird]."
+            "text@de": "Algorithmen zu prüfen ist eine komplexe Angelegenheit. Ich schicke Ihnen dazu noch eine [Mail|AlgorithmicAudits]."
           },
           {
             "character": "you",
@@ -639,7 +641,7 @@
       "min": 1
     },
     {
-      "var": "finances_AIlab",
+      "var": "finances_AIlab_push",
       "max": 0
     }],
   "texts": [

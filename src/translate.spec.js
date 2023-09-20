@@ -37,7 +37,7 @@ describe('config: translate', () => {
       $stateProvider.state('foo.bar', {});
       // Configure languages
       $translateProvider.translations('en', {});
-      $translateProvider.translations('fr', {});
+      $translateProvider.translations('de', {});
       $translateProvider.preferredLanguage('en');
     });
     // Mock the app
@@ -54,8 +54,8 @@ describe('config: translate', () => {
   it("should use the right language", () => {
     $translate.use('en');
     expect($translate.use()).toBe('en');
-    $translate.use('fr');
-    expect($translate.use()).toBe('fr');
+    $translate.use('de');
+    expect($translate.use()).toBe('de');
   });
 
   it("should use the fallback language", () => {

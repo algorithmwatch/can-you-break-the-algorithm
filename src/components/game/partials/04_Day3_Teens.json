@@ -258,7 +258,7 @@
     },
     {
       "text@en": "I'm a journalist researching TikTube.",
-      "text@de": "Ich bin Journalist*in und mache eine Recherche über TikTube.",
+      "text@de": "Ich bin Journalistin und mache eine Recherche über TikTube.",
       "var_changes": {
         "sources_contacted": 3,
         "teens_spoke" : 1
@@ -267,7 +267,7 @@
         {
           "character": "you",
           "text@en": "I'm a journalist researching TikTube.",
-          "text@de": "Ich bin Journalist*in und mache eine Recherche über TikTube."
+          "text@de": "Ich bin Journalistin und mache eine Recherche über TikTube."
         },
         {
           "character": "you",
@@ -391,23 +391,13 @@
       "text@en": "I need more time.",
       "text@de": "Ich brauche noch etwas Zeit.",
       "var_changes": {
-        "time_left": 8
+        "more_time_teens": 1
       },
       "feedback": [
         {
           "character": "you",
           "text@en": "Not much, I need more time.",
           "text@de": "Nicht viel, ich brauche noch etwas Zeit."
-        },
-        {
-          "character": "editor",
-          "text@en": "You have two more days.",
-          "text@de": "Du hast noch zwei Tage."
-        },
-        {
-          "character": "editor",
-          "text@en": "Not more.",
-          "text@de": "Nicht mehr."
         }
       ]
     }
@@ -418,6 +408,10 @@
   "conditions": [{
       "var": "teens_spoke",
       "min": 1
+    },
+    {
+      "var": "more_time_teens",
+      "max": 0
     }],
   "texts": [
     {
@@ -548,6 +542,16 @@
 },
 {
   "year": 17,
+  "conditions": [
+    {
+      "var": "game_over",
+      "max": 0
+    },
+    {
+      "var": "teen-nephew",
+      "min": 1
+    }
+  ],
   "texts": [
     {
       "character": "editor",

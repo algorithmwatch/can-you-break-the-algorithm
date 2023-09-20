@@ -136,7 +136,7 @@
     {
       "character": "colleague",
       "text@en": "Compared to him, Émeline Bonfils at ECAT gives scoops.",
-      "text@de": "Im Vergleich zu ihm ist Émeline Bonfils vom Transparenzzentrum eine wahre Nachrichtenschleuder."
+      "text@de": "Im Vergleich zu ihm ist Émeline Bonfils vom ECAT eine wahre Nachrichtenschleuder."
     },
     {
       "character": "colleague",
@@ -468,7 +468,7 @@
         {
           "character": "you",
           "text@en": "Oti... I mean Otmar Kadlec, TikTube's spokesperson.",
-          "text@de": "Ich habe mit Oti.. ich meine Otmar Kadlec gesprochen, dem TikTube-Pressesprecher."
+          "text@de": "Ich habe mit Oti... ich meine Otmar Kadlec gesprochen, dem TikTube-Pressesprecher."
         },
         {
           "character": "editor",

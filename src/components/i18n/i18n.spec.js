@@ -7,7 +7,7 @@ import memoizeMixinService from '../memoize/memoize.service';
 describe('filter: i18n', () => {
   const fixture = {
     "title@en": "This is a title",
-    "title@fr": "C'est un titre",
+    "title@de": "C'est un titre",
     "name@en": "This is a name",
     "content@en": "This is a content",
     "body@en": "This is a body",
@@ -53,7 +53,7 @@ describe('filter: i18n', () => {
     const a = i18n.t;
     expect(a).toEqual(i18n.t);
     // Change language
-    $translate.use('fr');
+    $translate.use('de');
     // The hash is no more the same
     expect(a).not.toEqual(i18n.t);
   }));
@@ -61,7 +61,7 @@ describe('filter: i18n', () => {
   it('should get a different title in french', angular.mock.inject($translate => {
     expect(i18n.title).toEqual("This is a title");
     // Change language
-    $translate.use('fr');
+    $translate.use('de');
     // The title is no more the same
     expect(i18n.title).toEqual("C'est un titre");
   }));

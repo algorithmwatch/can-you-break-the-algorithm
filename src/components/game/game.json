@@ -793,7 +793,7 @@
     {
       "character": "colleague",
       "text@en": "Compared to him, Émeline Bonfils at ECAT gives scoops.",
-      "text@de": "Im Vergleich zu ihm ist Émeline Bonfils vom Transparenzzentrum eine wahre Nachrichtenschleuder."
+      "text@de": "Im Vergleich zu ihm ist Émeline Bonfils vom ECAT eine wahre Nachrichtenschleuder."
     },
     {
       "character": "colleague",
@@ -1125,7 +1125,7 @@
         {
           "character": "you",
           "text@en": "Oti... I mean Otmar Kadlec, TikTube's spokesperson.",
-          "text@de": "Ich habe mit Oti.. ich meine Otmar Kadlec gesprochen, dem TikTube-Pressesprecher."
+          "text@de": "Ich habe mit Oti... ich meine Otmar Kadlec gesprochen, dem TikTube-Pressesprecher."
         },
         {
           "character": "editor",
@@ -1563,23 +1563,13 @@
       "text@en": "I need more time.",
       "text@de": "Ich brauche noch etwas Zeit.",
       "var_changes": {
-        "time_left": 8
+        "more_time_teens": 1
       },
       "feedback": [
         {
           "character": "you",
           "text@en": "Not much, I need more time.",
           "text@de": "Nicht viel, ich brauche noch etwas Zeit."
-        },
-        {
-          "character": "editor",
-          "text@en": "You have two more days.",
-          "text@de": "Du hast noch zwei Tage."
-        },
-        {
-          "character": "editor",
-          "text@en": "Not more.",
-          "text@de": "Nicht mehr."
         }
       ]
     }
@@ -1590,6 +1580,10 @@
   "conditions": [{
       "var": "teens_spoke",
       "min": 1
+    },
+    {
+      "var": "more_time_teens",
+      "max": 0
     }],
   "texts": [
     {
@@ -1720,6 +1714,16 @@
 },
 {
   "year": 17,
+  "conditions": [
+    {
+      "var": "game_over",
+      "max": 0
+    },
+    {
+      "var": "teen-nephew",
+      "min": 1
+    }
+  ],
   "texts": [
     {
       "character": "editor",
@@ -1909,17 +1913,17 @@
     {
       "character": "colleague",
       "text@en": "That could be explosive.",
-      "text@de": "Mein Material könnte wie eine Bombe hochgehen."
+      "text@de": "Das Material könnte wie eine Bombe hochgehen."
     },
     {
       "character": "colleague",
       "text@en": "But be careful to double-check.",
-      "text@de": "Aber Sie sollten die Sache unbedingt selber nochmal prüfen."
+      "text@de": "Aber Du solltest die Sache unbedingt selber nochmal prüfen."
     },
     {
       "character": "colleague",
       "text@en": "Some colleagues got caught with fake leaks in the past. [Check your inbox for more|Sources].",
-      "text@de": "In der Vergangenheit sind immer wieder gefälschte Dokumente geleakt worden. Schau in die [Mail|Immer mindestens zwei Quellen], die ich dir dazu geschickt habe."
+      "text@de": "In der Vergangenheit sind immer wieder gefälschte Dokumente geleakt worden. Schau in die [Mail|Sources], die ich dir dazu geschickt habe."
     },
     {
       "character": "leaker",
@@ -2134,7 +2138,7 @@
     {
       "character": "colleague",
       "text@en": "You've got yourself a nice scoop with this leak.",
-      "text@de": "Sie sind mit diesem Leak auf eine große Story gestoßen."
+      "text@de": "Du bist mit diesem Leak auf eine große Story gestoßen."
     }
   ],
   "choices" : [
@@ -2145,7 +2149,7 @@
         {
           "character": "you",
           "text@en": "Thanks. Couldn't have done it without you.",
-          "text@de": "Danke. Ihr Anteil an der Story ist genauso groß wie meiner."
+          "text@de": "Danke. Dein Anteil an der Story ist genauso groß wie meiner."
         }
       ]
     }
@@ -2201,7 +2205,7 @@
         {
           "character": "colleague",
           "text@en": "You really should [read my emails|Sources].",
-          "text@de": "Du solltest wirklich meine [Mail|Immer mindestens zwei Quellen] lesen."
+          "text@de": "Du solltest wirklich meine [Mail|Sources] lesen."
         }
       ]
     }
@@ -2252,7 +2256,7 @@
     {
       "character": "manchego",
       "text@en": "Hello. I'm professor Manchego.",
-      "text@de": "Hallo. I'm professor Manchego."
+      "text@de": "Hallo. Ich bin Professor Manchego."
     },
     {
       "character": "manchego",
@@ -2394,16 +2398,6 @@
             "character": "manchego",
             "text@en": "And they recognize that I'm a leading authority in the field.",
             "text@de": "Und wie ich bereits erwähnte, bin ich auf diesem Gebiet eine Kapazität."
-          },
-          {
-            "character": "manchego",
-            "text@en": "I'll now excuse myself.",
-            "text@de": "Leider muss ich mich nun von Ihnen verabschieden."
-          },
-          {
-            "character": "manchego",
-            "text@en": "I have to give an interview to CNN.",
-            "text@de": "Ich muss CNN noch ein Interview geben. "
           }
         ]
       }
@@ -2584,6 +2578,11 @@
       "text@de": "Welches von diesen Systemen sollte ich mir genauer anschauen?",
       "feedback": [
         {
+          "character": "you",
+          "text@en": "Which of these systems should I investigate?",
+          "text@de": "Welches von diesen Systemen sollte ich mir genauer anschauen?"
+        },
+        {
           "character": "brandt",
           "text@en": "This is a question for you to answer.",
           "text@de": "Diese Frage müssen Sie für sich entscheiden."
@@ -2595,7 +2594,14 @@
       "text@de": "Was sollte ich dabei beachten?",
       "var_changes": {
         "brandt_continue": 1
-      }
+      },
+      "feedback": [
+        {
+          "character": "you",
+          "text@en": "Please go on.",
+          "text@de": "Was sollte ich dabei beachten?"
+        }
+      ]
     }
   ]
 },
@@ -2743,7 +2749,7 @@
           {
             "character": "brandt",
             "text@en": "Auditing algorithms is a complex thing. [I'll send you an email with more examples|AlgorithmicAudits].",
-            "text@de": "Algorithmen zu prüfen ist eine komplexe Angelegenheit. Ich schicke Ihnen dazu noch eine [Mail|Wie ein automatisiertes System geprüft wird]."
+            "text@de": "Algorithmen zu prüfen ist eine komplexe Angelegenheit. Ich schicke Ihnen dazu noch eine [Mail|AlgorithmicAudits]."
           },
           {
             "character": "you",
@@ -2761,7 +2767,7 @@
       "min": 1
     },
     {
-      "var": "finances_AIlab",
+      "var": "finances_AIlab_push",
       "max": 0
     }],
   "texts": [
@@ -3993,8 +3999,8 @@
     "ECAT": {
       "title@en": "Subject: The European Center for Algorithmic Transparency",
       "title@de": "Betreff: Das Europäische Zentrum für algorithmische Transparenz",
-      "body@en": "<p>Hello colleague,</p><p>As I told you, here's a short helper about ECAT.</p><p>ECAT opened in April 2023 in Sevilla, Spain. It should grow to 30 people by 2024. They shall support European regulators in their investigations of automated systems.</p><p>AlgorithmWatch wrote an explainer about it: <a target='_blank' href='https://algorithmwatch.org/en/dsa-explained/'>https://algorithmwatch.org/en/dsa-explained/</a>.</p><p>Cheers,</p><p>Lisbet</p>",
-      "body@de": "<p>Hallo,</p><p>wie angekündigt hier ein paar erklärende Worte zum Europäischen Zentrum für algorithmische Transparenz.</p><p>Es wurde im April 2023 in Sevilla eröffnet. Bis 2024 soll es 30 Mitarbeiter*innen haben. Es soll die europäischen Aufsichtbehörden dabei unterstützen, automatisierte Systeme zu untersuchen.</p><p>AlgorithmWatch hat einen Explainer dazu veröffentlicht: <a target='_blank' href='https://algorithmwatch.org/en/dsa-explained/'>https://algorithmwatch.org/de/dsa-erklaert//</a>.</p><p>Grüße</p><p>Lisbet</p>"
+      "body@en": "<p>Hello colleague,</p><p>As I told you, here's a short helper about ECAT.</p><p>ECAT opened in April 2023 in Sevilla, Spain. It should grow to 30 people by 2024. They shall support European regulators in their investigations of automated systems.</p><p>AlgorithmWatch wrote an explainer about it: <a target='_blank' href='https://algorithmwatch.org/en/dsa-explained/'>https://algorithmwatch.org/en/dsa-explained</a>.</p><p>Cheers,</p><p>Lisbet</p>",
+      "body@de": "<p>Hallo,</p><p>wie angekündigt hier ein paar erklärende Worte zum Europäischen Zentrum für algorithmische Transparenz.</p><p>Es wurde im April 2023 in Sevilla eröffnet. Bis 2024 soll es 30 Mitarbeiter*innen haben. Es soll die europäischen Aufsichtbehörden dabei unterstützen, automatisierte Systeme zu untersuchen.</p><p>AlgorithmWatch hat einen Explainer dazu veröffentlicht: <a target='_blank' href='https://algorithmwatch.org/en/dsa-explained/'>https://algorithmwatch.org/de/dsa-erklaert/</a>.</p><p>Grüße</p><p>Lisbet</p>"
     },
     "revolvingDoor": {
       "title@en": "Subject: Revolving doors",

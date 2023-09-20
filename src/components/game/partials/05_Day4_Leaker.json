@@ -20,17 +20,17 @@
     {
       "character": "colleague",
       "text@en": "That could be explosive.",
-      "text@de": "Mein Material könnte wie eine Bombe hochgehen."
+      "text@de": "Das Material könnte wie eine Bombe hochgehen."
     },
     {
       "character": "colleague",
       "text@en": "But be careful to double-check.",
-      "text@de": "Aber Sie sollten die Sache unbedingt selber nochmal prüfen."
+      "text@de": "Aber Du solltest die Sache unbedingt selber nochmal prüfen."
     },
     {
       "character": "colleague",
       "text@en": "Some colleagues got caught with fake leaks in the past. [Check your inbox for more|Sources].",
-      "text@de": "In der Vergangenheit sind immer wieder gefälschte Dokumente geleakt worden. Schau in die [Mail|Immer mindestens zwei Quellen], die ich dir dazu geschickt habe."
+      "text@de": "In der Vergangenheit sind immer wieder gefälschte Dokumente geleakt worden. Schau in die [Mail|Sources], die ich dir dazu geschickt habe."
     },
     {
       "character": "leaker",
