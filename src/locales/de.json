@@ -14,7 +14,7 @@
   "main": {
     "back": "Zurück zum Spiel",
     "intro": {
-      "heading": "Kannst du den Algorithmus knacken?",
+      "heading": "Kannst du den <br />Algorithmus knacken?",
       "meta": "— von <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
       "description": "<p>Du bist eine Journalistin. Eine neue App beeinträchtigt die geistige Gesundheit von Teenagern. Finde heraus, was der Algorithmus damit zu tun hat.</p><p>Alle Beispiele in diesem Spiel beruhen auf Fällen, die tatsächlich stattgefunden haben.</p>",
       "new-game": "Neues Spiel starten",
@@ -29,7 +29,7 @@
       }
     },
     "toolbar": {
-      "heading": "Kannst du den Algorithmus knacken?",
+      "heading": "Kannst du den <br />Algorithmus knacken?",
       "links": {
         "chats": "Chats",
         "hints": "E-Mails",

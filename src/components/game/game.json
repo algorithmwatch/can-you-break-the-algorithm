@@ -1632,7 +1632,7 @@
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-teens.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-teens.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@de": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-teens-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "colleague",
@@ -1686,7 +1686,7 @@
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/teens-can-crack-tiktubes-algorithm.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/teens-can-crack-tiktubes-algorithm.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/teens-can-crack-tiktubes-algorithm-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "colleague",
@@ -1771,7 +1771,7 @@
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/teens-happy-with-tiktube.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/teens-happy-with-tiktube.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/teens-happy-with-tiktube-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "colleague",
@@ -2798,7 +2798,7 @@
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "tt-spox",
@@ -2901,7 +2901,7 @@
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "tt-spox",
@@ -2949,8 +2949,8 @@
         },
         {
           "character": "editor",
-          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/corruption-rampant.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/corruption-rampant.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@en": "<video width='320' height='320' autoplay><source src='images/endings/corruption-rampant.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/corruption-rampant-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "colleague",
@@ -3231,7 +3231,7 @@
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "tt-spox",
@@ -3285,7 +3285,7 @@
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-leak.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-leak.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-leak-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "colleague",
@@ -3359,7 +3359,7 @@
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "tt-spox",
@@ -3413,7 +3413,7 @@
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/large-platforms-regulation.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/large-platforms-regulation.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/large-platforms-regulation-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "ECATspox",
@@ -3842,7 +3842,7 @@
     {
       "character": "editor",
       "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-prio-sad-content.mp4' type='video/mp4'>OK, published!</video> ",
-      "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-prio-sad-content.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+      "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-prio-sad-content-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
     },
     {
       "character": "colleague",
