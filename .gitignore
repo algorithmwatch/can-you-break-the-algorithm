@@ -1,8 +1,0 @@
-.tmp/
-coverage/
-dist/
-node_modules/
-.publish
-yarn-error.log
-npm-error.log
-npm-debug.log
