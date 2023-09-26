@@ -1,6 +1,6 @@
 # About this game
 
-_Can you break the algorithm?_ aims at teaching journalists and their audiences about the intricacies of reporting on automated systems.
+_Can you break the algorithm?_ aims at explaining journalists and their audiences about the intricacies of reporting on automated systems.
 
 It is built by AlgorithmWatch with funding from the Deutsche Postcode Lotterie.
 

@@ -28,6 +28,6 @@ function other() {
 
 function deploy() {
   return gulp.src('./dist/**/*').pipe(ghPages({
-    remoteUrl: 'git@github.com:n-kb/ai-game.git'
+    remoteUrl: 'git@github.com:algorithmwatch/can-you-break-the-algorithm.git'
   }));
 }

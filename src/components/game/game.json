@@ -238,7 +238,7 @@
       "name@en": "You",
       "name@de": "Du",
       "title@en": "Reporter",
-      "title@de":"Reporter*in",
+      "title@de":"Reporterin",
       "avatar": null
     }
   },
@@ -336,7 +336,7 @@
     {
       "character": "editor",
       "text@en": "I hear you're the new algorithmic accountability reporter.",
-      "text@de": "Du bist also die*der neue Reporter*in für algorithmische Rechenschaft. "
+      "text@de": "Du bist also die neue Reporterin für algorithmische Rechenschaft. "
     },
     {
       "character": "editor",
@@ -1430,7 +1430,7 @@
     },
     {
       "text@en": "I'm a journalist researching TikTube.",
-      "text@de": "Ich bin Journalist*in und mache eine Recherche über TikTube.",
+      "text@de": "Ich bin Journalistin und mache eine Recherche über TikTube.",
       "var_changes": {
         "sources_contacted": 3,
         "teens_spoke" : 1
@@ -1439,7 +1439,7 @@
         {
           "character": "you",
           "text@en": "I'm a journalist researching TikTube.",
-          "text@de": "Ich bin Journalist*in und mache eine Recherche über TikTube."
+          "text@de": "Ich bin Journalistin und mache eine Recherche über TikTube."
         },
         {
           "character": "you",
@@ -1807,13 +1807,13 @@
     {
       "character": "editor",
       "text@en": "And what will you do with that time?",
-      "text@de": ""
+      "text@de": "Und was wirst du mit der zusätzlichen Zeit anfangen?"
     }
   ],
   "choices": [
     {
       "text@en": "Read what academics wrote on the issue.",
-      "text@de": "",
+      "text@de": "Ich werde mir wissenschaftliche Literatur anlesen.",
       "var_changes": {
         "time_left": 8
       },
@@ -1821,23 +1821,23 @@
         {
           "character": "you",
           "text@en": "I'll read up what academics published.",
-          "text@de": ""
+          "text@de": "Ich werde mir anschauen, was in der Wissenschaft dazu veröffentlicht wurde."
         },
         {
           "character": "editor",
           "text@en": "You have two more days.",
-          "text@de": ""
+          "text@de": "Ich gebe dir noch zwei Tage."
         },
         {
           "character": "editor",
           "text@en": "Not more.",
-          "text@de": ""
+          "text@de": "Das war's aber dann."
         }
       ]
     },
     {
       "text@en": "Ask Oti at TikTok for more info.",
-      "text@de": "",
+      "text@de": "Frag Oti bei TikTok nach weiteren Infos.",
       "var_changes": {
         "game_over": 1
       },
@@ -1845,32 +1845,32 @@
         {
           "character": "you",
           "text@en": "I'll ask Otmar, I feel that we're becoming friends.",
-          "text@de": ""
+          "text@de": "Ich werde Otmar fragen. Ich habe das Gefühl, dass wir uns anfreunden könnten."
         },
         {
           "character": "editor",
           "text@en": "My dear.",
-          "text@de": ""
+          "text@de": "Oh je."
         },
         {
           "character": "editor",
           "text@en": "All press officers pretend to be your friend.",
-          "text@de": ""
+          "text@de": "Alle Pressemenschen tun so, als ob sie dich besonders sympathisch finden."
         },
         {
           "character": "editor",
           "text@en": "They are the opposite.",
-          "text@de": ""
+          "text@de": "Du kannst ihnen nie trauen."
         },
         {
           "character": "editor",
           "text@en": "I can't give you more time.",
-          "text@de": ""
+          "text@de": "Du hattest genug Zeit."
         },
         {
           "character": "editor",
           "text@en": "Just drop the story.",
-          "text@de": ""
+          "text@de": "Die Story ist ein Rohrkrepierer. Wirf sie in die Tonne."
         }
       ]
     }
@@ -2623,7 +2623,7 @@
   "texts": [
     {
       "character": "brandt",
-      "text@en": "Not only are there many algorithms – plural.",
+      "text@en": "Not only are there many algorithms.",
       "text@de": "Es gibt nicht nur viele Algorithmen."
     },
     {
@@ -4024,7 +4024,7 @@
       "title@en": "Subject: Auditing an automated system",
       "title@de": "Betreff: Wie ein automatisiertes System geprüft wird",
       "body@en": "<p>Dear journalist,</p><p>I enjoyed talking to you earlier.</p><p>Auding an automated system is actually much more than running computer code. You need to understand how the system works in relation with the people who operate it, and the people who use it.</p><p>Academics call these kinds of investigation \"mixed-methods\", which are a combination of qualitative and quantitative techniques.</p><p>AlgorithmWatch wrote a good piece on the topic: <a href='https://algorithmwatch.org/en/researchers-audit-recommender-systems/' target='_blank'>How researchers are upping their game to audit recommender systems</a>.</p><p>Good luck with your investigation,</p><p>Dr. Brandt</p>",
-      "body@de": "<p>Liebe*r Pressevertreter*in,</p><p>es hat mich gefreut, vorhin mit Ihnen zu reden.</p><p>Es gehört mehr dazu, ein automatisiertes System zu prüfen, als nur einen Computercode auszuführen. Sie müssen lernen zu verstehen, wie das System funktioniert – für die Menschen, die es betreiben, und die Menschen, die es verwenden.</p><p>Diese Art der Untersuchung nennen Wissenschaftler*innen „Mixed Methods”, was eine Kombination aus qualitativen und quantitativen Methoden bezeichnet.</p><p>AlgorithmWatch hat dazu einen guten Artikel veröffentlicht: <a href='https://algorithmwatch.org/en/researchers-audit-recommender-systems/' target='_blank'>How researchers are upping their game to audit recommender systems</a>.</p><p>Viel Glück bei Ihrer Recherche!</p><p>Dr. Brandt</p>"
+      "body@de": "<p>Liebe Pressevertreterin,</p><p>es hat mich gefreut, vorhin mit Ihnen zu reden.</p><p>Es gehört mehr dazu, ein automatisiertes System zu prüfen, als nur einen Computercode auszuführen. Sie müssen lernen zu verstehen, wie das System funktioniert – für die Menschen, die es betreiben, und die Menschen, die es verwenden.</p><p>Diese Art der Untersuchung nennen Wissenschaftler*innen „Mixed Methods”, was eine Kombination aus qualitativen und quantitativen Methoden bezeichnet.</p><p>AlgorithmWatch hat dazu einen guten Artikel veröffentlicht: <a href='https://algorithmwatch.org/en/researchers-audit-recommender-systems/' target='_blank'>How researchers are upping their game to audit recommender systems</a>.</p><p>Viel Glück bei Ihrer Recherche!</p><p>Dr. Brandt</p>"
     }
   }
 }

@@ -635,13 +635,13 @@
     {
       "character": "editor",
       "text@en": "And what will you do with that time?",
-      "text@de": ""
+      "text@de": "Und was wirst du mit der zusätzlichen Zeit anfangen?"
     }
   ],
   "choices": [
     {
       "text@en": "Read what academics wrote on the issue.",
-      "text@de": "",
+      "text@de": "Ich werde mir wissenschaftliche Literatur anlesen.",
       "var_changes": {
         "time_left": 8
       },
@@ -649,23 +649,23 @@
         {
           "character": "you",
           "text@en": "I'll read up what academics published.",
-          "text@de": ""
+          "text@de": "Ich werde mir anschauen, was in der Wissenschaft dazu veröffentlicht wurde."
         },
         {
           "character": "editor",
           "text@en": "You have two more days.",
-          "text@de": ""
+          "text@de": "Ich gebe dir noch zwei Tage."
         },
         {
           "character": "editor",
           "text@en": "Not more.",
-          "text@de": ""
+          "text@de": "Das war's aber dann."
         }
       ]
     },
     {
       "text@en": "Ask Oti at TikTok for more info.",
-      "text@de": "",
+      "text@de": "Frag Oti bei TikTok nach weiteren Infos.",
       "var_changes": {
         "game_over": 1
       },
@@ -673,32 +673,32 @@
         {
           "character": "you",
           "text@en": "I'll ask Otmar, I feel that we're becoming friends.",
-          "text@de": ""
+          "text@de": "Ich werde Otmar fragen. Ich habe das Gefühl, dass wir uns anfreunden könnten."
         },
         {
           "character": "editor",
           "text@en": "My dear.",
-          "text@de": ""
+          "text@de": "Oh je."
         },
         {
           "character": "editor",
           "text@en": "All press officers pretend to be your friend.",
-          "text@de": ""
+          "text@de": "Alle Pressemenschen tun so, als ob sie dich besonders sympathisch finden."
         },
         {
           "character": "editor",
           "text@en": "They are the opposite.",
-          "text@de": ""
+          "text@de": "Du kannst ihnen nie trauen."
         },
         {
           "character": "editor",
           "text@en": "I can't give you more time.",
-          "text@de": ""
+          "text@de": "Du hattest genug Zeit."
         },
         {
           "character": "editor",
           "text@en": "Just drop the story.",
-          "text@de": ""
+          "text@de": "Die Story ist ein Rohrkrepierer. Wirf sie in die Tonne."
         }
       ]
     }

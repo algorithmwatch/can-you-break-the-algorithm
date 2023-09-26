@@ -1,22 +1,22 @@
 {
   "app": {
-    "title": "",
-    "url": "",
-    "description": "",
-    "image": "",
+    "title": "Kannst du den Algorithmus knacken?",
+    "url": "https://algorithmwatch.github.io/can-you-break-the-algorithm/de.html",
+    "description": "Du bist eine Journalistin. Eine neue App beeinträchtigt die geistige Gesundheit von Teenagern. Finde heraus, was der Algorithmus damit zu tun hat.",
+    "image": "https://algorithmwatch.github.io/can-you-break-the-algorithm/images/share-de.png",
     "share": {
       "tweet": {
-        "via": "",
-        "text": ""
+        "via": "AlgorithmWatch",
+        "text": "Kannst du TikTubes Algorithmus knacken? Versuch's einmal."
       }
     }
   },
   "main": {
     "back": "Zurück zum Spiel",
     "intro": {
-      "heading": "",
+      "heading": "Kannst du den Algorithmus knacken?",
       "meta": "— von <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
-      "description": "",
+      "description": "<p>Du bist eine Journalistin. Eine neue App beeinträchtigt die geistige Gesundheit von Teenagern. Finde heraus, was der Algorithmus damit zu tun hat.</p><p>Alle Beispiele in diesem Spiel beruhen auf Fällen, die tatsächlich stattgefunden haben.</p>",
       "new-game": "Neues Spiel starten",
       "continue": "Weiter"
     },
@@ -25,11 +25,11 @@
       "over": {
         "undo": "vorherige Aktion rückgängig machen",
         "again": "Noch einmal spielen",
-        "share": ""
+        "share": "Du siehst, wie schwierig es ist, Big-Tech-Konzerne zur Verantwortung zu ziehen.<br/><br/>Wir arbeiten bei AlgorithmWatch in der Realität daran, das umzusetzen, was du soeben virtuell versucht hast: TikTok, Instagram, LinkedIn und Google manchmal zu Änderungen zu bewegen. Oft genug haben sie uns deswegen mit rechtlichen Schritten gedroht.<br/><br/>Wenn du unsere Arbeit unterstützen möchtest, kannst du gerne dieses<ul><li>Spiel teilen</li> oder uns einen Betrag deiner Wahl <li><a href='https://algorithmwatch.org/de/spenden/' target='_blank'>spenden</a> – auch ein Euro hilft uns schon!</li><li>Und abonniere unseren zweiwöchentlichen Newsletter <a href='https://automatedsociety.algorithmwatch.org/#/de' target='_blank'>Die automatisierte Gesellschaft</a>, die wahrscheinlich beste regelmäßig erscheinende Publikation über automatisierte Entscheidungssysteme in Europa.</li></ul>"
       }
     },
     "toolbar": {
-      "heading": "",
+      "heading": "Kannst du den Algorithmus knacken?",
       "links": {
         "chats": "Chats",
         "hints": "E-Mails",
