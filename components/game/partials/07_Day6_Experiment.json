@@ -385,7 +385,7 @@
     {
       "character": "editor",
       "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-prio-sad-content.mp4' type='video/mp4'>OK, published!</video> ",
-      "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-prio-sad-content.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+      "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-prio-sad-content-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
     },
     {
       "character": "colleague",
