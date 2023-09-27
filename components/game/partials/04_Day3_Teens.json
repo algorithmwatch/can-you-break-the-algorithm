@@ -578,49 +578,11 @@
       "text@en": "I'm ready to publish. The headline: « Teenagers are happy with TikTube's algorithm »",
       "text@de": "Wir können die Story veröffentlichen. Überschrift: „Warum Teenager vom TikTube-Algorithmus begeistert sind“.",
       "var_changes" : {
-        "game_over": 1
+        "game_over": 1,
+        "ending_teens_happy": 1
       },
       "feedback": [
-        {
-          "character": "you",
-          "text@en": "I'm ready to publish.",
-          "text@de": "Wir können die Story veröffentlichen."
-        },
-        {
-          "character": "you",
-          "text@en": "The headline: <b>Teenagers are happy with TikTube's algorithm</b>.",
-          "text@de": "Die Überschrift: <b>Warum Teenager vom TikTube-Algorithmus begeistert sind</b>."
-        },
-        {
-          "character": "editor",
-          "text@en": "You have the front page.",
-          "text@de": "Das ist etwas für Seite eins."
-        },
-        {
-          "character": "editor",
-          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/teens-happy-with-tiktube.mp4' type='video/mp4'>OK, published!</video> ",
-          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/teens-happy-with-tiktube-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
-        },
-        {
-          "character": "colleague",
-          "text@en": "Wow, that's some poorly researched journalism.",
-          "text@de": "Wow, das ist mal ein gutes Beispiel für schlecht recherchierten Journalismus."
-        },
-        {
-          "character": "colleague",
-          "text@en": "You pretty much did PR work.",
-          "text@de": "Das ist im Prinzip kostenlose PR für TikTube."
-        },
-        {
-          "character": "tt-spox",
-          "text@en": "Brilliant, I love your piece! 👏🏼👏🏼👏🏼",
-          "text@de": "Großartig, ich bin begeistert! 👏🏼👏🏼👏🏼"
-        },
-        {
-          "character": "tt-spox",
-          "text@en": "We need more journalists like you.",
-          "text@de": "So geht guter Journalismus."
-        }
+        
       ]
     }
   ]
@@ -709,6 +671,70 @@
   "conditions": [{
       "var": "game_over",
       "min": 1
+    },
+    {"var": "ending_teens_happy",
+    "min": 1}],
+  "texts": [
+    {
+          "character": "you",
+          "text@en": "I'm ready to publish.",
+          "text@de": "Wir können die Story veröffentlichen."
+        },
+        {
+          "character": "you",
+          "text@en": "The headline: <b>Teenagers are happy with TikTube's algorithm</b>.",
+          "text@de": "Die Überschrift: <b>Warum Teenager vom TikTube-Algorithmus begeistert sind</b>."
+        },
+        {
+          "character": "editor",
+          "text@en": "You have the front page.",
+          "text@de": "Das ist etwas für Seite eins."
+        },
+        {
+          "character": "editor",
+          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/teens-happy-with-tiktube.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@de": "<video width='320' height='320' autoplay><source src='images/endings/teens-happy-with-tiktube-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
+        },
+        {
+          "character": "colleague",
+          "text@en": "Wow, that's some poorly researched journalism.",
+          "text@de": "Wow, das ist mal ein gutes Beispiel für schlecht recherchierten Journalismus."
+        },
+        {
+          "character": "colleague",
+          "text@en": "You pretty much did PR work.",
+          "text@de": "Das ist im Prinzip kostenlose PR für TikTube."
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "Brilliant, I love your piece! 👏🏼👏🏼👏🏼",
+          "text@de": "Großartig, ich bin begeistert! 👏🏼👏🏼👏🏼"
+        },
+        {
+          "character": "tt-spox",
+          "text@en": "We need more journalists like you.",
+          "text@de": "So geht guter Journalismus."
+        }
+  ],
+  "choices": [
+    {
+      "text@en": "Game over",
+      "text@de": "Game over",
+      "var_changes": {
+        "game_over_final": 1
+      }
+    }
+  ]
+},
+{
+  "year": 17,
+  "conditions": [{
+      "var": "game_over",
+      "min": 1
+    },
+  {
+      "var": "ending_teens_happy",
+      "max": 0
     }],
   "choices": [
     {

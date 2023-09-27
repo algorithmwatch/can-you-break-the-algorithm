@@ -126,6 +126,11 @@
       "private": true,
       "category": "choice"
     },
+    "ending_teens_happy": {
+      "value": 0,
+      "private": true,
+      "category": "choice"
+    },
     "game_over": {
       "value": 0,
       "private": true,
