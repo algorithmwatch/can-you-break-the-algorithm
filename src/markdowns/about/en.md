@@ -2,7 +2,7 @@
 
 _Can you break the algorithm?_ aims at explaining journalists and their audiences about the intricacies of reporting on automated systems.
 
-It is built by AlgorithmWatch with funding from the Deutsche Postcode Lotterie.
+It is built by AlgorithmWatch with funding from the Deutsche Postcode Lotterie and support from Florent Maurin of the independent game studio [The Pixel Hunt](https://www.thepixelhunt.com/).
 
 Illustrations were automatically generated with MidJourney under the supervision of professional game illustrator Alexandre Grilletta. 
 
