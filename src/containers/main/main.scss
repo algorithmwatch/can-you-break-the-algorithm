@@ -366,6 +366,23 @@
       cursor: pointer;
     }
 
+    &__promo {
+      cursor: default;
+      position: relative;
+      background: #fff;
+
+      &:before {
+        content:"";
+        width:1px;
+        height:80%;
+        position: absolute;
+        right:100%;
+        top:10%;
+        bottom:0;
+        background: #eee;
+      }
+    }
+
     &__timeline {
       padding:$spacer * 2 $spacer;
       pointer-events: auto;
