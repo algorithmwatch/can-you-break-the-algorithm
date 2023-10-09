@@ -22,7 +22,7 @@
     },
     "steps": {
       "undo": "<span class='hidden-xs-down'>vorherige Aktion</span> rückgängig machen",
-      "promo": "Gemacht von <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
+      "promo": "Ein Spiel von <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
       "over": {
         "undo": "vorherige Aktion rückgängig machen",
         "again": "Noch einmal spielen",
