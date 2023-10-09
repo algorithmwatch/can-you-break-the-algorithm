@@ -22,6 +22,7 @@
     },
     "steps": {
       "undo": "Undo <span class='hidden-xs-down'>last action</span>",
+      "promo": "Made by <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
       "over": {
         "undo": "Undo last action",
         "again": "Play again",
