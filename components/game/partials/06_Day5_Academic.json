@@ -12,17 +12,20 @@
     {
       "character": "colleague",
       "text@en": "You've got yourself a nice scoop with this leak.",
+      "text@es": "Tienes una buena primicia con esta filtración.",
       "text@de": "Du bist mit diesem Leak auf eine große Story gestoßen."
     }
   ],
   "choices" : [
     {
       "text@en": "Thanks",
+      "text@es": "Gracias",
       "text@de": "Danke.",
       "feedback": [
         {
           "character": "you",
           "text@en": "Thanks. Couldn't have done it without you.",
+          "text@es": "Gracias. No podría haberlo hecho sin ti.",
           "text@de": "Danke. Dein Anteil an der Story ist genauso groß wie meiner."
         }
       ]
@@ -43,42 +46,50 @@
     {
       "character": "colleague",
       "text@en": "You've got yourself a nice scoop with this leak.",
+      "text@es": "Tienes una buena primicia con esta filtración.",
       "text@de": "Sie sind mit diesem Leak auf eine große Story gestoßen."
     },
     {
       "character": "colleague",
       "text@en": "But you didn't double-check the info.",
+      "text@es": "Pero no verificaste la información.",
       "text@de": "Aber wir haben keine zweite Quelle für die Informationen."
     },
     {
       "character": "colleague",
       "text@en": "Publishing that would be very risky.",
+      "text@es": "Publicar eso sería muy arriesgado.",
       "text@de": "Es wäre sehr riskant, das so zu veröffentlichen."
     }
   ],
   "choices" : [
     {
       "text@en": "Really?",
+      "text@es": "¿En serio?",
       "text@de": "Wirklich?",
       "feedback": [
         {
           "character": "you",
           "text@en": "Really?",
+          "text@es": "¿En serio?",
           "text@de": "Wirklich?"
         },
         {
           "character": "you",
           "text@en": "It looked legit to me.",
+          "text@es": "Me pareció legítimo.",
           "text@de": "Für mich sah alles echt aus."
         },
         {
           "character": "colleague",
           "text@en": "Fake sources are a thing.",
+          "text@es": "Las fuentes falsas existen ",
           "text@de": "Es tauchen immer wieder falsche Quellen auf."
         },
         {
           "character": "colleague",
           "text@en": "You really should [read my emails|Sources].",
+          "text@es": "Realmente deberías [leer mis correos electrónicos|Sources].",
           "text@de": "Du solltest wirklich meine [Mail|Sources] lesen."
         }
       ]
@@ -91,17 +102,20 @@
     {
       "character": "colleague",
       "text@en": "You still need to get some more context from academics working on algorithms.",
+      "text@es": "Todavía necesita obtener más contexto de los académicos que trabajan en algoritmos.",
       "text@de": "Du solltest noch für Hintergrundinformationen jemanden aus der Algorithmenforschung interviewen."
     },
     {
       "character": "colleague",
       "text@en": "Here are two specialists. Call one of them.",
+      "text@es": "Aquí hay dos especialistas. Llama a uno de ellos.",
       "text@de": "Ich habe Kontakt zu zwei Fachleuten. Melde dich bei einem von ihnen."
     }
   ],
   "choices" : [
     {
       "text@en": "Prof. Alois Manchego, head of the AI accountability lab",
+      "text@es": "Prof. Alois Manchego, jefa del Laboratorio de Responsabilidad de IA",
       "text@de": "Prof. Alois Manchego, Leiter des KI-Rechenschaftszentrums",
       "var_changes": {
         "manchego": 1,
@@ -111,6 +125,7 @@
     },
     {
       "text@en": "Hiltrud Brandt, PhD",
+      "text@es": "Hiltrud Brandt, PhD",
       "text@de": "Hiltrud Brandt, PhD",
       "var_changes": {
         "brandt": 1,
@@ -130,88 +145,105 @@
     {
       "character": "manchego",
       "text@en": "Hello. I'm professor Manchego.",
+      "text@es": "Hola. Soy profesor Manchego.",
       "text@de": "Hallo. Ich bin Professor Manchego."
     },
     {
       "character": "manchego",
       "text@en": "I created the AI accountability lab.",
+      "text@es": "Creé el Laboratorio de Responsabilidad de IA.",
       "text@de": "Ich habe das KI-Rechenschaftszentrum gegründet."
     },
     {
       "character": "manchego",
       "text@en": "I've been called a leading authority in the field several times.",
+      "text@es": "Me han calificado como una autoridad líder en la materia varias veces.",
       "text@de": "Ich gelte in diesem Bereich als führender Forscher."
     }
   ],
   "choices" : [
     {
       "text@en": "Does TikTube make teens sad?",
+      "text@es": "¿Pone TikTube tristes a los adolescentes?",
       "text@de": "Führt TikTube bei Teenagern zu Depressionen?",
       "feedback": [
         {
           "character": "you",
           "text@en": "Does TikTube make teens sad?",
+          "text@es": "¿Pone TikTube tristes a los adolescentes?",
           "text@de": "Führt TikTube bei Teenagern zu Depressionen?"
         },
         {
           "character": "manchego",
           "text@en": "As far as I know, there is only anecdotal evidence for this hypothesis.",
+          "text@es": "Hasta donde yo sé, solo hay evidencia anecdótica de esta hipótesis.",
           "text@de": "Soweit mir bekannt ist, gibt es für diese Hypothese nur einen anekdotischen Beweis."
         },
         {
           "character": "manchego",
           "text@en": "My work tends to show that teens use TikTube to accomplish themselves.",
+          "text@es": "Mi trabajo tiende a mostrar que los adolescentes usan TikTube para superarse a si mismos.",
           "text@de": "Die Ergebnisse meiner Arbeit legen eher nahe, dass Teenager TikTube zur Selbstverwirklichung verwenden."
         },
         {
           "character": "manchego",
           "text@en": "I'll soon publish a major paper on teenage use of TikTube.",
+          "text@es": "Pronto publicaré un artículo importante sobre el uso adolescente de TikTube.",
           "text@de": "Ich werde darüber demnächst eine große Studie veröffentlichen."
         },
         {
           "character": "manchego",
           "text@en": "I'll add you to my mailing list.",
+          "text@es": "Te agregaré a mi lista de correo.",
           "text@de": "Ich nehme Sie gerne in meine Mailing-Liste auf."
         }
       ]
     },
     {
       "text@en": "How does the TikTube algorithm work?",
+      "text@es": "¿Cómo funciona el algoritmo de TikTube?",
       "text@de": "Wie funktioniert der TikTube-Algorithmus?",
       "feedback": [
           {
             "character": "you",
             "text@en": "How does the TikTube algorithm work?",
+            "text@es": "¿Cómo funciona el algoritmo de TikTube?",
             "text@de": "Wie funktioniert der TikTube-Algorithmus?"
           },
           {
             "character": "manchego",
             "text@en": "It's really complex.",
+            "text@es": "Es realmente complejo.",
             "text@de": "Es ist ein sehr komplexer Mechanismus."
           },
           {
             "character": "manchego",
             "text@en": "I've been given exclusive access to TikTube.",
+            "text@es": "Me han dado acceso exclusivo a TikTube.",
             "text@de": "Mir wurde ein exklusiver Zugriff auf die TikTube-Plattform eingerichtet."
           },
           {
             "character": "manchego",
             "text@en": "I can tell you that these are expert people.",
+            "text@es": "Puedo decirte que son personas expertas.",
             "text@de": "Ich kann Ihnen versichern, dass dort ausschließlich Fachleute am Werk sind."
           },
           {
             "character": "you",
             "text@en": "So, how does it work?",
+            "text@es": "¿Entonces, cómo funciona?",
             "text@de": "Und wie funktioniert es also?"
           },
           {
             "character": "manchego",
             "text@en": "TikTube automatically assess a user's interests.",
+            "text@es": "TikTube evalúa automáticamente los intereses de un usuario.",
             "text@de": "TikTube erstellt automatisch Nutzungsprofile."
           },
           {
             "character": "manchego",
             "text@en": "Then offers videos to match.",
+            "text@es": "Luego ofrece videos para que coincida.",
             "text@de": "Zu den jeweiligen Profilen werden dann passende Videos zugeordnet."
           }
         ]
@@ -227,22 +259,26 @@
   "choices" : [
     {
       "text@en": "Thanks",
+      "text@es": "Gracias",
       "text@de": "Danke.",
       "feedback": [
         {
           "character": "you",
           "text@en": "Thank you professor.",
+          "text@es": "Gracias profesor.",
           "text@de": "Danke, Herr Professor. "
         },
         {
           "character": "you",
           "text@en": "This is illuminating.",
+          "text@es": "Esto es esclarecedor.",
           "text@de": "Das ist sehr aufschlussreich."
         }
       ]
     },
     {
       "text@en": "Who finances the AI accountability lab?",
+      "text@es": "¿Quién financia el Laboratorio de Responsabilidad de IA?",
       "text@de": "Wie finanziert sich das KI-Rechenschaftszentrum eigentlich?",
       "var_changes": {
         "finances_AIlab": 1
@@ -251,26 +287,31 @@
           {
             "character": "you",
             "text@en": "Who finances the AI accountability lab?",
+            "text@es": "¿Quién financia el Laboratorio de Responsabilidad de IA?",
             "text@de": "Wie finanziert sich das KI-Rechenschaftszentrum eigentlich?"
           },
           {
             "character": "manchego",
             "text@en": "We are funded by Google, Meta, Deutsche Bank and TikTube.",
+            "text@es": "Estamos financiados por Google, Meta, Deutsche Bank y TikTube.",
             "text@de": "Wir erhalten Fördermittel von Google, Meta, Deutsche Bank und TikTube."
           },
           {
             "character": "manchego",
             "text@en": "But we are 100% independent.",
+            "text@es": "Pero somos 100% independientes.",
             "text@de": "Dennoch sind wir völlig unabhängig."
           },
           {
             "character": "manchego",
             "text@en": "These companies are interested in the work we do.",
+            "text@es": "Estas empresas están interesadas en el trabajo que hacemos.",
             "text@de": "Die Unternehmen sind einfach an unserer Arbeit interessiert."
           },
           {
             "character": "manchego",
             "text@en": "And they recognize that I'm a leading authority in the field.",
+            "text@es": "Y reconocen que soy una autoridad líder en el campo.",
             "text@de": "Und wie ich bereits erwähnte, bin ich auf diesem Gebiet eine Kapazität."
           }
         ]
@@ -290,32 +331,38 @@
   "choices" : [
     {
       "text@en": "Thanks",
+      "text@es": "Gracias",
       "text@de": "Danke.",
       "feedback": [
         {
           "character": "you",
           "text@en": "Thank you professor.",
+          "text@es": "Gracias profesor.",
           "text@de": "Danke, Herr Professor. "
         },
         {
           "character": "you",
           "text@en": "This is illuminating.",
+          "text@es": "Esto es esclarecedor.",
           "text@de": "Das ist sehr aufschlussreich."
         },
         {
           "character": "manchego",
           "text@en": "I'll now excuse myself.",
+          "text@es": "Ahora me disculparé.",
           "text@de": "Leider muss ich mich nun von Ihnen verabschieden."
         },
         {
           "character": "manchego",
           "text@en": "I have to give an interview to CNN.",
+          "text@es": "Tengo que dar una entrevista a CNN.",
           "text@de": "Ich muss CNN noch ein Interview geben."
         }
       ]
     },
     {
       "text@en": "Do these companies have a right of regard on your research?",
+      "text@es": "¿Estas compañías tienen algún derecho sobre su investigación?",
       "text@de": "Haben diese Unternehmen ein Anrecht auf einen Einblick in Ihre Forschung?",
       "var_changes": {
         "finances_AIlab_push": 1
@@ -324,31 +371,37 @@
           {
             "character": "you",
             "text@en": "Do these companies have a right of regard on your research?",
+            "text@es": "¿Estas compañías tienen algún derecho sobre su investigación?",
             "text@de": "Haben diese Unternehmen ein Anrecht auf einen Einblick in Ihre Forschung?"
           },
           {
             "character": "manchego",
             "text@en": "Of course. I send them an advance copy of everything we publish.",
+            "text@es": "Por supuesto. Les envío una copia anticipada de todo lo que publicamos.",
             "text@de": "Natürlich. Wir senden ihnen im Vorfeld einer Veröffentlichung alles."
           },
           {
             "character": "manchego",
             "text@en": "He who pays must get something in return, is it not fair?",
+            "text@es": "El que paga debe obtener algo a cambio, ¿es lo justo, no?",
             "text@de": "Immerhin bezahlen sie uns, dann ist das ja das Mindeste, was sie erwarten können."
           },
           {
             "character": "manchego",
             "text@en": "But it never happened that my work displeased them.",
+            "text@es": "Pero mi trabajo nunca los ha disgustado.",
             "text@de": "Ich hatte mit meiner Forschung aber noch nie Probleme mit ihnen."
           },
           {
             "character": "manchego",
             "text@en": "I'll now excuse myself.",
+            "text@es": "Ahora me disculparé.",
             "text@de": "Leider muss ich mich nun von Ihnen verabschieden."
           },
           {
             "character": "manchego",
             "text@en": "I have to give an interview to CNN.",
+            "text@es": "Tengo que dar una entrevista a CNN.",
             "text@de": "Ich muss CNN noch ein Interview geben."
           }
         ]
@@ -365,38 +418,45 @@
     {
       "character": "brandt",
       "text@en": "Good morning, I'm Hiltrud Brandt.",
+      "text@es": "Buenos días, soy Hiltrud Brandt.",
       "text@de": "Guten Morgen, ich bin Hiltrud Brandt."
     },
     {
       "character": "brandt",
       "text@en": "I did a PhD on the social impact of automated systems.",
+      "text@es": "Hice un doctorado sobre el impacto social de los sistemas automatizados.",
       "text@de": "Ich habe meine Doktorarbeit über den sozialen Einfluss automatisierter Systeme geschrieben."
     },
     {
       "character": "brandt",
       "text@en": "I'm now a post-doctoral researcher.",
+      "text@es": "Ahora soy un investigador postdoctoral.",
       "text@de": "Seit meiner Promotion arbeite ich in der Forschung."
     }
   ],
   "choices" : [
     {
       "text@en": "Does TikTube make teens sad?",
+      "text@es": "¿Pone TikTube tristes a los adolescentes?",
       "text@de": "Führt TikTube bei Teenagern zu Depressionen?",
       "feedback": [
         {
           "character": "you",
           "text@en": "Does TikTube make teens sad?",
+          "text@es": "¿Pone TikTube tristes a los adolescentes?",
           "text@de": "Führt TikTube bei Teenagern zu Depressionen?"
         }
       ]
     },
     {
       "text@en": "How does the TikTube algorithm work?",
+      "text@es": "¿Cómo funciona el algoritmo de TikTube?",
       "text@de": "Wie funktioniert der TikTube-Algorithmus?",
       "feedback": [
           {
             "character": "you",
             "text@en": "How does the TikTube algorithm work?",
+            "text@es": "¿Cómo funciona el algoritmo de TikTube?",
             "text@de": "Wie funktioniert der TikTube-Algorithmus?"
           }
         ]
@@ -413,58 +473,69 @@
     {
       "character": "brandt",
       "text@en": "Asking the question in this way might not be helpful.",
+      "text@es": "Formular la pregunta así podría no ser útil.",
       "text@de": "Wenn Sie die Frage so stellen, werden Sie nicht weiterkommen."
     },
     {
       "character": "brandt",
       "text@en": "TikTube is actually made of many parts.",
+      "text@es": "TikTube está hecho de muchas partes.",
       "text@de": "TikTube besteht aus vielen Teilen."
     },
     {
       "character": "brandt",
       "text@en": "There's a system to spot and block any pornography, for instance.",
+      "text@es": "Hay un sistema para detectar y bloquear cualquier pornografía, por ejemplo.",
       "text@de": "Es gibt zum Beispiel ein System, das pornographische Inhalte erkennt und blockt."
     },
     {
       "character": "brandt",
       "text@en": "And another one to decide which ads to display.",
+      "text@es": "Y otro para decidir qué anuncios mostrar.",
       "text@de": "Ein anderes System entscheidet über die Anzeigen, die Sie zu sehen bekommen."
     },
     {
       "character": "brandt",
       "text@en": "And another one to recommend new accounts to follow.",
+      "text@es": "Y otro para recomendar nuevas cuentas para seguir.",
       "text@de": "Wiederum ein anderes empfiehlt Ihnen neue Profile, denen Sie folgen können."
     },
     {
       "character": "you",
       "text@en": "And another one to decide which videos to show to a given user?",
+      "text@es": "¿Y otro para decidir qué videos mostrar a un usuario determinado?",
       "text@de": "Und noch eines entscheidet, welche Videos Ihnen angezeigt werden."
     },
     {
       "character": "brandt",
       "text@en": "Exactly.",
+      "text@es": "Exactamente.",
       "text@de": "Ganz genau."
     }
   ],
   "choices" : [
     {
       "text@en": "Which of these systems should I investigate?",
+      "text@es": "¿Cuál de estos sistemas debería investigar?",
       "text@de": "Welches von diesen Systemen sollte ich mir genauer anschauen?",
       "feedback": [
         {
           "character": "you",
           "text@en": "Which of these systems should I investigate?",
+          "text@es": "¿Cuál de estos sistemas debería investigar?",
           "text@de": "Welches von diesen Systemen sollte ich mir genauer anschauen?"
         },
         {
           "character": "brandt",
           "text@en": "This is a question for you to answer.",
+          "text@es": "Esta es una pregunta para que ti.",
           "text@de": "Diese Frage müssen Sie für sich entscheiden."
         }
       ]
     },
     {
       "text@en": "Please go on.",
+      "text@es": "Continúa por favor.",
       "text@de": "Was sollte ich dabei beachten?",
       "var_changes": {
         "brandt_continue": 1
@@ -473,6 +544,7 @@
         {
           "character": "you",
           "text@en": "Please go on.",
+          "text@es": "Continúa por favor.",
           "text@de": "Was sollte ich dabei beachten?"
         }
       ]
@@ -490,7 +562,7 @@
       "min": 1
     }],
   "helper":[
-    {"character": "brandt",
+    { "character": "brandt",
       "text@en": "[AlgorithmicAudits|AlgorithmicAudits]."
       }
   ],
@@ -498,88 +570,105 @@
     {
       "character": "brandt",
       "text@en": "Not only are there many algorithms.",
+      "text@es": "No solo hay muchos algoritmos.",
       "text@de": "Es gibt nicht nur viele Algorithmen."
     },
     {
       "character": "brandt",
       "text@en": "They constantly interact with humans.",
+      "text@es": "Constantemente interactúan con los humanos.",
       "text@de": "Sie interagieren auch ständig mit Menschen."
     },
     {
       "character": "brandt",
       "text@en": "Be they users, people who tag videos to train Machine Learning models, executives who decide to chase a new goal...",
+      "text@es": "Ya sean usuarios, personas que etiquetan videos para entrenar modelos de aprendizaje automático, ejecutivos que deciden perseguir un nuevo objetivo ...",
       "text@de": "Sei es mit den Nutzer*innen oder den Menschen, die Videos taggen, um Modelle Machinellen Lernens zu trainieren..."
     },
     {
       "character": "brandt",
       "text@en": "It's impossible to give a precise description of how this system works.",
+      "text@es": "Es imposible dar una descripción precisa de cómo funciona este sistema.",
       "text@de": "Es ist unmöglich, genau zu beschreiben, wie diese Systeme funktionieren."
     },
     {
       "character": "brandt",
       "text@en": "It's simply too vast, too complex.",
+      "text@es": "Es simplemente demasiado grande, demasiado complejo.",
       "text@de": "Das ist alles zu komplex und uferlos."
     },
     {
       "character": "you",
       "text@en": "So, we'll never know if TikTube makes teens sad?",
+      "text@es": "Entonces, ¿nunca sabremos si TikTube pone tristes a los adolescentes ?",
       "text@de": "Also werden wir nie wissen, ob TikTube Teenager depressiv macht?"
     },
     {
       "character": "brandt",
       "text@en": "Oh, of course we can find out.",
+      "text@es": "Oh, por supuesto que podemos averiguarlo.",
       "text@de": "Oh doch, das können wir."
     },
     {
       "character": "brandt",
       "text@en": "But you'll need to rephrase your question.",
+      "text@es": "Pero deberás reformular tu pregunta.",
       "text@de": "Sie müssen allerdings Ihre Frage anders stellen."
     },
     {
       "character": "brandt",
       "text@en": "For one thing, teens have many reasons to be sad.",
+      "text@es": "Por un lado, los adolescentes tienen muchas razones para estar tristes.",
       "text@de": "Zunächst einmal haben Teenager allen Anlass dazu, depressiv zu werden."
     },
     {
       "character": "brandt",
       "text@en": "The climate catastrophe, the low wages...",
+      "text@es": "La catástrofe climática, los salarios bajos ...",
       "text@de": "Die Klimakatastrophe, niedige Löhne..."
     }
   ],
   "choices" : [
     {
       "text@en": "How does TikTube contribute to this?",
+      "text@es": "¿Cómo contribuye TikTube a esto?",
       "text@de": "Und wie kommt TikTube da ins Spiel?",
       "feedback": [
         {
           "character": "you",
           "text@en": "You mean that TikTube doesn't compare?",
+          "text@es": "¿Te refieres a que TikTube no compara?",
           "text@de": "Also spielt TikTube dabei gar keine große Rolle?"
         },
         {
           "character": "brandt",
           "text@en": "This would be hard to find out.",
+          "text@es": "Esto sería difícil de averiguarlo.",
           "text@de": "Das dürfte kaum zu beantworten sein."
         },
         {
           "character": "brandt",
           "text@en": "You'd need to make a randomized controlled trial.",
+          "text@es": "Debería hacer un ensayo controlado aleatorio.",
           "text@de": "Dazu sollten Sie eine kontrollierte Stichprobenstudie durchführen."
         },
         {
           "character": "brandt",
           "text@en": "One group would use TikTube, one wouldn't, and you'd compare their mental health outcome.",
+          "text@es": "Un grupo usaría TikTube, el otro no lo haría, y compararías su resultado de salud mental.",
           "text@de": "In der Studie würde eine Gruppe TikTube verwenden und eine andere nicht. Sie könnten dann vergleichen, ob sich das TikTuben negativ auf die geistige Gesundheit auswirkt."
         },
         {
           "character": "brandt",
           "text@en": "But – thank goodness – no serious ethical review board would accept such an experiment.",
+          "text@es": "Pero, por suerte, ninguna junta de revisión ética seria aceptaría tal experimento.",
           "text@de": "Allerdings – und das ist gut so – würde kein Ethikrat so ein Experiment gutheißen."
         }
       ]
     },
     {
       "text@en": "So, how do I rephrase my question?",
+      "text@es": "Entonces, ¿cómo reformulo mi pregunta?",
       "text@de": "Wie soll ich also meine Frage umformulieren?",
       "var_changes": {
         "experiment" : 1
@@ -588,46 +677,55 @@
           {
             "character": "you",
             "text@en": "So, what can I actually research?",
+            "text@es": "Entonces, ¿qué puedo investigar realmente?",
             "text@de": "Was kann ich also realistischerweise herausfinden?"
           },
           {
             "character": "brandt",
             "text@en": "You could conduct a small-scale audit.",
+            "text@es": "Podrías realizar una auditoría a pequeña escala.",
             "text@de": "Sie sollten einen kleines Experiment durchführen."
           },
           {
             "character": "brandt",
             "text@en": "To check whether TikTube gives priority to sad content, for instance.",
+            "text@es": "Para verificar si TikTube da prioridad al contenido triste, por ejemplo.",
             "text@de": "Bei dem Sie zum Beispiel prüfen, ob TikTube deprimierende Inhalte priorisiert."
           },
           {
             "character": "brandt",
             "text@en": "If you create an account that posts sad content...",
+            "text@es": "Si crea una cuenta que publica contenido triste ...",
             "text@de": "Wenn Sie ein Konto erstellen, auf dem Sie nur deprimierende Inhalte posten..."
           },
           {
             "character": "brandt",
             "text@en": "And another one that doesn't...",
+            "text@es": "Y otra que no ...",
             "text@de": "...und ein anderes, auf dem die Inhalte fröhlicher sind..."
           },
           {
             "character": "brandt",
             "text@en": "And ask people to follow both and report when they see your posts...",
+            "text@es": "Y le pides a la gente que siga ambas y que informe cuando vean tus publicaciones ...",
             "text@de": "...und Bekannte darum bitten, beiden zu folgen und Sie zu informieren, wenn sie Ihre Posts sehen..."
           },
           {
             "character": "brandt",
             "text@en": "Then you would see how often sad content is shown.",
+            "text@es": "Entonces verías con qué frecuencia se muestra contenido triste.",
             "text@de": "...können Sie sagen, wie oft im Vergleich deprimierende Inhalte bevorzugt werden."
           },
           {
             "character": "brandt",
             "text@en": "Auditing algorithms is a complex thing. [I'll send you an email with more examples|AlgorithmicAudits].",
+            "text@es": "Auditar algoritmos es algo complejo. [Te enviaré un correo electrónico con más ejemplos|AlgorithmicAudits].",
             "text@de": "Algorithmen zu prüfen ist eine komplexe Angelegenheit. Ich schicke Ihnen dazu noch eine [Mail|AlgorithmicAudits]."
           },
           {
             "character": "you",
             "text@en": "Thanks, I'll talk to my colleagues.",
+            "text@es": "Gracias, hablaré con mis compañeras.",
             "text@de": "Vielen Dank, ich werde mich dazu mit der Redaktion absprechen."
           }
         ]
@@ -648,12 +746,14 @@
     {
       "character": "editor",
       "text@en": "So, what's your headline?",
+      "text@es": "Entonces, ¿cuál es tu titular?",
       "text@de": "Und, haben Sie schon eine gute Überschrift?"
     }
   ],
   "choices": [
     {
       "text@en": "« Despite concerns, TikTube is mostly good for teens »",
+      "text@es": "«A pesar de las preocupaciones, TikTube es en su mayoría bueno para los adolescentes»",
       "text@de": "„Trotz aller Bedenken: TikTube ist gut für Teenager“",
       "var_changes" : {
         "game_over": 1
@@ -662,47 +762,56 @@
         {
           "character": "you",
           "text@en": "My story should be titled <b>Despite concerns, TikTube is mostly good for teens</b>.",
+          "text@es": "Mi historia debe titulada <b> A pesar de las preocupaciones, TikTube es en su mayoría bueno para los adolescentes </b>.",
           "text@de": "Ich würde der Story den Titel geben: <b>Trotz aller Bedenken: TikTube ist gut für Teenager</b>."
         },
         {
           "character": "editor",
           "text@en": "You have the front page.",
+          "text@es": "Tienes la página principal.",
           "text@de": "Damit bekommen Sie Seite eins."
         },
         {
           "character": "editor",
           "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@es": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good-es.mp4' type='video/mp4'>Ok, publicado!</video>",
           "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "tt-spox",
           "text@en": "Nice story! 👍🏼",
+          "text@es": "¡Bonita historia! 👍🏼",
           "text@de": "Das klingt nach einer richtig guten Story! 👍🏼"
         },
         {
           "character": "manchego",
           "text@en": "Well done.",
+          "text@es": "Bien hecho.",
           "text@de": "Bravo."
         },
         {
           "character": "manchego",
           "text@en": "But you should have put a picture of me on the front page.",
+          "text@es": "Pero deberías haber puesto una foto mía en la página principal.",
           "text@de": "Ich glaube, dass ein Bild von mir dem Artikel guttun würde."
         },
         {
           "character": "manchego",
           "text@en": "Not for my ego, but to give more weight to your piece.",
+          "text@es": "No por mi ego, sino para dar más peso a tu historia.",
           "text@de": "Ich sage das nicht, weil ich eitel bin. Aber meine Reputation würde darauf abfärben."
         },
         {
           "character": "brandt",
           "text@en": "You know that Manchego's research is financed by TikTube, right?",
+          "text@es": "Sabes que la investigación de Manchego está financiada por TikTube, ¿verdad?",
           "text@de": "Du weißt, dass Manchegos Forschung von TikTube finanziert wird, oder?"
         }
       ]
     },
     {
       "text@en": "I need more time.",
+      "text@es": "Necesito más tiempo.",
       "text@de": "Ich brauche noch etwas Zeit.",
       "var_changes" : {
         "game_over": 1
@@ -711,26 +820,31 @@
         {
           "character": "you",
           "text@en": "I'm afraid I need more time, boss.",
+          "text@es": "Me temo que necesito más tiempo, jefa.",
           "text@de": "Leider brauche ich noch etwas Zeit."
         },
         {
           "character": "editor",
           "text@en": "Listen, I'm running a newsroom.",
+          "text@es": "Escucha, estoy dirigiendo una sala de redacción.",
           "text@de": "Hör mal zu, ich muss hier eine Redaktion am Laufen halten."
         },
         {
           "character": "editor",
           "text@en": "Not a spa.",
+          "text@es": "No es un spa.",
           "text@de": "Das ist kein Freizeitbetrieb."
         },
         {
           "character": "editor",
           "text@en": "The algorithmic accountability beat is too hard for you.",
+          "text@es": "El ritmo de responsabilidad algorítmica es demasiado difícil para ti.",
           "text@de": "Ich habe den Eindruck, dass das Thema zu schwer für dich ist."
         },
         {
           "character": "editor",
           "text@en": "From now on, you'll do post-editing on texts that have been automatically generated by ChatGPT.",
+          "text@es": "De ahora en adelante, harás la post-edición en textos que ChatGPT ha generado automáticamente.",
           "text@de": "Von daher kannst du ab sofort Texte bearbeiten, die ChatGPT dir automatisch auswirft."
         }
       ]
@@ -751,12 +865,14 @@
     {
       "character": "editor",
       "text@en": "So, what's your headline?",
+      "text@es": "Entonces, ¿cuál es tu titular?",
       "text@de": "Und, haben Sie schon eine gute Überschrift?"
     }
   ],
   "choices": [
     {
       "text@en": "« Despite concerns, TikTube is mostly good for teens »",
+      "text@es": "«A pesar de las preocupaciones, TikTube es en su mayoría bueno para los adolescentes»",
       "text@de": "„Trotz aller Bedenken: TikTube ist gut für Teenager“",
       "var_changes" : {
         "game_over": 1
@@ -765,47 +881,56 @@
         {
           "character": "you",
           "text@en": "My story should be titled <b>Despite concerns, TikTube is mostly good for teens</b>.",
+          "text@es": "Mi historia debe titulada <b> A pesar de las preocupaciones, TikTube es en su mayoría bueno para los adolescentes </b>.",
           "text@de": "Ich würde der Story den Titel geben: <b>Trotz aller Bedenken: TikTube ist gut für Teenager</b>."
         },
         {
           "character": "editor",
           "text@en": "You have the front page.",
+          "text@es": "Tienes la página principal.",
           "text@de": "Damit bekommen Sie Seite eins."
         },
         {
           "character": "editor",
-          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@en": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@es": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good-es.mp4' type='video/mp4'>Ok, publicado!</video>",
           "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-mostly-good-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "tt-spox",
           "text@en": "Nice story! 👍🏼",
+          "text@es": "¡Bonita historia! 👍🏼",
           "text@de": "Das klingt nach einer richtig guten Story! 👍🏼"
         },
         {
           "character": "manchego",
           "text@en": "Well done.",
+          "text@es": "Bien hecho.",
           "text@de": "Bravo."
         },
         {
           "character": "manchego",
           "text@en": "But you should have put a picture of me on the front page.",
+          "text@es": "Pero deberías haberme puesto una foto en la página principal.",
           "text@de": "Ich glaube, dass ein Bild von mir dem Artikel guttun würde."
         },
         {
           "character": "manchego",
           "text@en": "Not for my ego, but to give more weight to your piece.",
+          "text@es": "No por mi ego, sino para dar más peso a su historia.",
           "text@de": "Ich sage das nicht, weil ich eitel bin. Aber meine Reputation würde darauf abfärben."
         },
         {
           "character": "brandt",
           "text@en": "You know that Manchego's research is financed by TikTube, right?",
+          "text@es": "Sabes que la investigación de Manchego es financiada por TikTube, ¿verdad?",
           "text@de": "Du weißt, dass Manchegos Forschung von TikTube finanziert wird, oder?"
         }
       ]
     },
     {
       "text@en": "« Corruption rampant in algorithmic research »",
+      "text@es": "«Corrupción incontrolada en la investigación algorítmica»",
       "text@de": "„Algorithmische Forschung: Wuchernde Korruption“",
       "var_changes" : {
         "game_over": 1
@@ -814,42 +939,50 @@
         {
           "character": "you",
           "text@en": "My story should be titled <b>Corruption is rampant in algorithmic research</b>.",
+          "text@es": "Mi historia debe titulada <b> La corrupción es rampante en la investigación algorítmica </b>.",
           "text@de": "Ich würde der Story den Titel geben: <b>Algorithmische Forschung: Wuchernde Korruption</b>."
         },
         {
           "character": "editor",
           "text@en": "You have the front page.",
+          "text@es": "Tienes la página principal.",
           "text@de": "Damit bekommst du Seite eins."
         },
         {
           "character": "editor",
           "text@en": "<video width='320' height='320' autoplay><source src='images/endings/corruption-rampant.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@es": "<video width='320' height='320' autoplay><source src='images/endings/corruption-rampant-es.mp4' type='video/mp4'>Ok, publicado!</video>",
           "text@de": "<video width='320' height='320' autoplay><source src='images/endings/corruption-rampant-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "colleague",
           "text@en": "Tricky choice. Corruption is not a light word around here.",
+          "text@es": "Elección difícil. La corrupción no es una palabra ligera por aquí.",
           "text@de": "Du sprichst ein großes Wort gelassen aus. Ich würde da vorsichtig sein."
         },
         {
           "character": "brandt",
           "text@en": "Finally, a newspaper calling things by their name!",
+          "text@es": "Finalmente, ¡un periódico que llama a las cosas por su nombre!",
           "text@de": "Endlich sagt eine Zeitung direkt, wie es um die Dinge steht."
         },
         {
           "character": "tt-spox",
           "text@en": "Our contributions to research are entirely driven by philantropic goals. 👼",
+          "text@es": "Nuestras contribuciones a la investigación están totalmente motivadas por fines filantrópicos. 👼",
           "text@de": "Unsere Forschungsbeiträge verfolgen ausschließlich philanthropische Ziele. 👼"
         },
         {
           "character": "manchego",
           "text@en": "This is slander. I'll see you in court.",
+          "text@es": "Esto es calumnia. Nos veremos en los tribunales.",
           "text@de": "Das ist Verleumdung. Wir sehen uns vor Gericht."
         }
       ]
     },
     {
       "text@en": "I need more time.",
+      "text@es": "Necesito más tiempo.",
       "text@de": "Ich brauche noch etwas Zeit.",
       "var_changes" : {
         "game_over": 1
@@ -858,26 +991,31 @@
         {
           "character": "you",
           "text@en": "I'm afraid I need more time, boss.",
+          "text@es": "Me temo que necesito más tiempo, jefa.",
           "text@de": "Leider brauche ich noch etwas Zeit."
         },
         {
           "character": "editor",
           "text@en": "Listen, I'm running a newsroom.",
+          "text@es": "Escucha, dirijo una sala de redacción.",
           "text@de": "Hör mal zu, ich muss hier eine Redaktion am Laufen halten."
         },
         {
           "character": "editor",
           "text@en": "Not a spa.",
+          "text@es": "No es un spa.",
           "text@de": "Das ist kein Freizeitbetrieb."
         },
         {
           "character": "editor",
           "text@en": "This algorithmic accountability beat is too hard for you.",
+          "text@es": "Este ritmo de responsabilidad algorítmica es demasiado difícil para ti.",
           "text@de": "Ich habe den Eindruck, dass das Thema zu schwer für dich ist."
         },
         {
           "character": "editor",
           "text@en": "From now on, you'll do post-editing on texts that have been automatically generated by ChatGPT.",
+          "text@es": "A partir de ahora, harás la edición de textos que ChatGPT haya generado automáticamente.",
           "text@de": "Von daher kannst du ab sofort Texte bearbeiten, die ChatGPT dir automatisch auswirft."
         }
       ]
@@ -894,12 +1032,14 @@
     {
       "character": "editor",
       "text@en": "Are you ready to publish?",
+      "text@es": "¿Estás listo para publicar?",
       "text@de": "Können wir die Story jetzt bringen?"
     }
   ],
   "choices": [
     {
       "text@en": "Yes",
+      "text@es": "Sí",
       "text@de": "Ja.",
       "var_changes" : {
         "ready_to_publish": 1
@@ -907,6 +1047,7 @@
     },
     {
       "text@en": "I need more time.",
+      "text@es": "Necesito más tiempo.",
       "text@de": "Ich brauche noch etwas Zeit.",
       "var_changes" : {
         "more_time": 1
@@ -937,32 +1078,38 @@
     {
       "character": "you",
       "text@en": "I'd need more time, boss.",
+      "text@es": "Necesitaría más tiempo, jefa.",
       "text@de": "Könnte ich noch etwas Zeit bekommen?"
     },
     {
       "character": "you",
       "text@en": "I'd like to conduct an experiment.",
+      "text@es": "Me gustaría realizar un experimento.",
       "text@de": "Ich würde gern ein Experiment starten."
     },
     {
       "character": "you",
       "text@en": "To check whether TikTube prioritizes sad content.",
+      "text@es": "Para verificar si TikTube prioriza el contenido triste.",
       "text@de": "Damit will ich herausfinden, ob TikTube deprimierende Inhalte priorisiert."
     },
     {
       "character": "editor",
       "text@en": "OK.",
+      "text@es": "DE ACUERDO.",
       "text@de": "Ok."
     },
     {
       "character": "editor",
       "text@en": "But this is ONLY because your colleague Lisbet Swango speaks highly of you.",
+      "text@es": "Pero esto es solo porque tu compañera Lisbet Swango habla muy bien de ti.",
       "text@de": "Aber NUR, weil Lisbet dich so zu schätzen scheint."
     }
   ],
   "choices": [
     {
       "text@en": "Thank you, boss",
+      "text@es": "Gracias jefa",
       "text@de": "Danke!",
       "var_changes" : {
         "doing_experiment": 1,
@@ -972,6 +1119,7 @@
         {
           "character": "you",
           "text@en": "Thank you, boss.",
+          "text@es": "Gracias jefa.",
           "text@de": "Danke!"
         }
       ]
@@ -993,70 +1141,83 @@
     {
       "character": "editor",
       "text@en": "How much time would you need?",
+      "text@es": "¿Cuánto tiempo necesitarías?",
       "text@de": "Wie lange wird das dauern?"
     }
   ],
   "choices": [
     {
       "text@en" : "One day",
+      "text@es": "Un día",
       "text@de": "Einen Tag.",
       "var_changes": {"game_over" : 1},
       "feedback": [
         {
           "character": "you",
           "text@en": "Just one day, boss.",
+          "text@es": "Solo un día, jefa.",
           "text@de": "Nur einen Tag."
         },
         {
           "character": "editor",
           "text@en": "Listen, I'm running a newsroom.",
+          "text@es": "Escucha, estoy dirigiendo una sala de redacción.",
           "text@de": "Hör mal zu, ich muss hier eine Redaktion am Laufen halten."
         },
         {
           "character": "editor",
           "text@en": "Not a spa.",
+          "text@es": "No es un spa.",
           "text@de": "Das ist kein Freizeitbetrieb."
         },
         {
           "character": "editor",
           "text@en": "This algorithmic accountability beat is too hard for you.",
+          "text@es": "Este ritmo de responsabilidad algorítmica es demasiado difícil para ti.",
           "text@de": "Ich habe den Eindruck, dass das Thema zu schwer für dich ist."
         },
         {
           "character": "editor",
           "text@en": "From now on, you'll do post-editing on texts that have been automatically generated by ChatGPT.",
+          "text@es": "A partir de ahora, harás la edición de textos que ChatGPT haya generado automáticamente.",
           "text@de": "Von daher kannst du ab sofort Texte bearbeiten, die ChatGPT dir automatisch auswirft."
         }
       ]
     },
     {
       "text@en" : "Three days",
+      "text@es": "Tres días",
       "text@de": "Drei Tage.",
       "var_changes": {"game_over" : 1},
       "feedback": [
         {
           "character": "you",
           "text@en": "Just three day, boss.",
+          "text@es": "Solo tres días, jefa.",
           "text@de": "Nur drei Tage."
         },
         {
           "character": "editor",
           "text@en": "Listen, I'm running a newsroom.",
+          "text@es": "Escucha, estoy dirigiendo una sala de redacción.",
           "text@de": "Hör mal zu, ich muss hier eine Redaktion am Laufen halten."
         },
         {
           "character": "editor",
           "text@en": "Not a spa.",
+          "text@es": "No es un spa.",
           "text@de": "Das ist kein Freizeitbetrieb."
         },
         {
           "character": "editor",
           "text@en": "This algorithmic accountability beat is too hard for you.",
+          "text@es": "Este ritmo de responsabilidad algorítmica es demasiado difícil para usted.",
           "text@de": "Ich habe den Eindruck, dass das Thema zu schwer für dich ist."
         },
         {
           "character": "editor",
           "text@en": "From now on, you'll do post-editing on texts that have been automatically generated by ChatGPT.",
+          "text@es": "A partir de ahora, harás la edición de textos que ChatGPT haya generado automáticamente.",
           "text@de": "Von daher kannst du ab sofort Texte bearbeiten, die ChatGPT dir automatisch auswirft."
         }
       ]
@@ -1081,12 +1242,14 @@
     {
       "character": "editor",
       "text@en": "And what's your headline?",
+      "text@es": "¿Y cuál es tu titular?",
       "text@de": "Und wie soll die Überschrift lauten?"
     }
   ],
   "choices": [
     {
       "text@en": "« TikTube is too complex to understand »",
+      "text@es": "«TikTube es demasiado complejo de entender»",
       "text@de": "„TikTube: Zu komplex, um es zu verstehen“",
       "var_changes" : {
         "game_over": 1
@@ -1095,52 +1258,62 @@
         {
           "character": "you",
           "text@en": "My story should be titled <b>TikTube is too complex to understand</b>.",
+          "text@es": "Mi historia debe titulada <b> TikTube es demasiado complejo de entender </b>.",
           "text@de": "Ich würde der Story den Titel geben: <b>TikTube: Zu komplex, um es zu verstehen</b>."
         },
         {
           "character": "editor",
           "text@en": "You have the front page.",
+          "text@es": "Tienes la página principal.",
           "text@de": "Damit bekommst du Seite eins."
         },
         {
           "character": "editor",
-          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@en": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@es": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex-es.mp4' type='video/mp4'>Ok, publicado!</video>",
           "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "tt-spox",
           "text@en": "Nice story! 👍🏼",
+          "text@es": "¡Bonita historia! 👍🏼",
           "text@de": "Das klingt nach einer richtig guten Story! 👍🏼"
         },
         {
           "character": "tt-spox",
           "text@en": "I'll always be happy to help you understand more.",
+          "text@es": "Siempre me encantará ayudarte a comprender mejor.",
           "text@de": "Ich bin gerne dabei behilflich, Klarheit zu schaffen."
         },
         {
           "character": "brandt",
           "text@en": "No.",
+          "text@es": "No.",
           "text@de": "Nein."
         },
         {
           "character": "brandt",
           "text@en": "That wasn't my point AT ALL.",
+          "text@es": "Ese no era mi punto EN ABSOLUTO.",
           "text@de": "Darauf wollte ich ÜBERHAUPT NICHT hinaus."
         },
         {
           "character": "brandt",
           "text@en": "I meant that we should ask precise questions.",
+          "text@es": "Quise decir que deberíamos hacer preguntas precisas.",
           "text@de": "Ich wollte sagen, dass wir präzise Fragen stellen sollten."
         },
         {
           "character": "brandt",
           "text@en": "Not that we should stop asking.",
+          "text@es": "No que debamos parar de preguntar.",
           "text@de": "Und nicht, dass wir aufhören sollten, Fragen zu stellen."
         }
       ]
     },
     {
       "text@en": "« Internal documents reveal that TikTube harms teens »",
+      "text@es": "«Los documentos internos revelan que TikTube daña a los adolescentes»",
       "text@de": "„Interne Dokumente beweisen: TikTube schadet Teenagern“",
       "var_changes" : {
         "game_over": 1
@@ -1149,41 +1322,49 @@
         {
           "character": "you",
           "text@en": "My story should be titled <b>Internal documents reveal that TikTube harms teens</b>.",
+          "text@es": "Mi historia debe titularse <b> Los documentos internos revelan que TikTube daña a los adolescentes </b>.",
           "text@de": "Ich würde der Story den Titel geben: <b>Interne Dokumente beweisen: TikTube schadet Teenagern</b>."
         },
         {
           "character": "editor",
           "text@en": "You have the front page.",
+          "text@es": "Tienes la página principal.",
           "text@de": "Damit bekommst du Seite eins."
         },
         {
           "character": "editor",
-          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-leak.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@en": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-leak.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@es": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-leak-es.mp4' type='video/mp4'>Ok, publicado!</video>",
           "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-harms-leak-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "colleague",
           "text@en": "Nicely done.",
+          "text@es": "Bien hecho.",
           "text@de": "Nicht schlecht."
         },
         {
           "character": "brandt",
           "text@en": "Interesting story.",
+          "text@es": "Historia interesante.",
           "text@de": "Interessante Geschichte."
         },
         {
           "character": "tt-spox",
           "text@en": "Stupid claim. 🤮",
+          "text@es": "Afirmación estupida 🤮",
           "text@de": "Was für eine blödsinnige Behauptung. 🤮"
         },
         {
           "character": "tt-spox",
           "text@en": "In the slide you used for your article, ALL GROUPS say that TikTube makes them feel better about themselves.",
+          "text@es": "En la diapositiva que usó para su artículo, TODOS LOS GRUPOS dicen que TikTube les hace sentir mejor consigo mismos.",
           "text@de": "Im Material zum Experiment stand, ALLE UNTERSUCHSGRUPPEN hätten angegeben, dass sie sich durch TikTube besser fühlen würden."
         },
         {
           "character": "tt-spox",
           "text@en": "You distorted the facts. 🤥",
+          "text@es": "Distorsionaste los hechos. 🤥",
           "text@de": "Du hast die Fakten verdreht. 🤥"
         }
       ]
@@ -1209,12 +1390,14 @@
     {
       "character": "editor",
       "text@en": "And what's your headline?",
+      "text@es": "¿Y cuál es tu titular?",
       "text@de": "Und wie soll die Überschrift lauten?"
     }
   ],
   "choices": [
     {
       "text@en": "« TikTube is too complex to understand »",
+      "text@es": "«TikTube es demasiado dificil de entender»",
       "text@de": "„TikTube: Zu komplex, um es zu verstehen“",
       "var_changes" : {
         "game_over": 1
@@ -1223,52 +1406,62 @@
         {
           "character": "you",
           "text@en": "My story should be titled <b>TikTube is too complex to understand</b>.",
+          "text@es": "Mi historia debe titularse <b> TikTube es demasiado dificil de entender</b>.",
           "text@de": "Ich würde der Story den Titel geben: <b>TikTube: Zu komplex, um es zu verstehen</b>."
         },
         {
           "character": "editor",
           "text@en": "You have the front page.",
+          "text@es": "Tienes la página principal.",
           "text@de": "Damit bekommst du Seite eins."
         },
         {
           "character": "editor",
-          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@en": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@es": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex-es.mp4' type='video/mp4'>Ok, publicado!</video>",
           "text@de": "<video width='320' height='320' autoplay><source src='images/endings/tiktube-too-complex-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "tt-spox",
           "text@en": "Nice story! 👍🏼",
+          "text@es": "¡Bonita historia! 👍🏼",
           "text@de": "Das klingt nach einer richtig guten Story! 👍🏼"
         },
         {
           "character": "tt-spox",
           "text@en": "I'll always be happy to help you understand more.",
+          "text@es": "Siempre estaré feliz de ayudarte a comprender más.",
           "text@de": "Ich bin gerne dabei behilflich, Klarheit zu schaffen."
         },
         {
           "character": "brandt",
           "text@en": "No.",
+          "text@es": "No.",
           "text@de": "Nein."
         },
         {
           "character": "brandt",
           "text@en": "That wasn't my point AT ALL.",
+          "text@es": "Ese no era mi punto EN ABSOLUTO.",
           "text@de": "Darauf wollte ich ÜBERHAUPT NICHT hinaus."
         },
         {
           "character": "brandt",
           "text@en": "I meant that we should ask precise questions.",
+          "text@es": "Quise decir que deberíamos hacer preguntas precisas.",
           "text@de": "Ich wollte sagen, dass wir präzise Fragen stellen sollten."
         },
         {
           "character": "brandt",
           "text@en": "Not that we should stop asking.",
+          "text@es": "No que debamos parar preguntar.",
           "text@de": "Und nicht, dass wir aufhören sollten, Fragen zu stellen."
         }
       ]
     },
     {
       "text@en": "« Large platforms are so complex they should be regulated »",
+      "text@es": "«Las grandes plataformas son tan complejas que debieran estar reguladas»",
       "text@de": "„Große Plattformen: So komplex, dass sie reguliert werden müssen“",
       "var_changes" : {
         "game_over": 1
@@ -1277,36 +1470,43 @@
         {
           "character": "you",
           "text@en": "My story should be titled <b>Large platforms are so complex they should be regulated</b>.",
+          "text@es": "Mi historia debe titularse <b> Las grandes plataformas son tan complejas que debieran estar reguladas </b>.",
           "text@de": "Ich würde der Story den Titel geben: <b>TikTube: Zu komplex, um es zu verstehen</b>."
         },
         {
           "character": "editor",
           "text@en": "You have the front page.",
+          "text@es": "Tienes la página principal.",
           "text@de": "Damit bekommst du Seite eins."
         },
         {
           "character": "editor",
-          "text@en": " <video width='320' height='320' autoplay><source src='images/endings/large-platforms-regulation.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@en": "<video width='320' height='320' autoplay><source src='images/endings/large-platforms-regulation.mp4' type='video/mp4'>OK, published!</video> ",
+          "text@es": "<video width='320' height='320' autoplay><source src='images/endings/large-platforms-regulation-es.mp4' type='video/mp4'>Ok, publicado!</video>",
           "text@de": "<video width='320' height='320' autoplay><source src='images/endings/large-platforms-regulation-de.mp4' type='video/mp4'>Ok, die Story ist draußen!</video>"
         },
         {
           "character": "ECATspox",
           "text@en": "According to the Digital Services Act, large platforms are already regulated.",
+          "text@es": "Según la Ley de Servicios Digitales, las grandes plataformas ya están reguladas.",
           "text@de": "Dem Digital Services Act zufolge werden große Plattformen schon reguliert."
         },
         {
           "character": "brandt",
           "text@en": "Interesting story.",
+          "text@es": "Historia interesante.",
           "text@de": "Interessante Geschichte."
         },
         {
           "character": "tt-spox",
           "text@en": "Nice story 👍🏼",
+          "text@es": "Bonita historia 👍🏼",
           "text@de": "Das klingt nach einer richtig guten Story! 👍🏼"
         },
         {
           "character": "tt-spox",
           "text@en": "TikTube is strongly in favor of sound regulation.",
+          "text@es": "TikTube está muy a favor de una regulación robusta",
           "text@de": "TikTube ist voll und ganz für eine starke Regulation."
         }
       ]
@@ -1323,6 +1523,7 @@
   "choices": [
     {
       "text@en": "Game over",
+      "text@es": "Fin del juego",
       "text@de": "Game over",
       "var_changes": {
         "game_over_final": 1

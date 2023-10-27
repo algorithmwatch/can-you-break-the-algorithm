@@ -6,6 +6,7 @@
       "category": "player",
       "chart": false,
       "label@en": "Sources contacted",
+      "label@es": "Fuentes contactadas",
       "label@de":"Kontaktierte Quellen"
     },
     "time_left": {
@@ -14,6 +15,7 @@
       "icon": "hourglass",
       "category": "risk",
       "label@en": "Time left",
+      "label@es": "Tiempo restante",
       "label@de":"Verbleibende Zeit"
     },
     "dataAccess": {
@@ -150,99 +152,127 @@
   "characters": {
     "editor": {
       "name@en": "Jeannette Wehunt",
+      "name@es": "Jeannette Wehunt",
       "name@de":"Jeannette Wehunt",
       "title@en": "Editor-in-chief",
+      "title@es": "Editor jefa",
       "title@de":"Chefredakteurin",
       "avatar": "./images/avatars/editor.png"
     },
     "colleague": {
       "name@en": "Lisbet Swango",
+      "name@es": "Lisbet Swango",
       "name@de":"Lisbet Swango",
       "title@en": "Senior reporter",
+      "title@es": "Tu colega",
       "title@de":"Chefreporterin",
       "avatar": "./images/avatars/colleague.png"
     },
     "ECATspox": {
       "name@en": "Émeline Bonfils",
+      "name@es": "Émeline Bonfils",
       "name@de":"Émeline Bonfils",
       "title@en": "ECAT spokesperson",
+      "title@es": "Portavoz de ECAT",
       "title@de":"Pressesprecherin ECAT",
       "avatar": "./images/avatars/ecat-spox.png"
     },
     "tt-spox": {
       "name@en": "Otmar Kadlec",
+      "name@es": "Otmar Kadlec",
       "name@de":"Otmar Kadlec",
       "title@en": "TikTube press officer",
+      "title@es": "Jefe de prensa de TikTube",
       "title@de":"TikTube-Pressesprecher",
       "avatar": "./images/avatars/tt-spox.png"
     },
     "nephew": {
       "name@en": "Noah",
+      "name@es": "Noah",
       "name@de":"Noah",
       "title@en": "Your nephew",
+      "title@es": "Tu sobrino",
       "title@de":"Dein Neffe",
       "avatar": "./images/avatars/teen0.png"
     },
     "teen1": {
       "name@en": "Jean",
+      "name@es": "Jean",
       "name@de":"Jean",
       "title@en": "Student at T.G. high school",
+      "title@es": "Estudiante en T.G. escuela secundaria",
       "title@de":"Schüler am T.G.-Gymnasium",
       "avatar": "./images/avatars/teen1.png"
     },
     "teen2": {
       "name@en": "Camille",
+      "name@es": "Camille",
       "name@de":"Camille",
       "title@en": "Student at T.G. high school",
+      "title@es": "Estudiante en T.G. escuela secundaria",
       "title@de":"Schülerin am T.G.-Gymnasium",
       "avatar": "./images/avatars/teen2.png"
     },
     "teen3": {
       "name@en": "Mo",
+      "name@es": "Mo",
       "name@de":"Mo",
       "title@en": "Student at T.G. high school",
+      "title@es": "Estudiante en T.G. escuela secundaria",
       "title@de":"Schüler am T.G.-Gymnasium",
       "avatar": "./images/avatars/teen3.png"
     },
     "leaker": {
       "name@en": "Jane Doe",
+      "name@es": "Jane Doe",
       "name@de":"Erika Mustermann",
       "title@en": "Former TikTube employee",
+      "title@es": "Ex empleado de TikTube",
       "title@de":"Frühere TikTube-Mitarbeiterin",
       "avatar": "./images/avatars/janedoe.png"
     },
     "leaker-colleague": {
       "name@en": "Dany Mohren",
+      "name@es": "Dany Mohren",
       "name@de":"Dany Mohren",
       "title@en": "TikTube employee",
+      "title@es": "Empleado de TikTube",
       "title@de":"TikTube-Mitarbeiter",
       "avatar": "./images/avatars/tt-employee.png"
     },
     "manchego": {
       "name@en": "Alois Manchego",
+      "name@es": "Alois Manchego",
       "name@de":"Alois Manchego",
       "title@en": "Professor, head of the AI accountability lab",
+      "title@es": "Profesor, jefa del Laboratorio de Responsabilidad de AI",
       "title@de":"Professor, Leiter des KI-Rechenschaftszentrums",
       "avatar": "./images/avatars/manchego.png"
     },
     "brandt": {
       "name@en": "Hiltrud Brandt",
+      "name@es": "Hiltrud Brandt",
       "name@de":"Hiltrud Brandt",
       "title@en": "Anthropologist",
+      "title@es": "Antropólogo",
       "title@de":"Anthropologin",
       "avatar": "./images/avatars/brandt.png"
     },
     "dev": {
       "name@en": "Ant1G4F4m",
+      "name@es": "Ant1G4F4m",
       "name@de":"Ant1G4F4m",
       "title@en": "Computer developer",
+      "title@es": "Desarrollador de computadoras",
       "title@de":"Entwicklerin",
       "avatar": "./images/avatars/dev.png"
     },
     "you": {
       "name@en": "You",
+      "name@es": "Tú",
       "name@de": "Du",
       "title@en": "Reporter",
+      "title@es": "Reportero",
       "title@de":"Reporterin",
       "avatar": null
     }
@@ -251,81 +281,97 @@
     "10": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "An assignment",
+      "title@es": "Un trabajo",
       "title@de":"Ein Auftrag"
     },
     "11": {
       "picture": "images/years/ecat.jpg",
       "title@en": "Day 1: ECAT",
+      "title@es": "Día 1: ECAT",
       "title@de":"Tag 1: Europäisches Zentrum für algorithmische Transparenz"
     },
     "12": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 2, 9am",
+      "title@es": "Día 2, 9am",
       "title@de":"Tag 2: 9 Uhr morgens"
     },
     "13": {
       "picture": "images/years/tt.jpg",
       "title@en": "Day 2: TikTube",
+      "title@es": "Día 2: TikTube",
       "title@de":"Tag 2: TikTube"
     },
     "14": {
       "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 2, 4pm",
+      "title@es": "Día 2, 4pm",
       "title@de":"Tag 2: 4 Uhr nachmittags"
     },
     "15": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 3, 9am",
+      "title@es": "Día 3, 9am",
       "title@de":"Tag 3: 9 Uhr morgens"
     },
     "16": {
       "picture": "images/years/teenagers.jpg",
       "title@en": "Day 3: Asking users",
+      "title@es": "Día 3: Preguntar a los usuarios",
       "title@de":"Tag 3: Befragung von Nutzer*innen"
     },
     "17": {
       "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 3, 4pm",
+      "title@es": "Día 3, 4pm",
       "title@de":"Tag 3: 4 Uhr nachmittags"
     },
     "18": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 4: A surprise",
+      "title@es": "Día 4: Una sorpresa",
       "title@de":"Tag 4: Eine Überraschung"
     },
     "19": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 5, 9am",
+      "title@es": "Día 5, 9am",
       "title@de":"Tag 5: 9 Uhr morgens"
     },
     "20": {
       "picture": "images/years/campus.jpg",
       "title@en": "Day 5: On campus",
+      "title@es": "Día 5: En el campus",
       "title@de":"Tag 5: Auf dem Campus"
     },
     "21": {
       "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 5, 4pm",
+      "title@es": "Día 5, 4pm",
       "title@de":"Tag 5: 4 Uhr nachmittags"
     },
     "22": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 6, 9am",
+      "title@es": "Día 6, 9am",
       "title@de":"Tag 6: 9 Uhr morgens"
     },
     "23": {
       "picture": "images/years/experiment.jpg",
       "title@en": "Day 6: The experiment",
+      "title@es": "Día 6: El experimento",
       "title@de":"Tag 6: Das Experiment"
     },
     "24": {
       "picture": "images/years/tt.jpg",
       "title@en": "Day 9: Problems",
+      "title@es": "Día 9: Problemas",
       "title@de":"Tag 6: Probleme"
     },
     "25": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 12",
+      "title@es": "Día 12",
       "title@de":"Tag 12"
     }
   },  

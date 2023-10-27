@@ -6,6 +6,7 @@
       "min": 1
     },
     "text@en":"<h2>You lost!</h2>Cracking TikTube's algorithm is impossible, but journalists can investigate much more thoroughly than you did this time. Try again!",
+    "text@es": "<H2> ¡Perdiste! </h2> que el algoritmo de TikTube es imposible, pero los periodistas pueden investigar mucho más a fondo que esta vez. ¡Intentalo otra vez!",
     "text@de": "<h2>Du hast verloren.</h2>Es ist unmöglich, den TikTube-Algorithmus zu knacken, aber Journalist*innen sollten bei ihrer Recherche deutlich gründlicher vorgehen, als du es getan hast. Versuch es noch einmal!"
 
   },
@@ -15,6 +16,7 @@
       "min": 1
     },
     "text@en":"<h2>Congratulations</h2>You did not crack TikTube's algorithm, but now you know that it makes no sense to talk of <i>cracking</i> an algorithm.<br/><br/>You did, however, bring new facts to the public, which will help users and decision-makers better understand how large platforms work.",
+    "text@es": "<h2> Felicitaciones </h2> No rompiste el algoritmo de TikTube, pero ahora sabes que no tiene sentido hablar de <i> descifrar </i> un algoritmo. <br/> <br/>, sin embargo, trajiste nuevos hechos al público, lo que ayudará a los usuarios y a los tomadores de decisiones a comprender mejor cómo funcionan las grandes plataformas.",
     "text@de": "<h2>Glückwunsch!</h2>Du hast zwar den TikTube-Algorithmus nicht geknackt, aber jetzt weißt du, wie sinnlos die Behauptung ist, einen Algorithmus <i>geknackt</i> zu haben.<br/><br/>Es ist dir außerdem gelungen, neue Fakten ans Licht zu bringen. Nutzer*innen und Entscheidungsträger*innen können dadurch besser verstehen, wie große Plattformen funktionieren."
 
   }
