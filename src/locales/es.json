@@ -1,0 +1,52 @@
+{
+  "app": {
+    "title": "¿Puedes descifrar el algoritmo?",
+    "url": "https://algorithmwatch.github.io/can-you-break-the-algorithm/es.html",
+    "description": "Eres periodista. Una nueva aplicación está afectando la salud mental de los adolescentes. Descubre cómo funciona su algoritmo.",
+    "image": "https://algorithmwatch.github.io/can-you-break-the-algorithm/images/share-es.png",
+    "share": {
+      "tweet": {
+        "via": "AlgorithmWatch",
+        "text": "¿Puedes descifrar el algoritmo de TikTube? ¡Inténtalo!"
+      }
+    }
+  },
+  "main": {
+    "back": "De vuelta al juego",
+    "intro": {
+      "heading": "¿Puedes descifrar <br />el algoritmo?",
+      "meta": "— por <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
+      "description": "<p> Eres periodista. Una nueva aplicación está afectando la salud mental de los adolescentes. Descubre cómo funciona su algoritmo. </p> <p> Cada ejemplo del juego se basa en casos reales. </p>",
+      "new-game": "Empiece un nuevo juego",
+      "continue": "Continuar"
+    },
+    "steps": {
+      "undo": "Deshacer <span class='hidden-xs-down'>última acción</span>",
+      "promo": "Hecho por <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
+      "over": {
+        "undo": "Deshacer la última acción",
+        "again": "Juega de nuevo",
+        "share": "¿Has visto lo difícil que es que una Big Tech se haga responsable?. <br/> <br/> En Algorithmwatch, trabajamos duro para hacer exactamente eso. Tal cual lo has hecho tu virtualmente, nosotros lo hicimos de verdad contra Tiktok, Instagram, LinkedIn y Google, a veces obligando a Big Tech a implementar cambios, a menudo sintiendo la presión de sus abogados. <br/> <br/> Si deseas apoyar nuestro trabajo, puedes <ul> <li> compartir este juego con tu red, </li> <li> <a href='https://algorithmwatch.org/en/donate/' target='_blank'> hacer un Donación </a> - ¡Incluso 1 € ayuda! </li> <li> Suscríbirte al <a href='https://automatedsociety.algorithmwatch.org/#/en' target='_blank'> Newsletter de la sociedad automatizada < /a>, probablemente la mejor sesión informativa quincenal sobre la toma de decisiones automatizada en Europa. </li> </ul>"
+      }
+    },
+    "toolbar": {
+      "heading": "¿Puedes descifrar <br />el algoritmo?",
+      "links": {
+        "chats": "Chats",
+        "hints": "Bandeja de entrada",
+        "indicators": "Indicadores",
+        "about": "Acerca de"
+      },
+      "share": {
+        "label": "Compartir",
+        "whatsapp": "Compartir por correo electrónico",
+        "linkedin": "Compartir en LinkedIn",
+        "mastodon": "Compartir en Mastodon"
+      }
+    },
+    "hints": {
+      "none": "No hay correos electrónicos todavía",
+      "description": "Recibirás correos electrónicos durante el juego."
+    }
+  }
+}
