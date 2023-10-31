@@ -419,20 +419,20 @@
         {
           "character": "you",
           "text@en": "Of course, it's the social app all teenagers are on.",
-          "text@es": "¿Qué es eso?",
+          "text@es": "Pues es la red social que usan todos los adolescentes.",
           "text@de": "Klar, das ist diese App für Teenager."
         },
         {
           "character": "editor",
           "text@en": "You're not as clueless as I thought.",
-          "text@es": "Pues es la red social que usan todos los adolescentes.",
+          "text@es": "No estás tan despistada como pensaba.",
           "text@de": "Du bist also gar nicht so verplant wie du aussiehst."
         }
       ]
     },
     {
       "text@en": "What's that?",
-      "text@es": "No estás tan despistada como pensaba.",
+      "text@es": "¿Qué es eso?",
       "text@de": "Was ist das?",
       "feedback": [
         {
