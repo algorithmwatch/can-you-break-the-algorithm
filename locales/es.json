@@ -2,7 +2,7 @@
   "app": {
     "title": "¿Puedes descifrar el algoritmo?",
     "url": "https://algorithmwatch.github.io/can-you-break-the-algorithm/es.html",
-    "description": "Eres periodista. Una nueva aplicación está afectando la salud mental de los adolescentes. Descubre cómo funciona su algoritmo.",
+    "description": "Eres periodista. Una nueva red social está afectando a la salud mental de los adolescents. Descubre cómo funciona su algoritmo.",
     "image": "https://algorithmwatch.github.io/can-you-break-the-algorithm/images/share-es.png",
     "share": {
       "tweet": {
@@ -16,7 +16,7 @@
     "intro": {
       "heading": "¿Puedes descifrar <br />el algoritmo?",
       "meta": "— por <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
-      "description": "<p> Eres periodista. Una nueva aplicación está afectando la salud mental de los adolescentes. Descubre cómo funciona su algoritmo. </p> <p> Cada ejemplo del juego se basa en casos reales. </p>",
+      "description": "<p> Eres periodista. Una nueva red social está afectando la salud mental de los adolescentes. Descubre cómo funciona su algoritmo. </p> <p> Cada ejemplo del juego se basa en casos reales. </p>",
       "new-game": "Empiece un nuevo juego",
       "continue": "Continuar"
     },
@@ -26,7 +26,7 @@
       "over": {
         "undo": "Deshacer la última acción",
         "again": "Juega de nuevo",
-        "share": "¿Has visto lo difícil que es que una Big Tech se haga responsable?. <br/> <br/> En Algorithmwatch, trabajamos duro para hacer exactamente eso. Tal cual lo has hecho tu virtualmente, nosotros lo hicimos de verdad contra Tiktok, Instagram, LinkedIn y Google, a veces obligando a Big Tech a implementar cambios, a menudo sintiendo la presión de sus abogados. <br/> <br/> Si deseas apoyar nuestro trabajo, puedes <ul> <li> compartir este juego con tu red, </li> <li> <a href='https://algorithmwatch.org/en/donate/' target='_blank'> hacer un Donación </a> - ¡Incluso 1 € ayuda! </li> <li> Suscríbirte al <a href='https://automatedsociety.algorithmwatch.org/#/en' target='_blank'> Newsletter de la sociedad automatizada < /a>, probablemente la mejor sesión informativa quincenal sobre la toma de decisiones automatizada en Europa. </li> </ul>"
+        "share": "¿Has visto lo difícil que es que una gran empresa tecnológica se haga responsable?. <br/> <br/> En Algorithmwatch, trabajamos duro para hacer exactamente eso. Tal cual lo has hecho tu virtualmente, nosotros lo hicimos de verdad contra Tiktok, Instagram, LinkedIn y Google, a veces obligando a estas empresas a implementar cambios, a menudo presionados por sus abogados. <br/> <br/> Si deseas apoyar nuestro trabajo, puedes <ul> <li> compartir este juego con tus contactos o </li> <li> <a href='https://algorithmwatch.org/en/donate/' target='_blank'> hacer un donación </a> - ¡Incluso 1 € ayuda! </li> <li> Suscríbete a la <a href='https://automatedsociety.algorithmwatch.org/#/en' target='_blank'> newsletter 'Automated Society' < /a>, probablemente la mejor newsletter sobre sistemas de toma de decisiones automatizados en Europa. </li> </ul>"
       }
     },
     "toolbar": {

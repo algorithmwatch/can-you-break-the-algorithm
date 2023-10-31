@@ -15,7 +15,7 @@
   "choices": [
     {
       "text@en": "They have no clue.",
-      "text@es": "No tienen idea.",
+      "text@es": "No tienen ni idea.",
       "text@de": "Ich bin genauso schlau wie vorher.",
       "feedback": [
         {
@@ -46,7 +46,7 @@
         {
           "character": "colleague",
           "text@en": "Stonewalling is the actual job of many spokespersons.",
-          "text@es": "Responder con evasivas es el trabajo real de muchos portavoces.",
+          "text@es": "Responder con evasivas es el veradero trabadjo de muchos portavoces.",
           "text@de": "Presseabteilungen sind meistens dazu da, nichts zu sagen. "
         },
         {
@@ -95,13 +95,13 @@
     },
     {
       "text@en": "We should do a request for data access.",
-      "text@es": "Deberíamos hacer una solicitud de acceso a datos.",
+      "text@es": "Deberíamos hacer una solicitud de derecho de acceso.",
       "text@de": "Wir sollten einen Zugriffsantrag stellen, um an die Daten zu kommen.",
       "feedback": [
         {
           "character": "you",
           "text@en": "We should try to make a request for data access.",
-          "text@es": "Deberíamos intentar hacer una solicitud de acceso a datos.",
+          "text@es": "Deberíamos intentar hacer una solicitud de derecho de acceso.",
           "text@de": "Wir sollten versuchen, einen Zugriffsantrag zu stellen, um an die Daten zu kommen."
         },
         {
@@ -138,7 +138,7 @@
     {
       "character": "colleague",
       "text@en": "You should try to contact TikTube directly.",
-      "text@es": "Debe intentar contactar a TikTube directamente.",
+      "text@es": "Deberías intentar contactar con TikTube directamente.",
       "text@de": "Frag direkt bei TikTube nach."
     },
     {
@@ -178,7 +178,7 @@
         {
           "character": "you",
           "text@en": "Thanks, your help is precious.",
-          "text@es": "Gracias, tu ayuda es fundamental.",
+          "text@es": "¡Gracias por tu ayuda! Me está resultando fundamental.",
           "text@de": "Vielen Dank für die großartige Hilfe!"
         }
       ]
@@ -275,7 +275,7 @@
     },
     {
       "text@en": "Does TikTube impact the mental health of its users?",
-      "text@es": "¿TikTube afecta la salud mental de sus usuarios?",
+      "text@es": "¿Afecta el uso de TikTube a la salud mental de los usuarios?",
       "text@de": "Wirkt es sich negativ auf die geistige Gesundheit aus, TikTube zu benutzen?",
       "var_changes": {
         "tt-spox-mental-health": 1,
@@ -291,7 +291,7 @@
         {
           "character": "you",
           "text@en": "Does TikTube impact the mental health of its users?",
-          "text@es": "¿TikTube afecta la salud mental de sus usuarios?",
+          "text@es": "¿Afecta el uso de TikTube a la salud mental de los usuarios?",
           "text@de": "Wirkt es sich negativ auf die geistige Gesundheit aus, TikTube zu benutzen?"
         },
         {
@@ -325,7 +325,7 @@
         {
           "character": "you",
           "text@en": "Thanks Oti, that's helpful!",
-          "text@es": "Gracias Oti, ¡eso es útil!",
+          "text@es": "Gracias, Oti, ¡muy útil!",
           "text@de": "Danke, Otis, das war sehr hilfreich."
         },
         {
@@ -337,26 +337,26 @@
         {
           "character": "tt-spox",
           "text@en": "And say hi to Lisbet for me!",
-          "text@es": "¡Y saluda a Lisbet por mí!",
+          "text@es": "¡Y saluda a Lisbet de mi parte!",
           "text@de": "Grüß Lisbet von mir!"
         }
       ]
     },
     {
       "text@en": "Can you be more precise?",
-      "text@es": "puedes ser mas preciso?",
+      "text@es": "¿Puedes ser más preciso?",
       "text@de": "Ginge es etwas genauer?",
       "feedback": [
         {
           "character": "you",
           "text@en": "Can you be more precise?",
-          "text@es": " Puedes precisar mas?",
+          "text@es": "¿Podrías precisar eso un poco más?",
           "text@de": "Ginge es etwas genauer?"
         },
         {
           "character": "you",
           "text@en": "For instance, are recommendations <i>entirely</i> personalized?",
-          "text@es": "Por ejemplo, ¿se personalizan las recomendaciones <i> </i>?",
+          "text@es": "Por ejemplo, ¿se pesonalizan las recomendaciones al completo?",
           "text@de": "Ich würde zum Beispiel gern wissen, ob die Empfehlungen <i>komplett</i> personalisiert sind."
         },
         {
@@ -368,7 +368,7 @@
         {
           "character": "tt-spox",
           "text@en": "TikTube’s recommendation system drops in diverse types of content along with those we already know you love.",
-          "text@es": "El sistema de recomendación de TikTube ofrece diversos tipos de contenido junto con aquellos que ya sabemos que te encanta.",
+          "text@es": "El sistema de recomendación de TikTube ofrece diversos tipos de contenido junto con aquellos que ya sabemos que te encantan.",
           "text@de": "TikTubes Empfehlungssystem schlägt auch neue Inhalte vor, nicht nur die, die die Nutzer schon kennen und lieben."
         },
         {
@@ -380,7 +380,7 @@
         {
           "character": "you",
           "text@en": "Could this feature push too much depressing content, and make users sad?",
-          "text@es": "¿Podría esta característica ofrecer demasiado contenido deprimente y entristecer a los usuarios?",
+          "text@es": "¿Podría esta característica llegar a ofrecer demasiado contenido deprimente y entristecer a los usuarios?",
           "text@de": "Könnte es passieren, dass so Inhalte in den Feed geraten, die Depressionen triggern?"
         },
         {
@@ -457,7 +457,7 @@
         {
           "character": "tt-spox",
           "text@en": "Professor <b>Alois Manchego</b> will soon release a study which you will find interesting.",
-          "text@es": "El profesor <b> Alois Manchego </b> lanzará pronto un estudio que le resultará interesante.",
+          "text@es": "El profesor <b> Alois Manchego </b> lanzará pronto un estudio que te resultará interesante.",
           "text@de": "Professor <b>Alois Manchego</b> wird dazu demnächst eine Studie veröffentlichen, die dich interessieren dürfte."
         },
         {
@@ -482,7 +482,7 @@
     {
       "character": "editor",
       "text@en": "So, what have you got for me?",
-      "text@es": "Entonces, ¿qué tienes para mí?",
+      "text@es": "Vale, ¿qué tienes para mí?",
       "text@de": "Also, was gibt's Neues?"
     },
     {
@@ -520,25 +520,25 @@
     },
     {
       "text@en": "Yes. The headline: « Details of TikTube's algorithm REVEALED »",
-      "text@es": "Sí.",
+      "text@es": "Sí. El titular: «REVELADOS detalles del algoritmo de TikTube»",
       "text@de": "Sie ist so gut wie fertig. Überschrift: „SO funktioniert der TikTube-Algorithmus!“",
       "feedback": [
         {
           "character": "you",
           "text@en": "Yes.",
-          "text@es": "Sí. El titular: «Detalles del algoritmo de TikTube REVELADOS»",
+          "text@es": "Sí.",
           "text@de": "Ich bin so weit fertig."
         },
         {
           "character": "you",
           "text@en": "I think the headline should be <b>Details of TikTube's algorithm REVEALED</b>.",
-          "text@es": "Creo que el titular debe ser <b> Detalles del algoritmo de TikTube REVELADOS</b>.",
+          "text@es": "Creo que el titular debe ser <b> REVELADOS detalles del algoritmo de TikTube </b>.",
           "text@de": "Ich fände die Überschrift: <b>SO funktioniert der TikTube-Algorithmus!</b> gut."
         },
         {
           "character": "editor",
           "text@en": "What's your source for the revelations?",
-          "text@es": "¿Cuál es tu fuente para las revelaciones?",
+          "text@es": "¿Cuál es tu fuente?",
           "text@de": "Welche Quellen hast du benutzt?"
         },
         {

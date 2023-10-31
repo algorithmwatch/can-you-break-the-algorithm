@@ -9,7 +9,7 @@
     {
       "character": "you",
       "text@en": "Tell me, Lisbet, how do I check what Oti told me?",
-      "text@es": "Dime, Lisbet, ¿cómo verifico lo que Oti me dijo?",
+      "text@es": "Dime, Lisbet, ¿cómo verifico lo que me dijo Oti?",
       "text@de": "Lisbet, wie soll ich überprüfen, was Oti mir gesagt hat?"
     },
     {
@@ -91,7 +91,7 @@
         {
           "character": "colleague",
           "text@en": "Then just go to a high school and ask around.",
-          "text@es": "Luego ve a una escuela secundaria y pregunta.",
+          "text@es": "Pues ve a un instituto y pregunta por ahí.",
           "text@de": "Dann geh an irgendeine Schule und hör dich da um."
         }
       ]
@@ -120,7 +120,7 @@
     {
       "character": "nephew",
       "text@en": "Is water wet?",
-      "text@es": "¿Está húmedo el agua?",
+      "text@es": "¿El agua moja?",
       "text@de": "Blöde Frage."
     },
     {
@@ -144,7 +144,7 @@
     {
       "character": "nephew",
       "text@en": "It's not making anyone sad.",
-      "text@es": "No está haciendo triste a nadie.",
+      "text@es": "A nadie le pone triste.",
       "text@de": "Depressiv, so ein Quatsch."
     }
   ],
@@ -194,13 +194,13 @@
         {
           "character": "nephew",
           "text@en": "What would be the point if it did not?",
-          "text@es": "¿Cuál sería la cuestión si no lo hiciera?",
+          "text@es": "¿Dónde estaría la gracia si no lo hiciese?",
           "text@de": "Das wäre ja sonst langweilig. "
         },
         {
           "character": "nephew",
           "text@en": "I thought journalists asked better questions.",
-          "text@es": "Pensé que los periodistas hicieron mejores preguntas.",
+          "text@es": "Pensaba que los periodistas hacían preguntas más interesantes.",
           "text@de": "Ich dachte, Journalisten würden bessere Fragen stellen."
         }
       ]
@@ -257,7 +257,7 @@
     {
       "character": "teen3",
       "text@en": "What do you want?",
-      "text@es": "¿Qué deseas?",
+      "text@es": "¿Qué quieres?",
       "text@de": "Was willst du?"
     }
   ],
@@ -273,7 +273,7 @@
         {
           "character": "you",
           "text@en": "Does any of you use TikTube?",
-          "text@es": "¿Alguno de ustedes usa TikTube?",
+          "text@es": "¿Alguno de vosotros usa TikTube?",
           "text@de": "Benutzt irgendwer von euch TikTube?"
         },
         {
@@ -320,7 +320,7 @@
         {
           "character": "you",
           "text@en": "What's your experience with it?",
-          "text@es": "¿Cuál es tu experiencia con él?",
+          "text@es": "¿Cuál es tu experiencia con TikTube?",
           "text@de": "Was habt Ihr für Erfahrungen damit gemacht?"
         },
         {
@@ -362,7 +362,7 @@
         {
           "character": "teen2",
           "text@en": "So the algorithm thinks we're viral and pushes our videos even more.",
-          "text@es": "Entonces, el algoritmo cree que somos virales y empuja nuestros videos aún más.",
+          "text@es": "Así que el algoritmo se piensa que nos hacemos virales y promueve nuestros vídeos aún más.",
           "text@de": "Der Algorithmus denkt deswegen, dass wir viral gehen, und pusht unsere Videos."
         },
         {
@@ -386,7 +386,7 @@
         {
           "character": "you",
           "text@en": "Can you tell me more?",
-          "text@es": "¿Me puede decir más?",
+          "text@es": "¿Me puedes contar un poco más?",
           "text@de": "Willst du mir mehr darüber erzählen?"
         },
         {
@@ -422,7 +422,7 @@
         {
           "character": "teen3",
           "text@en": "Even when I tell the app to stop.",
-          "text@es": "Incluso cuando le digo a la aplicación que se detenga.",
+          "text@es": "Incluso cuando le digo a la app que pare.",
           "text@de": "Ich kann sie dann auch nicht ausblenden."
         },
         {
@@ -445,7 +445,7 @@
     {
       "character": "editor",
       "text@en": "So, what have you got for me?",
-      "text@es": "Entonces, ¿qué tienes para mí?",
+      "text@es": "¿Y bien? ¿Qué más tienes?",
       "text@de": "Wie schaut's aus, was hast du herausgefunden?"
     }
   ],
@@ -482,7 +482,7 @@
     {
       "character": "editor",
       "text@en": "So, what have you got for me?",
-      "text@es": "Entonces, ¿qué tienes para mí?",
+      "text@es": "¿Y bien? ¿Qué más tienes?",
       "text@de": "Wie schaut's aus, was hast du herausgefunden?"
     }
   ],
@@ -526,7 +526,7 @@
         {
           "character": "editor",
           "text@en": "You have the front page.",
-          "text@es": "Tienes la página principal.",
+          "text@es": "Tienes la portada.",
           "text@de": "Das ist etwas für Seite eins."
         },
         {
@@ -569,7 +569,7 @@
     },
     {
       "text@en": "I'm ready to publish. The headline: « Teens can crack TikTube's algorithm »",
-      "text@es": "Estoy listo para publicar. El titular: «Los adolescentes pueden romper el algoritmo de TikTube»",
+      "text@es": "Estoy lista para publicar. El titular: «Los adolescentes pueden hackear el algoritmo de TikTube»",
       "text@de": "Wir können die Story veröffentlichen. Überschrift: „Teenager knacken den TikTube-Algorithmus“.",
       "var_changes" : {
         "game_over": 1
@@ -578,7 +578,7 @@
         {
           "character": "you",
           "text@en": "I'm ready to publish.",
-          "text@es": "Estoy listo para publicar.",
+          "text@es": "Estoy lista para publicar.",
           "text@de": "Wir können die Story veröffentlichen."
         },
         {
@@ -590,7 +590,7 @@
         {
           "character": "editor",
           "text@en": "You have the front page.",
-          "text@es": "Tienes la página principal.",
+          "text@es": "Tienes la portada.",
           "text@de": "Das ist etwas für Seite eins."
         },
         {
@@ -643,7 +643,7 @@
     {
       "character": "editor",
       "text@en": "So, what have you got for me?",
-      "text@es": "Entonces, ¿qué tienes para mí?",
+      "text@es": "¿Y bien? ¿Qué tienes?",
       "text@de": "Wie schaut's aus, was hast du herausgefunden?"
     }
   ],
@@ -695,7 +695,7 @@
   "choices": [
     {
       "text@en": "Read what academics wrote on the issue.",
-      "text@es": "Leer lo que los académicos escribieron sobre el tema.",
+      "text@es": "Leer lo que hayan publicado académicos y académicas.",
       "text@de": "Ich werde mir wissenschaftliche Literatur anlesen.",
       "var_changes": {
         "time_left": 8
@@ -704,7 +704,7 @@
         {
           "character": "you",
           "text@en": "I'll read up what academics published.",
-          "text@es": "Leeré lo que publicaron los académicos.",
+          "text@es": "Leer lo que hayan publicado académicos y académicas.",
           "text@de": "Ich werde mir anschauen, was in der Wissenschaft dazu veröffentlicht wurde."
         },
         {
@@ -722,9 +722,9 @@
       ]
     },
     {
-      "text@en": "Ask Oti at TikTok for more info.",
-      "text@es": "Pregúntele a Oti en Tiktok para obtener más información.",
-      "text@de": "Frag Oti bei TikTok nach weiteren Infos.",
+      "text@en": "Ask Oti at TikTube for more info.",
+      "text@es": "Pregúntale a Oti de TikTube por más información.",
+      "text@de": "Frag Oti bei TikTube nach weiteren Infos.",
       "var_changes": {
         "game_over": 1
       },
@@ -793,7 +793,7 @@
         {
           "character": "editor",
           "text@en": "You have the front page.",
-          "text@es": "Tienes la página principal.",
+          "text@es": "Tienes la portada.",
           "text@de": "Das ist etwas für Seite eins."
         },
         {
@@ -805,13 +805,13 @@
         {
           "character": "colleague",
           "text@en": "Wow, that's some poorly researched journalism.",
-          "text@es": "Vaya, ese es un periodismo mal investigado.",
+          "text@es": "Vaya, eso sí que es periodismo mal investigado.",
           "text@de": "Wow, das ist mal ein gutes Beispiel für schlecht recherchierten Journalismus."
         },
         {
           "character": "colleague",
           "text@en": "You pretty much did PR work.",
-          "text@es": "Practicamente hiciste trabajo de relaciones públicas.",
+          "text@es": "Prácticamente hiciste el trabajo de un relaciones públicas.",
           "text@de": "Das ist im Prinzip kostenlose PR für TikTube."
         },
         {

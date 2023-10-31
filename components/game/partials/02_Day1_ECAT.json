@@ -4,7 +4,7 @@
     {
       "character": "editor",
       "text@en": "Hi there, welcome to the newsroom!",
-      "text@es": "Hola, ¡Bienvenido a la sala de redacción!",
+      "text@es": "Hola, ¡Bienvenida a la redacción!",
       "text@de": "Hallo, willkommen in unserer Redaktion!"
     },
     {
@@ -16,7 +16,7 @@
     {
       "character": "editor",
       "text@en": "Whatever that means.",
-      "text@es": "Lo que sea que eso signifique.",
+      "text@es": "Sea lo que sea eso.",
       "text@de": "Was immer das heißen soll. "
     },
     {
@@ -47,32 +47,32 @@
         {
           "character": "editor",
           "text@en": "You're not as clueless as I thought.",
-          "text@es": "Por supuesto, es la aplicación social en la que están todos los adolescentes.",
+          "text@es": "Pues es la red social que usan todos los adolescentes.",
           "text@de": "Du bist also gar nicht so verplant wie du aussiehst."
         }
       ]
     },
     {
       "text@en": "What's that?",
-      "text@es": "No estás tan despistado como pensaba.",
+      "text@es": "No estás tan despistada como pensaba.",
       "text@de": "Was ist das?",
       "feedback": [
         {
           "character": "you",
           "text@en": "I'm afraid I haven't.",
-          "text@es": "Me temo que no lo he hecho.",
+          "text@es": "Me temo que no.",
           "text@de": "Leider nicht."
         },
         {
           "character": "editor",
           "text@en": "TikTube is the social media platform all teenagers are on.",
-          "text@es": "TikTube es la plataforma de redes sociales en todos los adolescentes.",
+          "text@es": "TikTube es la red social que usan ahora todos los adolescentes.",
           "text@de": "TikTube ist die Social-Media-Plattform, auf der sich die ganzen Teenager rumtreiben."
         },
         {
           "character": "editor",
           "text@en": "Everyone in this newsroom knows that.",
-          "text@es": "Todos en esta sala de redacción lo saben.",
+          "text@es": "Todo el mundo en esta redacción lo sabe.",
           "text@de": "Das gehört hier in der Redaktion zum Allgemeinwissen."
         }
       ]
@@ -85,13 +85,13 @@
     {
       "character": "editor",
       "text@en": "I've heard that TikTube's algorithm is making teenagers sad.",
-      "text@es": "He oído que el algoritmo de TikTube está entristece a los adolescentes.",
+      "text@es": "Parece que el algoritmo de TikTube entristece a los adolescentes.",
       "text@de": "Ich habe gehört, dass der TikTube-Algorithmus Teenager depressiv macht."
     },
     {
       "character": "editor",
       "text@en": "Find out if that's true.",
-      "text@es": "Descubra si eso es cierto.",
+      "text@es": "Quiero que investigues si es cierto.",
       "text@de": "Find heraus, ob das stimmt."
     }
   ],
@@ -107,7 +107,7 @@
         {
           "character": "you",
           "text@en": "Thank you, I'll do my best.",
-          "text@es": "Gracias, haré lo mejor que pueda.",
+          "text@es": "Gracias. ¡Lo haré lo mejor que pueda!",
           "text@de": "Danke, ich werd mein Bestes geben."
         },
         {
@@ -143,25 +143,25 @@
     {
       "character": "colleague",
       "text@en": "The editor-in-chief is tough, but she's fair.",
-      "text@es": "La editora en jefa es dura, pero es justa.",
+      "text@es": "La editora jefa es dura, pero también es justa.",
       "text@de": "Die Chefredakteurin ist eigentlich ganz in Ordnung."
     },
     {
       "character": "colleague",
       "text@en": "... to people who give her good stories, at least.",
-      "text@es": "... a las personas que le dan buenas historias, al menos.",
+      "text@es": "... al menos con las personas que le traen buenas historias.",
       "text@de": "Solange du was Brauchbares ablieferst."
     },
     {
       "character": "colleague",
       "text@en": "You should start by asking the European Center for Algorithmic Transparency.",
-      "text@es": "Debes comenzar preguntando al Centro Europeo de Transparencia Algorítmica.",
+      "text@es": "Deberías empezar preguntando al Centro Europeo de Transparencia Algorítmica.",
       "text@de": "Frag zuerst im Europäischen Zentrum für algorithmische Transparenz nach."
     },
     {
       "character": "you",
       "text@en": "The European center for what?",
-      "text@es": "¿El Centro Europeo para qué?",
+      "text@es": "¿El Centro Europeo de qué?",
       "text@de": "Was für ein Europäisches Zentrum?"
     },
     {
@@ -173,19 +173,19 @@
     {
       "character": "you",
       "text@en": "That's nice of you.",
-      "text@es": "Qué amable de tu parte.",
+      "text@es": "Qué amable, gracias.",
       "text@de": "Das ist nett von dir."
     },
     {
       "character": "colleague",
       "text@en": "It'll be faster for me.",
-      "text@es": "Será más rápido para mí.",
+      "text@es": "Va a ser más rápido.",
       "text@de": "So ist's auch leichter für mich."
     },
     {
       "character": "colleague",
       "text@en": "You might want to [check your inbox|ECAT] before you call.",
-      "text@es": "Es posible que desee [verificar tu bandeja de entrada|ECAT] antes de llamar.",
+      "text@es": "Recuerda comprobar tu [bandeja de entrada|ECAT] antes de llamar.",
       "text@de": "Schau dir die [Mail|ECAT] genau an, bevor du dort anrufst."
     }
   ],
@@ -207,13 +207,13 @@
         {
           "character": "colleague",
           "text@en": "In the meantime, I'll tell some people about your investigation.",
-          "text@es": "Mientras tanto, contaré a algunas personas sobre tu investigación.",
+          "text@es": "Mientras tanto, le hablaré a un par de personas más sobre tu investigación.",
           "text@de": "In der Zwischenzeit werde ich ein paar Leuten von deiner Recherche erzählen."
         },
         {
           "character": "colleague",
           "text@en": "Maybe someone will come forward with information.",
-          "text@es": "Tal vez alguien tenga información.",
+          "text@es": "Tal vez tengan más información.",
           "text@de": "Vielleicht hat ja jemand Informationen für dich."
         }
       ]
@@ -277,7 +277,7 @@
     {
       "character": "ECATspox",
       "text@en": "We are building a team of many specialists for this task.",
-      "text@es": "Estamos construyendo un equipo de muchos especialistas para esta tarea.",
+      "text@es": "Estamos construyendo un equipo multidisciplinar para este cometido.",
       "text@de": "Wir stellen dafür gerade ein Team aus Spezialist*innen auf."
     },
     {
@@ -289,14 +289,14 @@
     {
       "character": "ECATspox",
       "text@en": "However, you can ask TikTube for data access.",
-      "text@es": "Sin embargo, puede pedirle a TikTube acceso a datos.",
+      "text@es": "Sin embargo, puede solicitar a TikTube acceso a sus datos personales.",
       "text@de": "Sie können aber bei TikTube die entsprechenden Daten anfordern."
     }
   ],
   "choices": [
     {
       "text@en": "You didn't answer my question.",
-      "text@es": "No respondió a mi pregunta.",
+      "text@es": "No has respondido a mi pregunta.",
       "text@de": "Sie haben meine Frage nicht beantwortet.",
       "feedback": [
         {
@@ -355,13 +355,13 @@
         {
           "character": "ECATspox",
           "text@en": "They will forward it to the Irish Digital Services Coordinator, because TikTube is based in Ireland.",
-          "text@es": "Lo enviarán al Coordinador de Servicios Digitales irlandeses, porque TikTube tiene su sede en Irlanda.",
+          "text@es": "Lo enviarán al Coordinador de Servicios Digitales irlandés, ya que TikTube tiene su sede en Irlanda.",
           "text@de": "Die deutsche Behörde leitet den Antrag an den irischen Digital Services Coordinator weiter, weil TikTube seinen Sitz in Irland hat."
         },
         {
           "character": "ECATspox",
           "text@en": "If the Irish agree, you'll be able to request the data from TikTube.",
-          "text@es": "Si los irlandeses están de acuerdo, podrá solicitar los datos de TikTube.",
+          "text@es": "Si en Irlanda están de acuerdo, podrá solicitar los datos a TikTube.",
           "text@de": "Wenn die irische Behörde grünes Licht gibt, können Sie die Daten bei TikTube anfordern."
         },
         {
