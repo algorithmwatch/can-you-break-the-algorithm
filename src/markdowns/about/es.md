@@ -1,16 +1,16 @@
 # Sobre este juego
 
-_¿Puedes descifrar el algoritmo?_ Pretende explicar a los periodistas y sus audiencias sobre las complejidades de informar sobre sistemas automatizados.
+_¿Puedes descifrar el algoritmo?_ pretende explicar a periodistas y al público sobre las complejidades de informar sobre sistemas automatizados.
 
-Está construido por AlgorithmWatch con el apoyo de Florent Maurin del estudio de juegos independiente [The Pixel Hunt](https://www.thepixelhunt.com/).
+Lo ha desarrollado AlgorithmWatch con el apoyo de Florent Maurin del estudio de juegos independiente [The Pixel Hunt] (https://www.thepixelhunt.com/).
 
-Las ilustraciones se generaron automáticamente con MidJourney bajo la supervisión del ilustrador de juegos profesionales Alexandre Grilletta.
+Las ilustraciones las hemos generado con MidJourney bajo la supervisión del ilustrador de juegos profesionales Alexandre Grilletta.
 
-La traduccion al castellano ha sido proporcionada por Maria Dapena.
+La traduccion al castellano ha sido proporcionada por Maria Dapena y editada por Naiara Bellio.
 
-Si tiene preguntas, o desea traducir o adaptar el juego, se comunique con Nicolas Kayser-Bril a kayser-bril@algorithmwatch.org.
+Si tienes preguntas, o deseas traducir o adaptar el juego, ponte en contacto con Nicolas Kayser-Bril a kayser-bril@algorithmwatch.org.
 
-Se basa en [el bueno, el malo y el contable](https://jplusplus.github.io/the-accountant/#/), un juego de [Journalism++](https://jplusplus.org/en/ ).
+Este juego se basa en [el bueno, el malo y el contable](https://jplusplus.github.io/the-accountant/#/), un juego de [Journalism++](https://jplusplus.org/en/ ).
 
 _¿Puede descifrar el algoritmo?_ es posible gracias a la Deutsche Postcode Lotterie.
 

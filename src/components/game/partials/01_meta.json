@@ -155,7 +155,7 @@
       "name@es": "Jeannette Wehunt",
       "name@de":"Jeannette Wehunt",
       "title@en": "Editor-in-chief",
-      "title@es": "Editor jefa",
+      "title@es": "Editora jefa",
       "title@de":"Chefredakteurin",
       "avatar": "./images/avatars/editor.png"
     },
@@ -200,7 +200,7 @@
       "name@es": "Jean",
       "name@de":"Jean",
       "title@en": "Student at T.G. high school",
-      "title@es": "Estudiante en T.G. escuela secundaria",
+      "title@es": "Estudiante en el instituto T.G.",
       "title@de":"Schüler am T.G.-Gymnasium",
       "avatar": "./images/avatars/teen1.png"
     },
@@ -209,7 +209,7 @@
       "name@es": "Camille",
       "name@de":"Camille",
       "title@en": "Student at T.G. high school",
-      "title@es": "Estudiante en T.G. escuela secundaria",
+      "title@es": "Estudiante en el instituto T.G.",
       "title@de":"Schülerin am T.G.-Gymnasium",
       "avatar": "./images/avatars/teen2.png"
     },
@@ -218,7 +218,7 @@
       "name@es": "Mo",
       "name@de":"Mo",
       "title@en": "Student at T.G. high school",
-      "title@es": "Estudiante en T.G. escuela secundaria",
+      "title@es": "Estudiante en el instituto T.G.",
       "title@de":"Schüler am T.G.-Gymnasium",
       "avatar": "./images/avatars/teen3.png"
     },
@@ -245,7 +245,7 @@
       "name@es": "Alois Manchego",
       "name@de":"Alois Manchego",
       "title@en": "Professor, head of the AI accountability lab",
-      "title@es": "Profesor, jefa del Laboratorio de Responsabilidad de AI",
+      "title@es": "Profesor, jefe del Laboratorio de Responsabilidad de AI",
       "title@de":"Professor, Leiter des KI-Rechenschaftszentrums",
       "avatar": "./images/avatars/manchego.png"
     },
@@ -263,7 +263,7 @@
       "name@es": "Ant1G4F4m",
       "name@de":"Ant1G4F4m",
       "title@en": "Computer developer",
-      "title@es": "Desarrollador de computadoras",
+      "title@es": "Programadora informática",
       "title@de":"Entwicklerin",
       "avatar": "./images/avatars/dev.png"
     },
@@ -272,7 +272,7 @@
       "name@es": "Tú",
       "name@de": "Du",
       "title@en": "Reporter",
-      "title@es": "Reportero",
+      "title@es": "Reportera",
       "title@de":"Reporterin",
       "avatar": null
     }
@@ -293,7 +293,7 @@
     "12": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 2, 9am",
-      "title@es": "Día 2, 9am",
+      "title@es": "Día 2, 09:00",
       "title@de":"Tag 2: 9 Uhr morgens"
     },
     "13": {
@@ -305,13 +305,13 @@
     "14": {
       "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 2, 4pm",
-      "title@es": "Día 2, 4pm",
+      "title@es": "Día 2, 16:00",
       "title@de":"Tag 2: 4 Uhr nachmittags"
     },
     "15": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 3, 9am",
-      "title@es": "Día 3, 9am",
+      "title@es": "Día 3, 09:00",
       "title@de":"Tag 3: 9 Uhr morgens"
     },
     "16": {
@@ -323,7 +323,7 @@
     "17": {
       "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 3, 4pm",
-      "title@es": "Día 3, 4pm",
+      "title@es": "Día 3, 16:00",
       "title@de":"Tag 3: 4 Uhr nachmittags"
     },
     "18": {
@@ -335,7 +335,7 @@
     "19": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 5, 9am",
-      "title@es": "Día 5, 9am",
+      "title@es": "Día 5, 09:00",
       "title@de":"Tag 5: 9 Uhr morgens"
     },
     "20": {
@@ -347,13 +347,13 @@
     "21": {
       "picture": "images/years/newsroom-late.jpg",
       "title@en": "Day 5, 4pm",
-      "title@es": "Día 5, 4pm",
+      "title@es": "Día 5, 16:00",
       "title@de":"Tag 5: 4 Uhr nachmittags"
     },
     "22": {
       "picture": "images/years/newsroom-early.jpg",
       "title@en": "Day 6, 9am",
-      "title@es": "Día 6, 9am",
+      "title@es": "Día 6, 09:00",
       "title@de":"Tag 6: 9 Uhr morgens"
     },
     "23": {

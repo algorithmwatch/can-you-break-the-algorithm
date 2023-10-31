@@ -15,13 +15,13 @@
     {
       "character": "leaker",
       "text@en": "I'm a former employee at TikTube.",
-      "text@es": "Soy un ex empleado en TikTube.",
+      "text@es": "Soy un ex empleada de TikTube.",
       "text@de": "Ich habe früher für TikTube gearbeitet."
     },
     {
       "character": "colleague",
       "text@en": "That could be explosive.",
-      "text@es": "Eso podría ser explosivo.",
+      "text@es": "Esto podría ser una bomba.",
       "text@de": "Das Material könnte wie eine Bombe hochgehen."
     },
     {
@@ -33,7 +33,7 @@
     {
       "character": "colleague",
       "text@en": "Some colleagues got caught with fake leaks in the past. [Check your inbox for more|Sources].",
-      "text@es": "Algunos compañeras se encontraron con filtraciones falsas en el pasado. [Consulta tu bandeja de entrada para más|Sources].",
+      "text@es": "A algunos compañeros ya se la colaron con filtraciones falsas en el pasado. [Consulta tu bandeja de entrada para más|Sources].",
       "text@de": "In der Vergangenheit sind immer wieder gefälschte Dokumente geleakt worden. Schau in die [Mail|Sources], die ich dir dazu geschickt habe."
     },
     {
@@ -45,14 +45,14 @@
     {
       "character": "leaker",
       "text@en": "Wanna look at them?",
-      "text@es": "¿Quieres darles un vistazo?",
+      "text@es": "¿Quieres echarles un vistazo?",
       "text@de": "Wollen Sie einen Blick drauf werfen?"
     }
   ],
   "choices": [
     {
       "text@en": "Please share.",
-      "text@es": "Por favor comparte.",
+      "text@es": "Sí, por favor, mandámelos.",
       "text@de": "Ich möchte sie gerne sehen.",
       "var_changes": {
         "leaker_yes": 1,
@@ -70,7 +70,7 @@
     },
     {
       "text@en": "Can you prove who you are?",
-      "text@es": "¿Puedes probar quién eres?",
+      "text@es": "¿Puedes demostrar que eres quien dices ser?",
       "text@de": "Können Sie mir Ihre Identität bestätigen?",
       "var_changes": {
         "leaker_prove": 1,
@@ -80,25 +80,25 @@
         {
           "character": "you",
           "text@en": "Can you prove who you say you are?",
-          "text@es": "¿Puedes probar quién dices que eres?",
+          "text@es": "¿Puedes demostrar que eres quien dices ser?",
           "text@de": "Können Sie beweisen, dass Sie wirklich der sind, als der Sie sich ausgeben?"
         },
         {
           "character": "leaker",
           "text@en": "Here's a screenshot of my e-mail inbox at TikTube.",
-          "text@es": "Aquí hay una captura de pantalla de mi bandeja de entrada de correo electrónico en TikTube.",
+          "text@es": "Esta es una captura de pantalla de la bandeja de entrada de mi correo de TikTube.",
           "text@de": "Hier ist ein Screenshot vom Posteingang meiner TikTube-Mailadresse."
         },
         {
           "character": "leaker",
           "text@en": "<img src='images/email-inbox.png' style='max-width:100%' width=500 height=auto alt='An image of an e-mail inbox'/>",
-          "text@es": "<img src = 'imágenes/correo electrónico-inbox.png' style = 'max-width: 100%' width = 500 Height = Auto alt = 'Una imagen de una bandeja de entrada de correo electrónico'/>",
+          "text@es": "<img src='images/email-inbox.png' style='max-width:100%' width=500 height=auto alt='Una imagen de una bandeja de entrada de correo electrónico'/>",
           "text@de": "<img src='images/email-inbox.png' style='max-width:100%' width=500 height=auto alt='Posteingang-Bild'/>"
         },
         {
           "character": "colleague",
           "text@en": "Anyone could fake this.",
-          "text@es": "Cualquiera podría falsearlo.",
+          "text@es": "Cualquier podría falsear eso.",
           "text@de": "Das lässt sich leicht fälschen."
         }
       ]
@@ -120,7 +120,7 @@
         {
           "character": "you",
           "text@en": "I'm afraid the law on trade secrets prevents me from accepting.",
-          "text@es": "Me temo que la ley sobre los secretos comerciales me impide aceptar.",
+          "text@es": "Me temo que la Ley de Secretos Comerciales me impide aceptarlo.",
           "text@de": "Ich muss leider ablehnen. Geschäftsgeheimnisse sind gesetzlich geschützt."
         }
       ]
@@ -181,7 +181,7 @@
     {
       "character": "leaker",
       "text@en": "Here are some slides from an internal presentation I made last year.",
-      "text@es": "Aquí hay algunas diapositivas de una presentación interna que hice el año pasado.",
+      "text@es": "Te mando algunas diapositivas de una presentación interna que hice el año pasado.",
       "text@de": "Hier sind ein paar Folien einer internen Präsentation aus dem letzten Jahr."
     },
     {
@@ -206,7 +206,7 @@
         {
           "character": "you",
           "text@en": "Wow, that's heavy.",
-          "text@es": "Vaya, eso pesa.",
+          "text@es": "Qué fuerte.",
           "text@de": "Wow, das ist eine Riesensache."
         },
         {
@@ -219,7 +219,7 @@
     },
     {
       "text@en": "Who can confirm that they're genuine?",
-      "text@es": "¿Quién puede confirmar que son genuinos?",
+      "text@es": "¿Quién puede confirmar que las capturas son reales?",
       "text@de": "Wer kann mir bestätigen, dass die Dokumente echt sind?",
       "var_changes" : {
         "sources_contacted": 1,
@@ -235,7 +235,7 @@
         {
           "character": "leaker",
           "text@en": "A former colleague will contact you soon.",
-          "text@es": "Un ex compañera se comunicará con usted pronto.",
+          "text@es": "Un ex compañero se pondrá en contacto contigo pronto.",
           "text@de": "Ein früherer Kollege von mir wird sich bald bei Ihnen melden."
         },
         {
@@ -247,13 +247,13 @@
         {
           "character": "leaker-colleague",
           "text@en": "I've been told to contact you.",
-          "text@es": "Me han dicho que me contacte.",
+          "text@es": "Me han dicho que te contacte.",
           "text@de": "Ich sollte mich bei Ihnen melden."
         },
         {
           "character": "leaker-colleague",
           "text@en": "What you saw appears genuine.",
-          "text@es": "Lo que viste parece genuino.",
+          "text@es": "Lo que viste tiene pinta de ser verdad.",
           "text@de": "Die Dokumente, die Sie gesehen haben, scheinen echt zu sein."
         },
         {

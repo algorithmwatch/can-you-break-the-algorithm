@@ -6,7 +6,7 @@
       "min": 1
     },
     "text@en":"<h2>You lost!</h2>Cracking TikTube's algorithm is impossible, but journalists can investigate much more thoroughly than you did this time. Try again!",
-    "text@es": "<H2> ¡Perdiste! </h2> que el algoritmo de TikTube es imposible, pero los periodistas pueden investigar mucho más a fondo que esta vez. ¡Intentalo otra vez!",
+    "text@es": "<h2>¡Perdiste!</h2>Descifrar el algoritmo de TIkTube es casi imposible, pero los periodistas pueden investigar mucho más a fondo de lo que has hecho ahora. ¡Prueba otra vez!",
     "text@de": "<h2>Du hast verloren.</h2>Es ist unmöglich, den TikTube-Algorithmus zu knacken, aber Journalist*innen sollten bei ihrer Recherche deutlich gründlicher vorgehen, als du es getan hast. Versuch es noch einmal!"
 
   },
