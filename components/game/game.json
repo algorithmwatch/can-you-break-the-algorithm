@@ -164,7 +164,7 @@
       "name@es": "Lisbet Swango",
       "name@de":"Lisbet Swango",
       "title@en": "Senior reporter",
-      "title@es": "Tu colega",
+      "title@es": "Tu compañera",
       "title@de":"Chefreporterin",
       "avatar": "./images/avatars/colleague.png"
     },
@@ -254,7 +254,7 @@
       "name@es": "Hiltrud Brandt",
       "name@de":"Hiltrud Brandt",
       "title@en": "Anthropologist",
-      "title@es": "Antropólogo",
+      "title@es": "Antropóloga",
       "title@de":"Anthropologin",
       "avatar": "./images/avatars/brandt.png"
     },
@@ -382,7 +382,7 @@
     {
       "character": "editor",
       "text@en": "Hi there, welcome to the newsroom!",
-      "text@es": "Hola, ¡Bienvenida a la redacción!",
+      "text@es": "Hola, ¡bienvenida a la redacción!",
       "text@de": "Hallo, willkommen in unserer Redaktion!"
     },
     {
@@ -400,7 +400,7 @@
     {
       "character": "editor",
       "text@en": "I've got a tip for you.",
-      "text@es": "Tengo un consejo para ti.",
+      "text@es": "Tengo un tema para ti.",
       "text@de": "Ich hab gleich was für dich."
     },
     {
@@ -497,7 +497,7 @@
         {
           "character": "editor",
           "text@en": "Because you're new, I'm pairing you with our senior reporter on Artificial Intelligence.",
-          "text@es": "Como eres nuevo, te voy a poner ne contacto con nuestra reportera senior sobre inteligencia artificial.",
+          "text@es": "Como eres nueva, te voy a poner en contacto con nuestra reportera senior sobre inteligencia artificial.",
           "text@de": "Weil du neu bist, wirst du mit der KI-Chefreporterin zusammenarbeiten."
         }
       ]
@@ -520,14 +520,14 @@
     },
     {
       "character": "colleague",
-      "text@en": "The editor-in-chief is tough, but she's fair.",
-      "text@es": "La editora jefa es dura, pero también es justa.",
+      "text@en": "The editor-in-chief is tough, but she's fair...",
+      "text@es": "La editora jefa es dura, pero también es justa...",
       "text@de": "Die Chefredakteurin ist eigentlich ganz in Ordnung."
     },
     {
       "character": "colleague",
-      "text@en": "... to people who give her good stories, at least.",
-      "text@es": "... al menos con las personas que le traen buenas historias.",
+      "text@en": "To people who give her good stories, at least.",
+      "text@es": "Al menos con las personas que le traen buenas historias.",
       "text@de": "Solange du was Brauchbares ablieferst."
     },
     {
@@ -674,13 +674,13 @@
   "choices": [
     {
       "text@en": "You didn't answer my question.",
-      "text@es": "No has respondido a mi pregunta.",
+      "text@es": "No ha respondido a mi pregunta.",
       "text@de": "Sie haben meine Frage nicht beantwortet.",
       "feedback": [
         {
           "character": "you",
           "text@en": "You didn't answer my question.",
-          "text@es": "No respondió a mi pregunta.",
+          "text@es": "No ha respondido a mi pregunta.",
           "text@de": "Sie haben meine Frage nicht beantwortet."
         },
         {
@@ -768,7 +768,7 @@
     {
       "character": "colleague",
       "text@en": "How did it go at ECAT?",
-      "text@es": "¿Cómo fue en ECAT?",
+      "text@es": "¿Cómo fue con ECAT?",
       "text@de": "Wie lief's mit dem Europäischen Transparenzzentrum?"
     }
   ],
@@ -806,7 +806,7 @@
         {
           "character": "colleague",
           "text@en": "Stonewalling is the actual job of many spokespersons.",
-          "text@es": "Responder con evasivas es el veradero trabadjo de muchos portavoces.",
+          "text@es": "Responder con evasivas es el verdadero trabajo de muchos portavoces.",
           "text@de": "Presseabteilungen sind meistens dazu da, nichts zu sagen. "
         },
         {
@@ -922,7 +922,7 @@
     {
       "character": "colleague",
       "text@en": "I sent you an email with some tips, [check your inbox|revolvingDoor].",
-      "text@es": "Te envié un correo electrónico con algunos consejos, [consulta su bandeja de entrada|revolvingDoor].",
+      "text@es": "Te envié un correo electrónico con algunos consejos, [consulta tu bandeja de entrada|revolvingDoor].",
       "text@de": "Ich hab dir eine [Mail|revolvingDoor] mit ein paar Tipps geschrieben, schau mal rein."
     }
   ],
@@ -969,7 +969,7 @@
     {
       "character": "tt-spox",
       "text@en": "I'm a good friend of your colleague Lisbet's!",
-      "text@es": "¡Soy un buen amigo de tu compañera Lisbet's!",
+      "text@es": "¡Soy un buen amigo de tu compañera Lisbet!",
       "text@de": "Ich bin ein Freund von Lisbet."
     },
     {
@@ -1248,7 +1248,7 @@
     {
       "character": "editor",
       "text@en": "Are you ready to publish?",
-      "text@es": "¿Estás listo para publicar?",
+      "text@es": "¿Estás lista para publicar?",
       "text@de": "Können wir die Story jetzt bringen?"
     }
   ],
@@ -1656,7 +1656,7 @@
     },
     {
       "text@en": "I'm a journalist researching TikTube.",
-      "text@es": "Soy un periodista que investiga TikTube.",
+      "text@es": "Soy una periodista que investiga TikTube.",
       "text@de": "Ich bin Journalistin und mache eine Recherche über TikTube.",
       "var_changes": {
         "sources_contacted": 3,
@@ -1708,13 +1708,13 @@
         {
           "character": "teen2",
           "text@en": "I'm in this Telegram group.",
-          "text@es": "Estoy en este grupo de Telegram.",
+          "text@es": "Estoy en un grupo de Telegram.",
           "text@de": "Ich bin in dieser Telegram-Gruppe."
         },
         {
           "character": "teen2",
           "text@en": "We like each other's posts.",
-          "text@es": "Damos likes a las publicaciones de los demás.",
+          "text@es": "En el que le damos like a las publicaciones de los demás.",
           "text@de": "Wir liken gegenseitig unser Posts."
         },
         {
@@ -1863,7 +1863,7 @@
     },
     {
       "text@en": "I'm ready to publish. The headline: « TikTube can harm teens »",
-      "text@es": "Estoy listo para publicar. El titular: «TikTube puede dañar a los adolescentes»",
+      "text@es": "Estoy lista para publicar. El titular: «TikTube puede dañar a los adolescentes»",
       "text@de": "Wir können die Story veröffentlichen. Überschrift: „TikTube kann Teenagern schaden“.",
       "var_changes" : {
         "game_over": 1
@@ -1872,7 +1872,7 @@
         {
           "character": "you",
           "text@en": "I'm ready to publish.",
-          "text@es": "Estoy listo para publicar.",
+          "text@es": "Estoy lista para publicar.",
           "text@de": "Wir können die Story veröffentlichen."
         },
         {
@@ -2024,7 +2024,7 @@
     },
     {
       "text@en": "I'm ready to publish. The headline: « Teenagers are happy with TikTube's algorithm »",
-      "text@es": "Estoy listo para publicar. El titular: «Los adolescentes están contentos con el algoritmo de TikTube»",
+      "text@es": "Estoy lista para publicar. El titular: «Los adolescentes están contentos con el algoritmo de TikTube»",
       "text@de": "Wir können die Story veröffentlichen. Überschrift: „Warum Teenager vom TikTube-Algorithmus begeistert sind“.",
       "var_changes" : {
         "game_over": 1,
@@ -2074,14 +2074,14 @@
         {
           "character": "editor",
           "text@en": "Not more.",
-          "text@es": "No mas.",
+          "text@es": "No más.",
           "text@de": "Das war's aber dann."
         }
       ]
     },
     {
       "text@en": "Ask Oti at TikTube for more info.",
-      "text@es": "Pregúntale a Oti de TikTube por más información.",
+      "text@es": "Preguntar a Oti de TikTube por más información.",
       "text@de": "Frag Oti bei TikTube nach weiteren Infos.",
       "var_changes": {
         "game_over": 1
@@ -2233,7 +2233,7 @@
     {
       "character": "leaker",
       "text@en": "I'm a former employee at TikTube.",
-      "text@es": "Soy un ex empleada de TikTube.",
+      "text@es": "Soy una ex empleada de TikTube.",
       "text@de": "Ich habe früher für TikTube gearbeitet."
     },
     {
@@ -2405,13 +2405,13 @@
     {
       "character": "leaker",
       "text@en": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='A slide with text: survey from users show negative effect on mental health.'/>",
-      "text@es": "<img src = 'images/fleater-slide1.png' style = 'max-width: 100%' width = 480 Height = Auto alt = 'Una diapositiva con texto: la encuesta de los usuarios muestra un efecto negativo en la salud mental.'/>",
+      "text@es": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='Una diapositiva con texto: la encuesta de los usuarios muestra un efecto negativo en la salud mental.'/>",
       "text@de": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='Folie mit Aufschrift: Umfrage unter Nutzern bestätigt negative Auswirkungen auf mentale Verfassung.'/>"
     },
     {
       "character": "leaker",
       "text@en": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='A slide with text: Teens notably sadder after using the app.'/>",
-      "text@es": "<img src = 'images/filter-slide2.png' style = 'max-width: 100%' width = 480 Height = Auto alt = 'Una diapositiva con texto: adolescentes notablemente más tristes después de usar la aplicación.'/>",
+      "text@es": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='Una diapositiva con texto: adolescentes notablemente más tristes después de usar la aplicación.'/>",
       "text@de": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='Folie mit Aufschrift: Die App ruft nachweislich bei Teenagern Depressionen hervor.'/>"
     }
   ],
@@ -2600,7 +2600,7 @@
   "choices" : [
     {
       "text@en": "Prof. Alois Manchego, head of the AI accountability lab",
-      "text@es": "Prof. Alois Manchego, jefa del Laboratorio de Responsabilidad de IA",
+      "text@es": "Prof. Alois Manchego, jefe del Laboratorio de Responsabilidad de IA",
       "text@de": "Prof. Alois Manchego, Leiter des KI-Rechenschaftszentrums",
       "var_changes": {
         "manchego": 1,
@@ -2915,7 +2915,7 @@
     {
       "character": "brandt",
       "text@en": "I'm now a post-doctoral researcher.",
-      "text@es": "Ahora soy un investigador postdoctoral.",
+      "text@es": "Ahora soy una investigadora postdoctoral.",
       "text@de": "Seit meiner Promotion arbeite ich in der Forschung."
     }
   ],
@@ -3067,7 +3067,7 @@
     {
       "character": "brandt",
       "text@en": "Be they users, people who tag videos to train Machine Learning models, executives who decide to chase a new goal...",
-      "text@es": "Ya sean usuarios, personas que etiquetan videos para entrenar modelos de aprendizaje automático, ejecutivos que deciden perseguir un nuevo objetivo ...",
+      "text@es": "Ya sean usuarios, personas que etiquetan videos para entrenar modelos de aprendizaje automático, ejecutivos que deciden perseguir un nuevo objetivo...",
       "text@de": "Sei es mit den Nutzer*innen oder den Menschen, die Videos taggen, um Modelle Machinellen Lernens zu trainieren..."
     },
     {
@@ -3085,7 +3085,7 @@
     {
       "character": "you",
       "text@en": "So, we'll never know if TikTube makes teens sad?",
-      "text@es": "Entonces, ¿nunca sabremos si TikTube pone tristes a los adolescentes ?",
+      "text@es": "Entonces, ¿nunca sabremos si TikTube pone tristes a los adolescentes?",
       "text@de": "Also werden wir nie wissen, ob TikTube Teenager depressiv macht?"
     },
     {
@@ -3128,7 +3128,7 @@
         {
           "character": "brandt",
           "text@en": "This would be hard to find out.",
-          "text@es": "Esto sería difícil de averiguarlo.",
+          "text@es": "Eso sería difícil de averiguar.",
           "text@de": "Das dürfte kaum zu beantworten sein."
         },
         {
@@ -3186,7 +3186,7 @@
           {
             "character": "brandt",
             "text@en": "And another one that doesn't...",
-            "text@es": "Y otra que no ...",
+            "text@es": "Y otra que no...",
             "text@de": "...und ein anderes, auf dem die Inhalte fröhlicher sind..."
           },
           {
@@ -3517,7 +3517,7 @@
     {
       "character": "editor",
       "text@en": "Are you ready to publish?",
-      "text@es": "¿Estás listo para publicar?",
+      "text@es": "¿Estás lista para publicar?",
       "text@de": "Können wir die Story jetzt bringen?"
     }
   ],
@@ -4656,7 +4656,7 @@
     },
     "revolvingDoor": {
       "title@en": "Subject: Revolving doors",
-      "title@es": "Asunto: puertas giratorias",
+      "title@es": "Asunto: Puertas Giratorias",
       "title@de": "Betreff: Windmaschinen",
       "body@es": "<p> Hola, </p> <p> Las grandes empresas tecnológicas tienen algo que los periodistas europeos no tienen: dinero. Contrataron a muchos ex periodistas para hacer su lobby. Te engatusarán para que creas todo lo que dicen. </p> <p> Mantente alerta y no caigan en sus redes. Tendrás que verificar cada dato que te den. Presta atención cuando te digan las cosas en condicional, o cuando digan que su algoritmo <i> podría </i>, o <i> puede </i>, hacer algo. Necesitamos certeza. </p> <p> Saludos, </p> <p> Lisbet </p>",
       "body@en": "<p>Hi there,</p><p>Large tech companies have a thing European journalists don't: money. They hired lots of former journalists to carry out their lobbying. They will sweet-talk you into believing everything they say.</p><p>Stay alert, and don't fall for their tricks. Every piece of information you get from them must be verified, or at least veryfiable. Pay attention when they use the conditional tense, or say that their algorithm <i>might</i>, or <i>may</i>, or <i>could</i> do a certain thing. We need certainty.</p><p>Cheers,</p><p>Lisbet</p>",
@@ -4674,7 +4674,7 @@
     },
     "Sources": {
       "title@en": "Subject: Double-check your sources",
-      "title@es": "Asunto: verifica tus fuentes",
+      "title@es": "Asunto: Verifica tus fuentes",
       "title@de": "Betreff: Immer mindestens zwei Quellen",
       "body@es": "<p> Hola compañera, </p> <p> En este sector, no puedes confiar ciegamente en las personas. </p> <p> Siempre que una persona comparta una información contigo, debes verificarla, preguntándole a alguien, o buscando un documento que la confirme. </p> <p> El riesgo de que te mientan está ahí. En octubre de 2022, <i> The Wire </i> publicó una revelación explosiva sobre Meta ... basada en capturas de pantalla falsas. <a href='https://www.theverge.com/2022/10/26/23425377/the-wire-subject-deception-member-team-meta-india' target='_blank'>Tuvieron que retractarse</a>. </p> <p> Saludos, </p> <p> lisbet </p>",
       "body@en": "<p>Hi colleague,</p><p>In this trade, you cannot blindly trust people.</p><p>Whenever a person shares a fact with you, you need to double-check it, by asking someone or finding a document that confirms the initial statement.</p><p>The risk of being lied to is not hypothetical. In October 2022, <i>The Wire</i> published an explosive revelation about Meta... based on fake screenshots. <a href='https://www.theverge.com/2022/10/26/23425377/the-wire-subject-deception-member-team-meta-india' target='_blank'>They had to retract the story</a>.</p><p>Cheers,</p><p>Lisbet</p>",

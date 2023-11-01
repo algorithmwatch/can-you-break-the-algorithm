@@ -15,7 +15,7 @@
     {
       "character": "leaker",
       "text@en": "I'm a former employee at TikTube.",
-      "text@es": "Soy un ex empleada de TikTube.",
+      "text@es": "Soy una ex empleada de TikTube.",
       "text@de": "Ich habe früher für TikTube gearbeitet."
     },
     {
@@ -187,13 +187,13 @@
     {
       "character": "leaker",
       "text@en": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='A slide with text: survey from users show negative effect on mental health.'/>",
-      "text@es": "<img src = 'images/fleater-slide1.png' style = 'max-width: 100%' width = 480 Height = Auto alt = 'Una diapositiva con texto: la encuesta de los usuarios muestra un efecto negativo en la salud mental.'/>",
+      "text@es": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='Una diapositiva con texto: la encuesta de los usuarios muestra un efecto negativo en la salud mental.'/>",
       "text@de": "<img src='images/leaker-slide1.png' style='max-width:100%' width=480 height=auto alt='Folie mit Aufschrift: Umfrage unter Nutzern bestätigt negative Auswirkungen auf mentale Verfassung.'/>"
     },
     {
       "character": "leaker",
       "text@en": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='A slide with text: Teens notably sadder after using the app.'/>",
-      "text@es": "<img src = 'images/filter-slide2.png' style = 'max-width: 100%' width = 480 Height = Auto alt = 'Una diapositiva con texto: adolescentes notablemente más tristes después de usar la aplicación.'/>",
+      "text@es": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='Una diapositiva con texto: adolescentes notablemente más tristes después de usar la aplicación.'/>",
       "text@de": "<img src='images/leaker-slide2.png' style='max-width:100%' width=480 height=auto alt='Folie mit Aufschrift: Die App ruft nachweislich bei Teenagern Depressionen hervor.'/>"
     }
   ],

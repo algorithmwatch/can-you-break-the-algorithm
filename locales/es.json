@@ -15,14 +15,14 @@
     "back": "De vuelta al juego",
     "intro": {
       "heading": "¿Puedes descifrar <br />el algoritmo?",
-      "meta": "— por <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
+      "meta": "— Creado por <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
       "description": "<p> Eres periodista. Una nueva red social está afectando la salud mental de los adolescentes. Descubre cómo funciona su algoritmo. </p> <p> Cada ejemplo del juego se basa en casos reales. </p>",
       "new-game": "Empiece un nuevo juego",
       "continue": "Continuar"
     },
     "steps": {
       "undo": "Deshacer <span class='hidden-xs-down'>última acción</span>",
-      "promo": "Hecho por <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
+      "promo": "Creado por <a href='http://algorithmwatch.org' target='_blank'>AlgorithmWatch</a>",
       "over": {
         "undo": "Deshacer la última acción",
         "again": "Juega de nuevo",

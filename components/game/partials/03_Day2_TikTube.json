@@ -8,7 +8,7 @@
     {
       "character": "colleague",
       "text@en": "How did it go at ECAT?",
-      "text@es": "¿Cómo fue en ECAT?",
+      "text@es": "¿Cómo fue con ECAT?",
       "text@de": "Wie lief's mit dem Europäischen Transparenzzentrum?"
     }
   ],
@@ -46,7 +46,7 @@
         {
           "character": "colleague",
           "text@en": "Stonewalling is the actual job of many spokespersons.",
-          "text@es": "Responder con evasivas es el veradero trabadjo de muchos portavoces.",
+          "text@es": "Responder con evasivas es el verdadero trabajo de muchos portavoces.",
           "text@de": "Presseabteilungen sind meistens dazu da, nichts zu sagen. "
         },
         {
@@ -162,7 +162,7 @@
     {
       "character": "colleague",
       "text@en": "I sent you an email with some tips, [check your inbox|revolvingDoor].",
-      "text@es": "Te envié un correo electrónico con algunos consejos, [consulta su bandeja de entrada|revolvingDoor].",
+      "text@es": "Te envié un correo electrónico con algunos consejos, [consulta tu bandeja de entrada|revolvingDoor].",
       "text@de": "Ich hab dir eine [Mail|revolvingDoor] mit ein paar Tipps geschrieben, schau mal rein."
     }
   ],
@@ -209,7 +209,7 @@
     {
       "character": "tt-spox",
       "text@en": "I'm a good friend of your colleague Lisbet's!",
-      "text@es": "¡Soy un buen amigo de tu compañera Lisbet's!",
+      "text@es": "¡Soy un buen amigo de tu compañera Lisbet!",
       "text@de": "Ich bin ein Freund von Lisbet."
     },
     {
