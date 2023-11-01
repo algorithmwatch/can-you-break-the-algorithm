@@ -505,7 +505,7 @@
     },
     {
       "text@en": "I'm ready to publish. The headline: « TikTube can harm teens »",
-      "text@es": "Estoy listo para publicar. El titular: «TikTube puede dañar a los adolescentes»",
+      "text@es": "Estoy lista para publicar. El titular: «TikTube puede dañar a los adolescentes»",
       "text@de": "Wir können die Story veröffentlichen. Überschrift: „TikTube kann Teenagern schaden“.",
       "var_changes" : {
         "game_over": 1
@@ -514,7 +514,7 @@
         {
           "character": "you",
           "text@en": "I'm ready to publish.",
-          "text@es": "Estoy listo para publicar.",
+          "text@es": "Estoy lista para publicar.",
           "text@de": "Wir können die Story veröffentlichen."
         },
         {
@@ -781,7 +781,7 @@
     {
           "character": "you",
           "text@en": "I'm ready to publish.",
-          "text@es": "Estoy listo para publicar.",
+          "text@es": "Estoy lista para publicar.",
           "text@de": "Wir können die Story veröffentlichen."
         },
         {
