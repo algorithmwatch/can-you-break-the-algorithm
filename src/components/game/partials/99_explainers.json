@@ -9,7 +9,7 @@
     },
     "revolvingDoor": {
       "title@en": "Subject: Revolving doors",
-      "title@es": "Asunto: puertas giratorias",
+      "title@es": "Asunto: Puertas Giratorias",
       "title@de": "Betreff: Windmaschinen",
       "body@es": "<p> Hola, </p> <p> Las grandes empresas tecnológicas tienen algo que los periodistas europeos no tienen: dinero. Contrataron a muchos ex periodistas para hacer su lobby. Te engatusarán para que creas todo lo que dicen. </p> <p> Mantente alerta y no caigan en sus redes. Tendrás que verificar cada dato que te den. Presta atención cuando te digan las cosas en condicional, o cuando digan que su algoritmo <i> podría </i>, o <i> puede </i>, hacer algo. Necesitamos certeza. </p> <p> Saludos, </p> <p> Lisbet </p>",
       "body@en": "<p>Hi there,</p><p>Large tech companies have a thing European journalists don't: money. They hired lots of former journalists to carry out their lobbying. They will sweet-talk you into believing everything they say.</p><p>Stay alert, and don't fall for their tricks. Every piece of information you get from them must be verified, or at least veryfiable. Pay attention when they use the conditional tense, or say that their algorithm <i>might</i>, or <i>may</i>, or <i>could</i> do a certain thing. We need certainty.</p><p>Cheers,</p><p>Lisbet</p>",
@@ -27,7 +27,7 @@
     },
     "Sources": {
       "title@en": "Subject: Double-check your sources",
-      "title@es": "Asunto: verifica tus fuentes",
+      "title@es": "Asunto: Verifica tus fuentes",
       "title@de": "Betreff: Immer mindestens zwei Quellen",
       "body@es": "<p> Hola compañera, </p> <p> En este sector, no puedes confiar ciegamente en las personas. </p> <p> Siempre que una persona comparta una información contigo, debes verificarla, preguntándole a alguien, o buscando un documento que la confirme. </p> <p> El riesgo de que te mientan está ahí. En octubre de 2022, <i> The Wire </i> publicó una revelación explosiva sobre Meta ... basada en capturas de pantalla falsas. <a href='https://www.theverge.com/2022/10/26/23425377/the-wire-subject-deception-member-team-meta-india' target='_blank'>Tuvieron que retractarse</a>. </p> <p> Saludos, </p> <p> lisbet </p>",
       "body@en": "<p>Hi colleague,</p><p>In this trade, you cannot blindly trust people.</p><p>Whenever a person shares a fact with you, you need to double-check it, by asking someone or finding a document that confirms the initial statement.</p><p>The risk of being lied to is not hypothetical. In October 2022, <i>The Wire</i> published an explosive revelation about Meta... based on fake screenshots. <a href='https://www.theverge.com/2022/10/26/23425377/the-wire-subject-deception-member-team-meta-india' target='_blank'>They had to retract the story</a>.</p><p>Cheers,</p><p>Lisbet</p>",

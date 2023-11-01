@@ -298,7 +298,7 @@
     },
     {
       "text@en": "I'm a journalist researching TikTube.",
-      "text@es": "Soy un periodista que investiga TikTube.",
+      "text@es": "Soy una periodista que investiga TikTube.",
       "text@de": "Ich bin Journalistin und mache eine Recherche über TikTube.",
       "var_changes": {
         "sources_contacted": 3,
@@ -350,13 +350,13 @@
         {
           "character": "teen2",
           "text@en": "I'm in this Telegram group.",
-          "text@es": "Estoy en este grupo de Telegram.",
+          "text@es": "Estoy en un grupo de Telegram.",
           "text@de": "Ich bin in dieser Telegram-Gruppe."
         },
         {
           "character": "teen2",
           "text@en": "We like each other's posts.",
-          "text@es": "Damos likes a las publicaciones de los demás.",
+          "text@es": "En el que le damos like a las publicaciones de los demás.",
           "text@de": "Wir liken gegenseitig unser Posts."
         },
         {
@@ -505,7 +505,7 @@
     },
     {
       "text@en": "I'm ready to publish. The headline: « TikTube can harm teens »",
-      "text@es": "Estoy listo para publicar. El titular: «TikTube puede dañar a los adolescentes»",
+      "text@es": "Estoy lista para publicar. El titular: «TikTube puede dañar a los adolescentes»",
       "text@de": "Wir können die Story veröffentlichen. Überschrift: „TikTube kann Teenagern schaden“.",
       "var_changes" : {
         "game_over": 1
@@ -514,7 +514,7 @@
         {
           "character": "you",
           "text@en": "I'm ready to publish.",
-          "text@es": "Estoy listo para publicar.",
+          "text@es": "Estoy lista para publicar.",
           "text@de": "Wir können die Story veröffentlichen."
         },
         {
@@ -666,7 +666,7 @@
     },
     {
       "text@en": "I'm ready to publish. The headline: « Teenagers are happy with TikTube's algorithm »",
-      "text@es": "Estoy listo para publicar. El titular: «Los adolescentes están contentos con el algoritmo de TikTube»",
+      "text@es": "Estoy lista para publicar. El titular: «Los adolescentes están contentos con el algoritmo de TikTube»",
       "text@de": "Wir können die Story veröffentlichen. Überschrift: „Warum Teenager vom TikTube-Algorithmus begeistert sind“.",
       "var_changes" : {
         "game_over": 1,
@@ -716,14 +716,14 @@
         {
           "character": "editor",
           "text@en": "Not more.",
-          "text@es": "No mas.",
+          "text@es": "No más.",
           "text@de": "Das war's aber dann."
         }
       ]
     },
     {
       "text@en": "Ask Oti at TikTube for more info.",
-      "text@es": "Pregúntale a Oti de TikTube por más información.",
+      "text@es": "Preguntar a Oti de TikTube por más información.",
       "text@de": "Frag Oti bei TikTube nach weiteren Infos.",
       "var_changes": {
         "game_over": 1

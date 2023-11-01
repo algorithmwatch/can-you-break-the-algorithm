@@ -115,7 +115,7 @@
   "choices" : [
     {
       "text@en": "Prof. Alois Manchego, head of the AI accountability lab",
-      "text@es": "Prof. Alois Manchego, jefa del Laboratorio de Responsabilidad de IA",
+      "text@es": "Prof. Alois Manchego, jefe del Laboratorio de Responsabilidad de IA",
       "text@de": "Prof. Alois Manchego, Leiter des KI-Rechenschaftszentrums",
       "var_changes": {
         "manchego": 1,
@@ -430,7 +430,7 @@
     {
       "character": "brandt",
       "text@en": "I'm now a post-doctoral researcher.",
-      "text@es": "Ahora soy un investigador postdoctoral.",
+      "text@es": "Ahora soy una investigadora postdoctoral.",
       "text@de": "Seit meiner Promotion arbeite ich in der Forschung."
     }
   ],
@@ -582,7 +582,7 @@
     {
       "character": "brandt",
       "text@en": "Be they users, people who tag videos to train Machine Learning models, executives who decide to chase a new goal...",
-      "text@es": "Ya sean usuarios, personas que etiquetan videos para entrenar modelos de aprendizaje automático, ejecutivos que deciden perseguir un nuevo objetivo ...",
+      "text@es": "Ya sean usuarios, personas que etiquetan videos para entrenar modelos de aprendizaje automático, ejecutivos que deciden perseguir un nuevo objetivo...",
       "text@de": "Sei es mit den Nutzer*innen oder den Menschen, die Videos taggen, um Modelle Machinellen Lernens zu trainieren..."
     },
     {
@@ -600,7 +600,7 @@
     {
       "character": "you",
       "text@en": "So, we'll never know if TikTube makes teens sad?",
-      "text@es": "Entonces, ¿nunca sabremos si TikTube pone tristes a los adolescentes ?",
+      "text@es": "Entonces, ¿nunca sabremos si TikTube pone tristes a los adolescentes?",
       "text@de": "Also werden wir nie wissen, ob TikTube Teenager depressiv macht?"
     },
     {
@@ -643,7 +643,7 @@
         {
           "character": "brandt",
           "text@en": "This would be hard to find out.",
-          "text@es": "Esto sería difícil de averiguarlo.",
+          "text@es": "Eso sería difícil de averiguar.",
           "text@de": "Das dürfte kaum zu beantworten sein."
         },
         {
@@ -701,7 +701,7 @@
           {
             "character": "brandt",
             "text@en": "And another one that doesn't...",
-            "text@es": "Y otra que no ...",
+            "text@es": "Y otra que no...",
             "text@de": "...und ein anderes, auf dem die Inhalte fröhlicher sind..."
           },
           {
@@ -1032,7 +1032,7 @@
     {
       "character": "editor",
       "text@en": "Are you ready to publish?",
-      "text@es": "¿Estás listo para publicar?",
+      "text@es": "¿Estás lista para publicar?",
       "text@de": "Können wir die Story jetzt bringen?"
     }
   ],

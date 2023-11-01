@@ -4,7 +4,7 @@
     {
       "character": "editor",
       "text@en": "Hi there, welcome to the newsroom!",
-      "text@es": "Hola, ¡Bienvenida a la redacción!",
+      "text@es": "Hola, ¡bienvenida a la redacción!",
       "text@de": "Hallo, willkommen in unserer Redaktion!"
     },
     {
@@ -22,7 +22,7 @@
     {
       "character": "editor",
       "text@en": "I've got a tip for you.",
-      "text@es": "Tengo un consejo para ti.",
+      "text@es": "Tengo un tema para ti.",
       "text@de": "Ich hab gleich was für dich."
     },
     {
@@ -119,7 +119,7 @@
         {
           "character": "editor",
           "text@en": "Because you're new, I'm pairing you with our senior reporter on Artificial Intelligence.",
-          "text@es": "Como eres nuevo, te voy a poner ne contacto con nuestra reportera senior sobre inteligencia artificial.",
+          "text@es": "Como eres nueva, te voy a poner en contacto con nuestra reportera senior sobre inteligencia artificial.",
           "text@de": "Weil du neu bist, wirst du mit der KI-Chefreporterin zusammenarbeiten."
         }
       ]
@@ -142,14 +142,14 @@
     },
     {
       "character": "colleague",
-      "text@en": "The editor-in-chief is tough, but she's fair.",
-      "text@es": "La editora jefa es dura, pero también es justa.",
+      "text@en": "The editor-in-chief is tough, but she's fair...",
+      "text@es": "La editora jefa es dura, pero también es justa...",
       "text@de": "Die Chefredakteurin ist eigentlich ganz in Ordnung."
     },
     {
       "character": "colleague",
-      "text@en": "... to people who give her good stories, at least.",
-      "text@es": "... al menos con las personas que le traen buenas historias.",
+      "text@en": "To people who give her good stories, at least.",
+      "text@es": "Al menos con las personas que le traen buenas historias.",
       "text@de": "Solange du was Brauchbares ablieferst."
     },
     {
@@ -296,13 +296,13 @@
   "choices": [
     {
       "text@en": "You didn't answer my question.",
-      "text@es": "No has respondido a mi pregunta.",
+      "text@es": "No ha respondido a mi pregunta.",
       "text@de": "Sie haben meine Frage nicht beantwortet.",
       "feedback": [
         {
           "character": "you",
           "text@en": "You didn't answer my question.",
-          "text@es": "No respondió a mi pregunta.",
+          "text@es": "No ha respondido a mi pregunta.",
           "text@de": "Sie haben meine Frage nicht beantwortet."
         },
         {
