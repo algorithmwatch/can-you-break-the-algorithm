@@ -867,7 +867,7 @@
         {
           "character": "colleague",
           "text@en": "That mechanism will only start in mid-2024.",
-          "text@es": "Ese mecanismo solo comenzará a mediados de 2024.",
+          "text@es": "Ese mecanismo sólo podrá empezar a utilizarse a mediados de 2024.",
           "text@de": "Das ist erst ab Mitte 2024 möglich."
         },
         {
@@ -922,7 +922,7 @@
     {
       "character": "colleague",
       "text@en": "I sent you an email with some tips, [check your inbox|revolvingDoor].",
-      "text@es": "Te envié un correo electrónico con algunos consejos, [consulta tu bandeja de entrada|revolvingDoor].",
+      "text@es": "Te he enviado un correo electrónico con algunos consejos, [consulta tu bandeja de entrada|revolvingDoor].",
       "text@de": "Ich hab dir eine [Mail|revolvingDoor] mit ein paar Tipps geschrieben, schau mal rein."
     }
   ],
@@ -2587,7 +2587,7 @@
     {
       "character": "colleague",
       "text@en": "You still need to get some more context from academics working on algorithms.",
-      "text@es": "Todavía necesitas obtener más contexto de los académicos que trabajan en algoritmos.",
+      "text@es": "Todavía necesitas obtener más contexto de los académicos que trabajan con algoritmos.",
       "text@de": "Du solltest noch für Hintergrundinformationen jemanden aus der Algorithmenforschung interviewen."
     },
     {
@@ -2778,7 +2778,7 @@
           {
             "character": "manchego",
             "text@en": "We are funded by Google, Meta, Deutsche Bank and TikTube.",
-            "text@es": "Estamos financiados por Google, Meta, Deutsche Bank y TikTube.",
+            "text@es": "Nos financian por Google, Meta, Deutsche Bank y TikTube.",
             "text@de": "Wir erhalten Fördermittel von Google, Meta, Deutsche Bank und TikTube."
           },
           {
@@ -4658,7 +4658,7 @@
       "title@en": "Subject: Revolving doors",
       "title@es": "Asunto: Puertas Giratorias",
       "title@de": "Betreff: Windmaschinen",
-      "body@es": "<p> Hola, </p> <p> Las grandes empresas tecnológicas tienen algo que los periodistas europeos no tienen: dinero. Contrataron a muchos ex periodistas para hacer su lobby. Te engatusarán para que creas todo lo que dicen. </p> <p> Mantente alerta y no caigan en sus redes. Tendrás que verificar cada dato que te den. Presta atención cuando te digan las cosas en condicional, o cuando digan que su algoritmo <i> podría </i>, o <i> puede </i>, hacer algo. Necesitamos certeza. </p> <p> Saludos, </p> <p> Lisbet </p>",
+      "body@es": "<p> Hola, </p> <p> Las grandes empresas tecnológicas tienen algo que los periodistas europeos no tienen: dinero. Contrataron a muchos ex periodistas para hacer su lobby. Te engatusarán para que creas todo lo que dicen. </p> <p>Mantente alerta y no caigas en sus redes. Tendrás que verificar cada dato que te den. Presta atención cuando te digan las cosas en condicional, o cuando digan que su algoritmo <i> podría </i>, o <i> puede </i>, hacer algo. Necesitamos certeza. </p> <p> Saludos, </p> <p> Lisbet </p>",
       "body@en": "<p>Hi there,</p><p>Large tech companies have a thing European journalists don't: money. They hired lots of former journalists to carry out their lobbying. They will sweet-talk you into believing everything they say.</p><p>Stay alert, and don't fall for their tricks. Every piece of information you get from them must be verified, or at least veryfiable. Pay attention when they use the conditional tense, or say that their algorithm <i>might</i>, or <i>may</i>, or <i>could</i> do a certain thing. We need certainty.</p><p>Cheers,</p><p>Lisbet</p>",
       "body@de": "<p>Hallo,</p><p>die großen Tech-Konzerne haben Journalist*innen gegenüber einen Vorteil: Sie haben Geld. Deshalb können sie es sich leisten, viele frühere Journalist*innen dafür zu bezahlen, die Lobbyarbeit für sie zu erledigen und jede Lüge sehr überzeugend klingen zu lassen.</p><p>Da ist Vorsicht geboten, fall nicht auf ihre Tricks rein. Alle Informationen, die du von ihnen bekommst, müssen überprüft werden und überprüfbar sein. Achte darauf, ob sie das Konditional verwenden oder sagen, dass der Algorithmus etwas tun <i>könnte</i> oder <i>würde</i>. Uns interessieren nur Fakten.</p><p>Grüße</p><p>Lisbet</p>"
     },

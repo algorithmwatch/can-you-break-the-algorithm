@@ -102,7 +102,7 @@
     {
       "character": "colleague",
       "text@en": "You still need to get some more context from academics working on algorithms.",
-      "text@es": "Todavía necesitas obtener más contexto de los académicos que trabajan en algoritmos.",
+      "text@es": "Todavía necesitas obtener más contexto de los académicos que trabajan con algoritmos.",
       "text@de": "Du solltest noch für Hintergrundinformationen jemanden aus der Algorithmenforschung interviewen."
     },
     {
@@ -293,7 +293,7 @@
           {
             "character": "manchego",
             "text@en": "We are funded by Google, Meta, Deutsche Bank and TikTube.",
-            "text@es": "Estamos financiados por Google, Meta, Deutsche Bank y TikTube.",
+            "text@es": "Nos financian por Google, Meta, Deutsche Bank y TikTube.",
             "text@de": "Wir erhalten Fördermittel von Google, Meta, Deutsche Bank und TikTube."
           },
           {

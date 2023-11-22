@@ -107,7 +107,7 @@
         {
           "character": "colleague",
           "text@en": "That mechanism will only start in mid-2024.",
-          "text@es": "Ese mecanismo solo comenzará a mediados de 2024.",
+          "text@es": "Ese mecanismo sólo podrá empezar a utilizarse a mediados de 2024.",
           "text@de": "Das ist erst ab Mitte 2024 möglich."
         },
         {
@@ -162,7 +162,7 @@
     {
       "character": "colleague",
       "text@en": "I sent you an email with some tips, [check your inbox|revolvingDoor].",
-      "text@es": "Te envié un correo electrónico con algunos consejos, [consulta tu bandeja de entrada|revolvingDoor].",
+      "text@es": "Te he enviado un correo electrónico con algunos consejos, [consulta tu bandeja de entrada|revolvingDoor].",
       "text@de": "Ich hab dir eine [Mail|revolvingDoor] mit ein paar Tipps geschrieben, schau mal rein."
     }
   ],
