@@ -227,7 +227,7 @@
       "name@es": "Jane Doe",
       "name@de":"Erika Mustermann",
       "title@en": "Former TikTube employee",
-      "title@es": "Ex empleado de TikTube",
+      "title@es": "Ex empleada de TikTube",
       "title@de":"Frühere TikTube-Mitarbeiterin",
       "avatar": "./images/avatars/janedoe.png"
     },
